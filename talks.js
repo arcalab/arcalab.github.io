@@ -3,7 +3,7 @@ var nextTalks = [{
     "author": "Carlos Tavares",
     "alink": "haslab.uminho.pt/ctavares/",
     "title": "tba",
-    "location": "Room DI.2.13 @ 14h45"
+//     "location": "Room DI.2.13 @ 14h45"
 }];
 
 var prevTalks = [{

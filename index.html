@@ -192,24 +192,35 @@ We meet every two weeks to discuss ongoing work within the team.
 
 <h3> Upcoming meetings </h3>
 
+<ul id="list-nextTalks"> </ul>
+
+<!-- 
 <ul>
-<li> <strong>Jan 13</strong> -
-  <a href="http://alfa.di.uminho.pt/~nevrenato/"> Renato Neves</a>, Coalgebraic Hybrid Automata. <em>(Room DI.2.13 @ 14h45)</em>
-<li> <strong>tba</strong> -
+<li> <strong>Jan 27</strong> -
   <a href="http://haslab.uminho.pt/ctavares/"> Carlos Tavares</a>, tba
 </ul>
+ -->
 
 
 <h3> Previous meetings </h3>
 
+<ul id="list-prevTalks"> </ul>
+
+<!-- 
 <ul>
+<li> <strong>Jan 13</strong> -
+  <a href="http://alfa.di.uminho.pt/~nevrenato/"> Renato Neves</a>,
+  Coalgebraic Hybrid Automata. <!~~ <em>(Room DI.2.13 @ 14h45)</em> ~~>
 <li> <strong>Dec 2</strong> -
-  <a href="http://alfa.di.uminho.pt/~madeira/"> Alexandre Madeira</a>, From Abstract Requirements to Processes in the Same Logic.
-<!--  </br> Talk: 14:00 - 14:30 @ A1, DI. Meeting: 14:30 - 15:30 @ 2.13, DI. -->
+  <a href="http://alfa.di.uminho.pt/~madeira/"> Alexandre Madeira</a>,
+  From Abstract Requirements to Processes in the Same Logic.
+<!~~  </br> Talk: 14:00 - 14:30 @ A1, DI. Meeting: 14:30 - 15:30 @ 2.13, DI. ~~>
 <li> <strong>19 Nov 2015</strong> -
   <a href="http://jose.proenca.org">José Proença</a>,
-  Typed Connector Families (and more)  <a href="content/TypedConnectorCalculus.pdf">[slides]</a>
+  Typed Connector Families (and more)
+  <a href="content/TypedConnectorCalculus.pdf">[slides]</a>
 </ul>
+ -->
 
 
 
@@ -230,9 +241,34 @@ Copyright 2015 – Arca
 
 <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
 <script src="extra/js/bootstrap.min.js"></script>
+<script src="talks.js"></script>
 <!-- <script src="../assets/js/bootswatch.js"></script> -->
 
 <script>
+
+  loadTalks(nextTalks,'list-nextTalks');
+  loadTalks(prevTalks,'list-prevTalks');
+
+  function loadTalks(table,tableID) {
+    var items='';
+    $.each(table, function(index,item) {
+      var row = '<li>';
+      if ("date" in item)   row += '<strong>'+item['date']+'</strong> - ';
+      if ("author" in item) {
+        if ("alink" in item)
+          row += '<a href="http://'+item['alink']+'">'+item['author']+'</a>, ';
+         else
+          row += '<a>'+item['author']+'</a>, ';
+      }
+      if ("title" in item)  row += item['title']+' ';
+      if ("slides" in item) row += '<a href="'+item['slides']+'">[slides]</a> ';
+      if ("location" in item) row += '<em>('+item["location"]+')</em> ';
+      items += row
+    });
+    $('#'+tableID).html(items);
+  }
+
+
   $(function () {
    var activeTab = $('[href=' + location.hash + ']');
 //    activeTab && activeTab.tab('show');

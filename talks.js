@@ -2,8 +2,8 @@ var nextTalks = [{
     "date":"27 Jan 2016",
     "author": "Carlos Tavares",
     "alink": "haslab.uminho.pt/ctavares/",
-    "title": "tba",
-//     "location": "Room DI.2.13 @ 14h45"
+    "title": "Quantum algorithms and Foundations: A general introduction",
+    "location": "Room DI.2.13 @ 14h00"
 }];
 
 var prevTalks = [{

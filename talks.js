@@ -2,8 +2,8 @@ var nextTalks = [{
     "date":"3 Fev 2016",
     "author": "Gillermina Cledou",
     "alink": "haslab.uminho.pt/mgc/",
-    "title": "tba",
-    "location": "Room DI.2.13 @ 15h00"
+    "title": "An ontology for licensing public transport services",
+    "location": "Room DI.2.13 @ 14h30"
 }];
 
 var prevTalks = [{

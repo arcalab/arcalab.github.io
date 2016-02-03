@@ -1,12 +1,18 @@
 var nextTalks = [{
+    "date":"17 Fev 2016",
+    "author": "José Nuno",
+    "alink": "www.di.uminho.pt/~jno",
+    "title": "tba",
+    "location": "Given at InfoBlender @ 13h30"
+}];
+
+var prevTalks = [{
     "date":"3 Fev 2016",
     "author": "Gillermina Cledou",
     "alink": "haslab.uminho.pt/mgc/",
     "title": "An ontology for licensing public transport services",
-    "location": "Room DI.2.13 @ 14h30"
-}];
-
-var prevTalks = [{
+//     "location": "Room DI.2.13 @ 14h30"
+  },{
     "date":"27 Jan 2016",
     "author": "Carlos Tavares",
     "alink": "haslab.uminho.pt/ctavares/",

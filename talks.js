@@ -3,7 +3,7 @@ var nextTalks = [{
     "author": "José Nuno",
     "alink": "www.di.uminho.pt/~jno",
     "title": "tba",
-    "location": "Given at InfoBlender @ 13h30"
+    "location": "Given at <a href=\"http://haslab.uminho.pt/infoblender/\">InfoBlender</a> @ 13h30"
 }];
 
 var prevTalks = [{

@@ -1,16 +1,22 @@
 var nextTalks = [{
-    "date":"17 Fev 2016",
-    "author": "José Nuno",
-    "alink": "www.di.uminho.pt/~jno",
-    "title": "tba",
-    "location": "Given at <a href=\"http://haslab.uminho.pt/infoblender/\">InfoBlender</a> @ 13h30"
+    "date":"9 Mar 2016",
+    "author": "Leandro Gomes",
+    "title": "Research on a generalised KAT via Prover9 ",
+    "location": "Room DI.2.13 @ 14h30"
 }];
 
 var prevTalks = [{
+    "date":"17 Fev 2016",
+    "author": "José Nuno Oliveira",
+    "alink": "www.di.uminho.pt/~jno",
+    "title": "Towards a Linear Algebra Semantics for SQL",
+    "slides": "content/jno-linearAlgebraForSQL.pdf"
+//     "location": "Given at <a href=\"http://haslab.uminho.pt/infoblender/\">InfoBlender</a> @ 13h30"
+  },{
     "date":"3 Fev 2016",
     "author": "Gillermina Cledou",
     "alink": "haslab.uminho.pt/mgc/",
-    "title": "An ontology for licensing public transport services",
+    "title": "An ontology for licensing public transport services"
 //     "location": "Room DI.2.13 @ 14h30"
   },{
     "date":"27 Jan 2016",

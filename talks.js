@@ -1,11 +1,16 @@
 var nextTalks = [{
-    "date":"9 Mar 2016",
-    "author": "Leandro Gomes",
-    "title": "Research on a generalised KAT via Prover9 ",
-    "location": "Room DI.2.13 @ 14h30"
+    "date":"13 Apr 2016",
+    "author": "Tiago Loureiro & Renato Neves",
+    "title": "Monad H at work",
+    "location": "Room DI.2.13 @ 14h00"
 }];
 
 var prevTalks = [{
+    "date":"9 Mar 2016",
+    "author": "Leandro Gomes",
+    "title": "Research on a generalised KAT via Prover9 ",
+//     "location": "Room DI.2.13 @ 14h30"
+  },{
     "date":"17 Fev 2016",
     "author": "José Nuno Oliveira",
     "alink": "www.di.uminho.pt/~jno",

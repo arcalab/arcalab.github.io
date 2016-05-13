@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<title>Arca - Software Architecture & Design Calculi</title>		
+
+	<meta name="description" content="Arca website">
+	<meta name="keywords" content="software architecture, process calculi, coordination, algebraic reasoning, program transformation, components">
+	<meta name="author" content="Jose Proenca" >
+  <meta name="google-site-verification" 
+        content="DRIp9oJtDGoKi2pPuGMqBkksSgKuidiWN_kRCrZMvkg" />
+<!-- 	<base href="http://arca.di.uminho.pt/" target="_parent" /> -->
+	
+	<link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
+  <link href="../../extra/css/bootstrap-bw.min.css" rel="stylesheet" media="screen">
+  <link href="../../extra/css/main.css" rel="stylesheet">
+
+  <!-- see more examples in http://bootswatch.com/paper/# -->
+</head>
+
+<body>
+
+<div class="navbar navbar-default navbar-fixed-top"> <!-- navbar-fixed-top -->
+  <div class="navbar-header">
+    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-responsive-collapse">
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+    </button>
+    <a class="navbar-brand" href="../../index.html">
+    ARCA</a>
+  </div>
+  <div class="navbar-collapse collapse navbar-responsive-collapse">
+    <ul class="nav navbar-nav" id="myTab">
+      <li><a href="../../index.html#home" data-toggle="tab" aria-expanded="true">Home</a></li>
+  		<li><a href="../../index.html#activity" data-toggle="tab" aria-expanded="false">Activity</a></li>
+  		<li><a href="../../index.html#yresearch" data-toggle="tab" aria-expanded="false">Young Research</a></li>
+	  	<li><a href="../../index.html#meetings" data-toggle="tab" aria-expanded="false">Arca-Meetings</a></li>
+    </ul>
+  </div>
+</div>
+
+<div class="splash">
+	<h2 class="splash-title">ARCA</h2>
+	<div class="blue-rect">
+	<h4 class="splash-subtitle">Software Architectures & Design Calculi</h4>
+  <h4 class="splash-subtitle"> Research team @ HASLab, Univ. Minho</h4>
+  </div>
+</div>
+
+
+<div id="myTabContent" class="container">
+<div class="tab-pane fade active in" id="activity">
+<div class="bs-component">
+
+<!-- REAL CONTENT GOES HERE -->
+
+<h1 ><div id="title">Tic-Tac Sensor<div></h1>
+
+<div id="summary">
+<p>(This project has been already selected)</p>
+<p>
+This project will exploit a recent extension to Wireless Sensor Networks (WSNs) under development at KUL, which include a cheap but powerful distributed clock provided by a new network infrastructure.
+You will be expected to investigate how to map an application specified in a synchronous dataflow language into:
+</p>
+<ul>
+<li>a set of deployment instructions, and</li>
+<li>a set of rules for each node describing the local execution of the synchronous application.</li>
+</ul>
+</div>
+
+<h3>Supervision</h3>
+<ul>
+<li> Promotor: <a href="">Danny Hughes</a>
+<li> Daily supervisor: <a href="http://jose.proenca.org">José Proença</a>
+</ul>
+
+<h3>Context</h3>
+<div id="context">
+<p>Synchronous dataflow languages describe high-level and expressive communication patterns between concurrent components. However, these are typically computationally expensive to implement, especially in a distributed setting, making it a hard choice for specifying wireless sensor networks, where resources are scarce.
+Recent experiments with WSN use a network infrastructure that provide a global clock to all nodes in the network, usually either not available or complex to set-up. This global clock can be the key to define atomic actions over the network.</p>
+
+<p>Currently we know how to define applications using LooCI component model and how to execute them over the LooCI middleware (which supports platforms such as Contiki and OSGI Java). LooCI can be extended with extra functionality, as done in other projects, to modify how events are exchanged between components.</p>
+
+</div>
+
+<h3>Goal</h3>
+<p>The goal of this work is to support distributed and lightweight applications specified by rules that dictate when events are allowed to be sent, describing time and synchronisation constraints.</p>
+
+<h3>Possible research questions</h3>
+<ul>
+<li>What is the best way to represent synchronous data-flows in the context of sensor networks?</li>
+<li>What are the different approaches to implement a synchronous system based on distributed components with a shared clock?</li>
+<li>What kind of guarantees can we provide by exploiting the shared clock?</li>
+<li>What are the costs (performance and/or energy) of imposing synchronisation constraints in such systems?</li>
+</ul>
+
+<h3>What the student will do</h3>
+<ul>
+<li>Development of a simple language for synchronous data-flows.</li>
+<li>Encode such data-flows into deployable components.</li>
+<li>Extend LooCI middleware to preserve the synchronous constraints.</li>
+<li>Evaluate the cost of synchrony, for different design decisions.</li>
+</ul>
+
+<h3>Relevant literature</h3>
+<ul>
+<li><a href="http://homepages.cwi.nl/~jongmans/publications/JA12.pdf">Overview of Thirty Semantic Formalisms for Reo</a></li>
+<li><a href="http://link.springer.com/chapter/10.1007%2F978-3-642-13953-6_3">(find better) Loosely-coupled distributed reactive programming in mobile ad hoc networks</a></li>
+<li><a href="https://lirias.kuleuven.be/bitstream/123456789/403517/1/NCA_CR.pdf">Composition-safe re-parametrization in Distributed Component-based WSN Applications</a></li>
+</ul>
+
+
+<h3>Student background and interests</h3>
+<ul>
+<li>Interest in programming languages in general</li>
+<li>Some familiarity with component models and automata.</li>
+<li>Java programming experience</li>
+<li>The supervision will be in English</li>
+</ul>
+
+
+
+<!-- END OF REAL CONTENT -->
+
+</div> 
+</div>
+</div>
+
+<!-- FOOTERS -->
+
+<div class="panel-footer" id="wrapper-footer">
+<div id="footer">
+Copyright 2015-2016 – Arca 
+</div>
+</div>
+
+<script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
+<script src="extra/js/bootstrap.min.js"></script>
+<script src="talks.js"></script>
+<!-- <script src="../assets/js/bootswatch.js"></script> -->
+
+<script>
+
+  ////////////////////
+  //  LOADING TALKS //
+  ////////////////////
+  loadTalks(nextTalks,'list-nextTalks');
+  loadTalks(prevTalks,'list-prevTalks');
+
+  function loadTalks(table,tableID) {
+    var items='';
+    $.each(table, function(index,item) {
+      var row = '<li>';
+      if ("date" in item)   row += '<strong>'+item['date']+'</strong> - ';
+      if ("author" in item) {
+        if ("alink" in item)
+          row += '<a href="http://'+item['alink']+'">'+item['author']+'</a>, ';
+         else
+          row += '<a>'+item['author']+'</a>, ';
+      }
+      if ("title" in item)  row += item['title']+' ';
+      if ("slides" in item) row += '<a href="'+item['slides']+'">[slides]</a> ';
+      if ("location" in item) row += '<em>('+item["location"]+')</em> ';
+      items += row
+    });
+    $('#'+tableID).html(items);
+  }
+
+  ////////////////////
+  // ACTIVATING TABS BASED ON URL
+  ////////////////////
+  $(function () {
+   var activeTab = $('[href=' + location.hash + ']');
+//    activeTab && activeTab.tab('show');
+   activeTab.tab('show');
+  });
+  
+  ////////////////////
+  // ACTIVATING TABS BY CLICKING
+  ////////////////////
+  $('#myTab a').click(function (e) {
+      e.preventDefault();
+      $(this).tab('show');
+      var id = $(e.target).attr("href").substr(1);
+      window.location.hash = id;
+      $('html,body').scrollTop(0); // go to top!
+      //$('html, body').animate({ scrollTop: 0 }, 'fast'); // animate and go to top
+//       $(".navbar-toggle").click() //bootstrap 3.x by Richard
+  });
+
+  $(document).on('click','.navbar-collapse.in',function(e) {
+    if( $(e.target).is('a') && $(e.target).attr('class') != 'dropdown-toggle' ) {
+        $(this).collapse('hide');
+    }
+  });
+  
+  ////////////////////
+  // POST-PROCESS the tweeter feed.
+  ////////////////////
+  (function ($) {
+    window.setTimeout(function(){
+      $(".twitter-timeline").contents().find(".e-entry-title").attr("style", "color: #666666; font-family: 'Roboto','Helvetica Neue',Helvetica,Arial,sans-serif;");
+    }, 1000);
+
+  })(jQuery);
+
+</script>
+
+</body>
+</html>
+

@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<title>Arca - Software Architecture & Design Calculi</title>		
+
+	<meta name="description" content="Arca website">
+	<meta name="keywords" content="software architecture, process calculi, coordination, algebraic reasoning, program transformation, components">
+	<meta name="author" content="Jose Proenca" >
+  <meta name="google-site-verification" 
+        content="DRIp9oJtDGoKi2pPuGMqBkksSgKuidiWN_kRCrZMvkg" />
+<!-- 	<base href="http://arca.di.uminho.pt/" target="_parent" /> -->
+	
+	<link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
+  <link href="../../extra/css/bootstrap-bw.min.css" rel="stylesheet" media="screen">
+  <link href="../../extra/css/main.css" rel="stylesheet">
+
+  <!-- see more examples in http://bootswatch.com/paper/# -->
+</head>
+
+<body>
+
+<div class="navbar navbar-default navbar-fixed-top"> <!-- navbar-fixed-top -->
+  <div class="navbar-header">
+    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-responsive-collapse">
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+    </button>
+    <a class="navbar-brand" href="../../index.html">
+    ARCA</a>
+  </div>
+  <div class="navbar-collapse collapse navbar-responsive-collapse">
+    <ul class="nav navbar-nav" id="myTab">
+      <li><a href="../../index.html#home" data-toggle="tab" aria-expanded="true">Home</a></li>
+  		<li><a href="../../index.html#activity" data-toggle="tab" aria-expanded="false">Activity</a></li>
+  		<li><a href="../../index.html#yresearch" data-toggle="tab" aria-expanded="false">Young Research</a></li>
+	  	<li><a href="../../index.html#meetings" data-toggle="tab" aria-expanded="false">Arca-Meetings</a></li>
+    </ul>
+  </div>
+</div>
+
+<div class="splash">
+	<h2 class="splash-title">ARCA</h2>
+	<div class="blue-rect">
+	<h4 class="splash-subtitle">Software Architectures & Design Calculi</h4>
+  <h4 class="splash-subtitle"> Research team @ HASLab, Univ. Minho</h4>
+  </div>
+</div>
+
+
+<div id="myTabContent" class="container">
+<div class="tab-pane fade active in" id="activity">
+<div class="bs-component">
+
+<!-- REAL CONTENT GOES HERE -->
+
+<h1 ><div id="title">Reo in your browser<div></h1>
+
+<div id="summary">
+<p>
+This project aims at producing an extensible web-based framework to specify and analyse systems of coordinated components. It will involve developing a server with a graphical web-based frontend, and the design of an extensible architecture with clear separations between the core model, the frontends, and the backends.
+</p>
+</div>
+
+<h3>Supervision</h3>
+<ul>
+<li> Promotor: <a href="http://www.di.uminho.pt/~lsb">Luís Barbosa</a>
+<li> Daily supervisor: <a href="http://jose.proenca.org">José Proença</a>
+</ul>
+
+<h3>Context</h3>
+<div id="context">
+<p>
+Synchronous dataflow coordination languages describe high-level and expressive communication patterns between concurrent objects. 
+Reo is a visual synchronous coordination model that can be used to specify, analyse, and execute systems of orchestrated concurrent objects.
+The largest collection of tools to analyse, specify, and execute Reo systems is currently developed as an extensible plugin for Eclipse. This collection relies heavily on the data structures used within Eclipse, making it non-trivial to start contributing and to reuse existing algorithms. Furthermore, there is currently poor support for these tools.
+</p>
+
+<p>
+Nowadays every recent browser has a good support for JavaScript, and a vast collection of graphical libraries exist to interact with the user.
+These libraries can be used to interact with Reo models, with a more reusable core representation of connectors that can be easily extended and reused by third parties.
+</p>
+</div>
+
+<h3>Goal</h3>
+<p>The goal of this project is to design and prototype a unifying and extensible framework for Reo based on web-tools, possibly including the following tasks.</p>
+<ul>
+<li>define a core representation of Reo connectors;
+<li>explore different frontends (how to specify and visualise connectors);
+<li>explore different backends (how to analyse/execute connectors), reusing existing algorithms from the existing Eclipse implementation;
+<li>relate pointwise (explicit ports) and pointfree (implicit ports) connectors; and
+<li>support families of connectors.
+</ul>
+
+<h3>Possible research questions</h3>
+<ul>
+<li> How to relate different semantic extensions of Reo
+<li> Find a core algebraic representation of Reo connectors
+<li> How to automatically transform connectors for various semantic models
+</ul>
+
+<h3>What the student will do</h3>
+<ul>
+<li> Survey existing frameworks and libraries for web-based development.
+<li> Implement a small web server that will allow one to specify and visualise Reo connectors.
+<li> Create a core (pointfree) representation of connectors.
+<li> Relate visual representations and reusable pointfree connectors.
+<li> Show how to extend the web-based framework.
+</ul>
+
+
+<h3>Relevant literature</h3>
+<ul>
+<li> <a href="">Overview of Thirty Semantic Formalisms for Reo</a>
+<li> <a href="http://jose.proenca.org/papers/connector-families/">Typed Connector Calculus</a>
+<li> <a href="http://reo.project.cwi.nl/reo/wiki/Tools">Reo tools for Eclipse</a>
+</ul>
+
+<h3>Student background and interests</h3>
+<ul>
+<!-- <li> Interest in programming languages in general. -->
+<li> Some familiarity with component models and automata.
+<li> Java (or Scala) programming experience.
+</ul>
+
+
+<!-- END OF REAL CONTENT -->
+
+</div> 
+</div>
+</div>
+
+<!-- FOOTERS -->
+
+<div class="panel-footer" id="wrapper-footer">
+<div id="footer">
+Copyright 2015-2016 – Arca 
+</div>
+</div>
+
+<script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
+<script src="extra/js/bootstrap.min.js"></script>
+<script src="talks.js"></script>
+<!-- <script src="../assets/js/bootswatch.js"></script> -->
+
+<script>
+
+  ////////////////////
+  //  LOADING TALKS //
+  ////////////////////
+  loadTalks(nextTalks,'list-nextTalks');
+  loadTalks(prevTalks,'list-prevTalks');
+
+  function loadTalks(table,tableID) {
+    var items='';
+    $.each(table, function(index,item) {
+      var row = '<li>';
+      if ("date" in item)   row += '<strong>'+item['date']+'</strong> - ';
+      if ("author" in item) {
+        if ("alink" in item)
+          row += '<a href="http://'+item['alink']+'">'+item['author']+'</a>, ';
+         else
+          row += '<a>'+item['author']+'</a>, ';
+      }
+      if ("title" in item)  row += item['title']+' ';
+      if ("slides" in item) row += '<a href="'+item['slides']+'">[slides]</a> ';
+      if ("location" in item) row += '<em>('+item["location"]+')</em> ';
+      items += row
+    });
+    $('#'+tableID).html(items);
+  }
+
+  ////////////////////
+  // ACTIVATING TABS BASED ON URL
+  ////////////////////
+  $(function () {
+   var activeTab = $('[href=' + location.hash + ']');
+//    activeTab && activeTab.tab('show');
+   activeTab.tab('show');
+  });
+  
+  ////////////////////
+  // ACTIVATING TABS BY CLICKING
+  ////////////////////
+  $('#myTab a').click(function (e) {
+      e.preventDefault();
+      $(this).tab('show');
+      var id = $(e.target).attr("href").substr(1);
+      window.location.hash = id;
+      $('html,body').scrollTop(0); // go to top!
+      //$('html, body').animate({ scrollTop: 0 }, 'fast'); // animate and go to top
+//       $(".navbar-toggle").click() //bootstrap 3.x by Richard
+  });
+
+  $(document).on('click','.navbar-collapse.in',function(e) {
+    if( $(e.target).is('a') && $(e.target).attr('class') != 'dropdown-toggle' ) {
+        $(this).collapse('hide');
+    }
+  });
+  
+  ////////////////////
+  // POST-PROCESS the tweeter feed.
+  ////////////////////
+  (function ($) {
+    window.setTimeout(function(){
+      $(".twitter-timeline").contents().find(".e-entry-title").attr("style", "color: #666666; font-family: 'Roboto','Helvetica Neue',Helvetica,Arial,sans-serif;");
+    }, 1000);
+
+  })(jQuery);
+
+</script>
+
+</body>
+</html>
+

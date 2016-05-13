@@ -105,6 +105,7 @@ h4.pulldown {
   background-color: #f9f9f9;
   padding: 5px 5px;
   border-radius: 5px;
+  border-bottom: 0px;
 }
 .panel-body {
   padding: 10px 5px;
@@ -123,6 +124,12 @@ h4.pulldown {
 }
 h5 {
   font-size: 18px;
+}
+
+/* Graying down the description of projects */
+.topic-descr {
+  margin: -6px 0px 14px 0px;
+  color: rgba(0, 0, 0, 0.37);
 }
 
 /* Graying down the part of the program outside FOCLASA */

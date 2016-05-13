@@ -1,6 +1,7 @@
 var nextTalks = [{
     "date":"13 Apr 2016",
     "author": "Tiago Loureiro & Renato Neves",
+    "alink": "alfa.di.uminho.pt/~nevrenato",
     "title": "Monad H at work",
     "location": "Room DI.2.13 @ 14h00"
 }];

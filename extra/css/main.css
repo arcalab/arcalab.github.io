@@ -131,6 +131,10 @@ h5 {
   margin: -6px 0px 14px 0px;
   color: rgba(0, 0, 0, 0.37);
 }
+.open-topic {
+  padding-left: 20px;
+  padding-right: 15px;
+}
 
 /* Graying down the part of the program outside FOCLASA */
 .wsfm {

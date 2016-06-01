@@ -159,6 +159,7 @@
   
   </div>  
 <!-- -------   Activity ------- -->
+<!-- 
   <div class="tab-pane fade" id="activity">
   <div class="bs-component">
 
@@ -185,6 +186,7 @@
 
   </div> 
   </div>
+ -->
 <!-- -------  Projects ------- -->
   <div class="tab-pane fade" id="projects">
   <div class="bs-component">
@@ -276,7 +278,7 @@ If you are interested, just come and talk to us.
 <!-- <ul id="list-projects"></ul> -->
 
 <div class="panel panel-default open-topic">
-<h5>Alloy and Hybrid Logic</h5>
+<h5><a href="content/projects/alloy-and-hl.html">Alloy and Hybrid Logic</a></h5>
 <p>
 The purpose of this project is to explore a variant of hybrid
 logics in which worlds are equipped with Alloy models. In
@@ -286,15 +288,46 @@ reconfigurability in Alloy specifications.
 </p>
 <p>
 The workplan involves the implementation of a calculus for this
-logic (reported in "proof theory for hybridised logics") and the
+logic (reported in <a href="http://www.sciencedirect.com/science/article/pii/S0167642316000691">Proof theory for hybridised logics</a>) and the
 development of a case study that illustrates its
 potentialities (and limitations) in the software development
 process.
 </p>
 </div>
 
+
 <div class="panel panel-default open-topic">
-<h5><a href="content/projects/webreo.html">Reo in your browser</a></h5>
+<h5><a href="content/projects/rg-in-alloy.html">Model checking R/G programs in Alloy</a></h5>
+<p>When you run a program on your lap-top you "<emph>rely</emph>" on the operating system
+not letting any other program to interfere with your state space. But programs
+could be designed in a collaborative-style, with sub-programs helping each other
+over a shared state. (Example: on-the-fly garbage collection.)
+<!-- 
+</p>
+<p>Thus "no-interference" programming is just a special case of "allow-interference"
+programming.
+ -->
+In the early 1980s, Cliff Jones proposed a dynamic extension to
+(static) Hoare logic: further to pre / post conditions, one could also specify interference
+of the environment via <emph>rely / guarantee conditions</emph>. Interest on R/G programming is
+growing a lot due to its potential for concurrency.
+<!-- 
+But it has become clear that 
+"allow-interference" programming has its subtleties, e.g. concerning
+non-termination.
+ -->
+</p>
+<p>
+In this project we would like to use <a href="http://alloy.mit.edu/alloy/">Alloy</a> to model the semantics of a simple
+imperative language with R/G commands and model-check their interference.
+The idea is to find design errors of (possibly non-terminating) R/G programs
+by analysing finite traces only.
+</p>
+</div>
+
+
+<div class="panel panel-default open-topic">
+<h5><a href="content/projects/webreo.html">Reo families in your browser</a></h5>
 <p>
 This project aims at producing an extensible web-based framework to specify and analyse systems of coordinated components. It will involve developing a server with a graphical web-based frontend, and the design of an extensible architecture with clear separations between the core model, the frontends, and the backends.</p>
 </div>

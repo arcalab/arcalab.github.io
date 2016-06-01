@@ -38,7 +38,7 @@
       <li><a href="../../index.html#home" data-toggle="tab" aria-expanded="true">Home</a></li>
   		<li><a href="../../index.html#projects" data-toggle="tab" aria-expanded="false">Projects</a></li>
 	  	<li><a href="../../index.html#meetings" data-toggle="tab" aria-expanded="false">Arca-Meetings</a></li>
-	  </ul>
+    </ul>
   </div>
 </div>
 
@@ -57,80 +57,74 @@
 
 <!-- REAL CONTENT GOES HERE -->
 
-<h1 ><div id="title">Reo families in your browser<div></h1>
+<h1 ><div id="title">Model checking R/G programs in Alloy<div></h1>
 
+<!-- 
 <div id="summary">
-<p>
-This project aims at producing an extensible web-based framework to specify and analyse systems of coordinated components. It will involve developing a server with a graphical web-based frontend, and the design of an extensible architecture with clear separations between the core model, the frontends, and the backends.
-</p>
 </div>
+ -->
 
 <h3>Supervision</h3>
 <ul>
-<li> Promotor: <a href="http://www.di.uminho.pt/~lsb">Luís Barbosa</a>
-<li> Daily supervisor: <a href="http://jose.proenca.org">José Proença</a>
+<li> Promotor: <a href="http://lmf.di.uminho.pt/~jno">José Nuno Oliveira</a>
 </ul>
 
 <h3>Context</h3>
 <div id="context">
-<p>
-Synchronous dataflow coordination languages describe high-level and expressive communication patterns between concurrent objects. 
-Reo is a visual synchronous coordination model that can be used to specify, analyse, and execute systems of orchestrated concurrent objects.
-The largest collection of tools to analyse, specify, and execute Reo systems is currently developed as an extensible plugin for Eclipse. This collection relies heavily on the data structures used within Eclipse, making it non-trivial to start contributing and to reuse existing algorithms. Furthermore, there is currently poor support for these tools.
+<p>When you run a program on your lap-top you "<emph>rely</emph>" on the operating system
+not letting any other program to interfere with your state space. But programs
+could be designed in a collaborative-style, with sub-programs helping each other
+over a shared state. (Example: on-the-fly garbage collection.)
 </p>
 
-<p>
-A recent extension to Reo addresses its static nature - Reo connectors typically have a fixed set of ports and channels. This extension adds new mechanisms to express collections of similar connectors. E.g., a special merger with an arbitrary number of entries. This extension lacks a good tool (visual) support.
+<p>Thus "no-interference" programming is just a special case of "allow-interference"
+programming. In the early 1980s, Cliff Jones proposed a dynamic extension to
+(static) Hoare logic: further to pre / post conditions, one could also specify interference
+of the environment via <emph>rely / guarantee conditions</emph>. Interest on R/G programming is
+growing a lot due to its potential for concurrency. But it has become clear that 
+"allow-interference" programming has its subtleties, e.g. concerning
+non-termination.
 </p>
 
-<p>
-Nowadays every recent browser has a good support for JavaScript, and a vast collection of graphical libraries exist to interact with the user.
-These libraries can be used to interact with Reo models, with a more reusable core representation of connectors that can be easily extended and reused by third parties.
-</p>
+
 </div>
 
 <h3>Goal</h3>
-<p>The goal of this project is to design and prototype a unifying and extensible framework for Reo based on web-tools, possibly including the following tasks.</p>
-<ul>
-<li>define a core representation of Reo connectors;
-<li>explore different frontends (how to specify and visualise connectors);
-<li>explore different backends (how to analyse/execute connectors), reusing existing algorithms from the existing Eclipse implementation;
-<li>relate pointwise (explicit ports) and pointfree (implicit ports) connectors; and
-<li>support families of connectors.
-</ul>
+<p>In this project we would like to use <a href="http://alloy.mit.edu/alloy/">Alloy</a> to model the semantics of a simple
+imperative language with R/G commands and model-check their interference.
+The idea is to find design errors of (possibly non-terminating) R/G programs
+by analysing finite traces only.
+</p>
 
+<!-- 
 <h3>Possible research questions</h3>
 <ul>
-<li> How to relate different semantic extensions of Reo
-<li> Find a core algebraic representation of Reo connectors
-<li> How to automatically transform connectors for various semantic models
-<li> Analyse families of connectors
+<li>...
 </ul>
 
 <h3>What the student will do</h3>
 <ul>
-<li> Survey existing frameworks and libraries for web-based development.
-<li> Implement a small web server that will allow one to specify and visualise Reo connectors.
-<li> Create a core (pointfree) representation of (families of) connectors.
-<li> Relate visual representations and reusable pointfree connectors.
-<li> Show how to extend the web-based framework.
+<li>...
 </ul>
-
+ -->
 
 <h3>Relevant literature</h3>
 <ul>
-<li> <a href="http://homepages.cwi.nl/~jongmans/publications/JA12.pdf">Overview of Thirty Semantic Formalisms for Reo</a>
-<li> <a href="http://jose.proenca.org/papers/connector-families/">Typed Connector Calculus</a>
-<li> <a href="http://reo.project.cwi.nl/reo/wiki/Tools">Reo tools for Eclipse</a>
+<li><a href="http://staff.ustc.edu.cn/~xyfeng/reading/p596-jones-RG.pdf">Tentative steps toward a development method for interfering programs</a></li>
+<li> <a href="http://alloy.mit.edu/alloy/">Alloy: a language & tool for relational models (website)</a></li>
 </ul>
 
+
+<!-- 
 <h3>Student background and interests</h3>
 <ul>
-<!-- <li> Interest in programming languages in general. -->
-<li> Some familiarity with component models and automata.
-<li> Java (or Scala) programming experience.
-<li> Some familiarity with web-based technologies is a plus.
+<li>Interest in programming languages in general</li>
+<li>Some familiarity with component models and automata.</li>
+<li>Java programming experience</li>
+<li>The supervision will be in English</li>
 </ul>
+ -->
+
 
 
 <!-- END OF REAL CONTENT -->

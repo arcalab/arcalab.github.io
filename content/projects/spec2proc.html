@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<title>Arca - Software Architecture & Design Calculi</title>		
+
+	<meta name="description" content="Arca website">
+	<meta name="keywords" content="software architecture, process calculi, coordination, algebraic reasoning, program transformation, components">
+	<meta name="author" content="Jose Proenca" >
+  <meta name="google-site-verification" 
+        content="DRIp9oJtDGoKi2pPuGMqBkksSgKuidiWN_kRCrZMvkg" />
+<!-- 	<base href="http://arca.di.uminho.pt/" target="_parent" /> -->
+	
+	<link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
+  <link href="../../extra/css/bootstrap-bw.min.css" rel="stylesheet" media="screen">
+  <link href="../../extra/css/main.css" rel="stylesheet">
+
+  <!-- see more examples in http://bootswatch.com/paper/# -->
+</head>
+
+<body>
+
+<div class="navbar navbar-default navbar-fixed-top"> <!-- navbar-fixed-top -->
+  <div class="navbar-header">
+    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-responsive-collapse">
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+    </button>
+    <a class="navbar-brand" href="../../index.html">
+    ARCA</a>
+  </div>
+  <div class="navbar-collapse collapse navbar-responsive-collapse">
+    <ul class="nav navbar-nav" id="myTab">
+      <li><a href="../../index.html#home" data-toggle="tab" aria-expanded="true">Home</a></li>
+  		<li><a href="../../index.html#projects" data-toggle="tab" aria-expanded="false">Projects</a></li>
+	  	<li><a href="../../index.html#meetings" data-toggle="tab" aria-expanded="false">Arca-Meetings</a></li>
+	  </ul>
+  </div>
+</div>
+
+<div class="splash">
+	<h2 class="splash-title">ARCA</h2>
+	<div class="blue-rect">
+	<h4 class="splash-subtitle">Software Architectures & Design Calculi</h4>
+  <h4 class="splash-subtitle"> Research team @ HASLab, Univ. Minho</h4>
+  </div>
+</div>
+
+
+<div id="myTabContent" class="container">
+<div class="tab-pane fade active in" id="activity">
+<div class="bs-component">
+
+<!-- REAL CONTENT GOES HERE -->
+
+<h1 ><div id="title">From specifications to concrete processes<div></h1>
+
+<div id="summary">
+<p>
+This project aims at studying a <emph>dynamic logic with binders</emph>,
+and (automatic) translations from specifications in (some fragment) of this logic into a concrete process algebra.
+</p>
+</div>
+
+<h3>Supervision</h3>
+<ul>
+<li> Promotor: <a href="http://www.di.uminho.pt/~lsb">Luís Barbosa</a>
+<li> Daily supervisor: <a href="http://alfa.di.uminho.pt/~madeira/">Alexandre Madeira</a>
+</ul>
+
+<h3>Context</h3>
+<div id="context">
+The quest for logics and formal methods for the rigorous development of reactive software, i.e. systems which interact with their environment along the whole computation, and not only in its starting and termination points [1], is an active topic of research in Computer Science. Typical approaches start from the construction of a concrete model (e.g. in the form of a transition system [8], or a process algebra expression [5, 2]) upon which the relevant properties are later formulated in a suitable (modal) logic and typically verified by some form of model-checking. Resorting to old software engineering jargon, most of these approaches proceed by <emph>inventing & verifying<\emph>.
+
+<p>We intend, however, to contribute to the field following an alternative correct by construction perspective; loose specification has an important role to play, because they support the gradual addition of requirements and implementation decisions such that verification of the correctness of a complex system can be done piecewise in smaller steps. This entails the adoption of a logic, orthogonal to the entire development process, suitable to express requirements on various levels of abstraction, from property specifications, concerning e.g. safety and liveness requirements, to constructive specifications representing concrete processes. In this view, <emph>Dynamic Logic with Binders</emph> D↓ was recently introduced in [6], combining in the same formalism binders of hybrid logic [3] with regular modalities of dynamic logics [4].</p>
+
+
+<h3>Goal</h3>
+
+<p>Actually, D↓-logic is suited to directly express process structures and, thus, the implementation of abstract requirements. The binder operator is crucial for this. The ability to give names to visited states, together with the modal features to express transitions, makes possible a precise description of the whole dynamics of a process in a single sentence. Binders allow to express recursive patterns, namely loop transitions (from the current to some visited state). In fact we have no way to make this kind of specification in the absence of a feature to refer to specific states in a model, as in standard modal logic. For example, sentence</p>
+
+<p>
+↓ x0. ⟨a⟩x0 ∧ ⟨b⟩ ↓ x1.(⟨a⟩x0 ∧ ⟨b⟩x1)
+</p>
+
+<p>
+specifies a process with two states accepting actions a and b respectively. This can be easily translated into a process definition in a given process algebra, for instance into the declaration
+<p>
+{x0 = a.x0 + b.x1, x1 = b.x1 + a.x0}
+</p>
+
+<p>in CCS [7].</p>
+
+<p>
+The aim of this work is to make a systematic study of these translations and the implementation of an automatic translator from specifications in (a fragment) of D↓ into terms of a concrete process algebra.</p>
+
+
+<!-- 
+<h3>Possible research questions</h3>
+<ul>
+<li> How to relate different semantic extensions of Reo
+<li> Find a core algebraic representation of Reo connectors
+<li> How to automatically transform connectors for various semantic models
+<li> Analyse families of connectors
+</ul>
+
+<h3>What the student will do</h3>
+<ul>
+<li> Survey existing frameworks and libraries for web-based development.
+<li> Implement a small web server that will allow one to specify and visualise Reo connectors.
+<li> Create a core (pointfree) representation of (families of) connectors.
+<li> Relate visual representations and reusable pointfree connectors.
+<li> Show how to extend the web-based framework.
+</ul>
+ -->
+
+
+<h3>Relevant literature</h3>
+
+<ol>
+<li>L. Aceto, A. Ingólfsdóttir, K. G. Larsen, and J. Srba. Reactive Systems: Modelling, Specification and Verification. Cambridge University Press, 2007.</li>
+<li>J. C. M. Baeten, T. Basten, and M. A. Reniers. Process Algebra: Equational theories of communicating processes. Cambridge University Press, 2010.</li>
+<li>T. Braüner. Hybrid Logic and its Proof-Theory. App. Logic Series. Springer, 2010.</li>
+<li>D. Harel, D. Kozen, and J. Tiuryn. Dynamic Logic. MIT Press, 2000.</li>
+<li>C. A. R. Hoare. Communicating Sequential Processes. Series in Computer Science.
+Prentice-Hall International, 1985.</li>
+<li>A. Madeira, L. Barbosa, R. Hennicker, and M. Martins. Dynamic logic with
+binders and its applications to the developmet of reactive systems (extended with proofs). Technical Report available from <a href="http://alfa.di.uminho.pt/~madeira/main_files/extreport.pdf">http://alfa.di.uminho.pt/~madeira/main_files/extreport.pdf</a>, 2016.</li>
+<li>R. Milner. Communication and concurrency. PHI Series in computer science. Prentice Hall, 1989.</li>
+<li>G. Winskel and M. Nielsen. Models for concurrency. In S. Abramsky, D. M. Gabbay, and T. S. E. Maibaum, editors, Handbook of Logic in Computer Science (Vol. 4), pages 1–148. Oxford University Press, Oxford, UK, 1995.</li>
+</ol>
+
+
+
+<!-- 
+<h3>Student background and interests</h3>
+<ul>
+<!~~ <li> Interest in programming languages in general. ~~>
+<li> Some familiarity with component models and automata.
+<li> Java (or Scala) programming experience.
+<li> Some familiarity with web-based technologies is a plus.
+</ul>
+ -->
+
+
+<!-- END OF REAL CONTENT -->
+
+</div> 
+</div>
+</div>
+
+<!-- FOOTERS -->
+
+<div class="panel-footer" id="wrapper-footer">
+<div id="footer">
+Copyright 2015-2016 – Arca 
+</div>
+</div>
+
+<script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
+<script src="extra/js/bootstrap.min.js"></script>
+<script src="talks.js"></script>
+<!-- <script src="../assets/js/bootswatch.js"></script> -->
+
+<script>
+
+  ////////////////////
+  //  LOADING TALKS //
+  ////////////////////
+  loadTalks(nextTalks,'list-nextTalks');
+  loadTalks(prevTalks,'list-prevTalks');
+
+  function loadTalks(table,tableID) {
+    var items='';
+    $.each(table, function(index,item) {
+      var row = '<li>';
+      if ("date" in item)   row += '<strong>'+item['date']+'</strong> - ';
+      if ("author" in item) {
+        if ("alink" in item)
+          row += '<a href="http://'+item['alink']+'">'+item['author']+'</a>, ';
+         else
+          row += '<a>'+item['author']+'</a>, ';
+      }
+      if ("title" in item)  row += item['title']+' ';
+      if ("slides" in item) row += '<a href="'+item['slides']+'">[slides]</a> ';
+      if ("location" in item) row += '<em>('+item["location"]+')</em> ';
+      items += row
+    });
+    $('#'+tableID).html(items);
+  }
+
+  ////////////////////
+  // ACTIVATING TABS BASED ON URL
+  ////////////////////
+  $(function () {
+   var activeTab = $('[href=' + location.hash + ']');
+//    activeTab && activeTab.tab('show');
+   activeTab.tab('show');
+  });
+  
+  ////////////////////
+  // ACTIVATING TABS BY CLICKING
+  ////////////////////
+  $('#myTab a').click(function (e) {
+      e.preventDefault();
+      $(this).tab('show');
+      var id = $(e.target).attr("href").substr(1);
+      window.location.hash = id;
+      $('html,body').scrollTop(0); // go to top!
+      //$('html, body').animate({ scrollTop: 0 }, 'fast'); // animate and go to top
+//       $(".navbar-toggle").click() //bootstrap 3.x by Richard
+  });
+
+  $(document).on('click','.navbar-collapse.in',function(e) {
+    if( $(e.target).is('a') && $(e.target).attr('class') != 'dropdown-toggle' ) {
+        $(this).collapse('hide');
+    }
+  });
+  
+  ////////////////////
+  // POST-PROCESS the tweeter feed.
+  ////////////////////
+  (function ($) {
+    window.setTimeout(function(){
+      $(".twitter-timeline").contents().find(".e-entry-title").attr("style", "color: #666666; font-family: 'Roboto','Helvetica Neue',Helvetica,Arial,sans-serif;");
+    }, 1000);
+
+  })(jQuery);
+
+</script>
+
+</body>
+</html>
+

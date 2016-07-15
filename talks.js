@@ -1,13 +1,25 @@
 var nextTalks = [{
-//     "date":"13 Apr 2016",
-//     "author": "Tiago Loureiro & Renato Neves",
-//     "alink": "alfa.di.uminho.pt/~nevrenato",
-//     "title": "Monad H at work",
-//     "location": "Room DI.2.13 @ 14h00"
- "title": "tba"
+    "date":"September 2016",
+    "title": "tba"
 }];
 
 var prevTalks = [{
+    "date":"13 July 2016",
+    "author": "José Nuno Oliveira",
+    "alink": "www.di.uminho.pt/~jno",
+    "title": "On the 'divide & conquer' metaphor — the 'quinta essentia' of programming",
+  },{
+    "date":"25 May 2016",
+    "author": "Carlos Tavares",
+    "alink": "haslab.uminho.pt/ctavares",
+    "title": "Quantum measurements without sums, from Coecke & Pavlovic",
+  },{
+//     "date":"13 Apr 2016",
+//     "author": "Renato Neves",
+//     "alink": "alfa.di.uminho.pt/~nevrenato",
+//     "title": "Monad H at work",
+//     "location": "Room DI.2.13 @ 14h00"
+//   },{
     "date":"9 Mar 2016",
     "author": "Leandro Gomes",
     "title": "Research on a generalised KAT via Prover9 ",

@@ -1,5 +1,6 @@
 var nextTalks = [{
-    "date":"September 2016",
+    "date":"19 Outubro 2016",
+    "author":"Allberson Dantas",
     "title": "tba"
 }];
 

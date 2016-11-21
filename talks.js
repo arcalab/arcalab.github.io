@@ -1,10 +1,16 @@
 var nextTalks = [{
-    "date":"19 Outubro 2016",
-    "author":"Allberson Dantas",
-    "title": "tba"
+    "date":"30 Nov 2016",
+    "author":"Guillermina Cledou",
+    "title": "Composing families of Timed Automata",
+    "alink": "haslab.uminho.pt/mgc/",
+    "location": "Room DI.2.13 @ 14h30"    
 }];
 
 var prevTalks = [{
+    "date":"19 Outubro 2016",
+    "author":"Allberson Dantas",
+    "title": "Modelling SAFeSWF - a practical distributed workflow"
+  },{
     "date":"13 July 2016",
     "author": "José Nuno Oliveira",
     "alink": "www.di.uminho.pt/~jno",

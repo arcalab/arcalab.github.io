@@ -1,12 +1,13 @@
 var nextTalks = [{
+    "title": "tba"
+}];
+var prevTalks = [{
     "date":"30 Nov 2016",
     "author":"Guillermina Cledou",
     "title": "Composing families of Timed Automata",
     "alink": "haslab.uminho.pt/mgc/",
-    "location": "Room DI.2.13 @ 14h30"    
-}];
-
-var prevTalks = [{
+    "slides": "content/itfa.pdf"
+  },{
     "date":"19 Outubro 2016",
     "author":"Allberson Dantas",
     "title": "Modelling SAFeSWF - a practical distributed workflow"

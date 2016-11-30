@@ -6,7 +6,7 @@ var prevTalks = [{
     "author":"Guillermina Cledou",
     "title": "Composing families of Timed Automata",
     "alink": "haslab.uminho.pt/mgc/",
-    "slides": "content/itfa.pdf"
+    "slides": "content/ifta.pdf"
   },{
     "date":"19 Outubro 2016",
     "author":"Allberson Dantas",

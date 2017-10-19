@@ -1,3 +1,13 @@
+/*
+supported fields:
+ - date     - when the talk takes/took place
+ - title    - of the talk
+ - author   - who gave the talk
+ - alink    - website of the author (without "http://")
+ - slides   - link for the slides (full or relative url)
+ - location - where the talk takes/took place
+*/
+
 var nextTalks = [{
     "title": "tba"
 }];

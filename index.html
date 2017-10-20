@@ -32,19 +32,24 @@
       <span class="icon-bar"></span>
     </button>
     <a class="navbar-brand" href="index.html">
-<!-- 
-      <img src="extra/img/arca-logo.png" alt="ARCA logo" style="max-width:30px; margin-top: -4px;  display: inline-block; padding-left: 7px;">
- -->
-    ARCA</a>
+      <img src="extra/img/arca-logo2/arca-logo2e.png" alt="ARCA logo" style="max-width:70px; margin-top: -12px;  display: inline-block; padding-left: 7px;">
+    <!-- ARCA -->
+  </a>
   </div>
   <div class="navbar-collapse collapse navbar-responsive-collapse">
     <ul class="nav navbar-nav" id="myTab">
       <li class="active"><a href="#home" data-toggle="tab" aria-expanded="true">Home</a></li>
-<!-- 
-  		<li><a href="#activity" data-toggle="tab" aria-expanded="false">Activity</a></li>
- -->
-  		<li><a href="#projects" data-toggle="tab" aria-expanded="false">Projects</a></li>
+      <!--~~~~~~~~~~~~~~~~~
+        CHANGE TABS HERE
+      ~~~~~~~~~~~~~~~~~~-->
+      <li><a href="#members" data-toggle="tab" aria-expanded="false">Members</a></li>
+      <li><a href="#projects" data-toggle="tab" aria-expanded="false">Projects</a></li>
+      <li><a href="#publications" data-toggle="tab" aria-expanded="false">Publications</a></li>
+      <li><a href="#tools" data-toggle="tab" aria-expanded="false">Tools</a></li>
+      <li><a href="#opennings" data-toggle="tab" aria-expanded="false">Open positions</a></li>
 	  	<li><a href="#meetings" data-toggle="tab" aria-expanded="false">Arca-Meetings</a></li>
+      <!--~~~~~~~~~~~~~~-->
+
 <!-- 
       <li class="dropdown">
         <a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-expanded="false">Dropdown <b class="caret"></b></a>
@@ -66,7 +71,10 @@
 
  
 <div class="splash">
-	<h2 class="splash-title">ARCA</h2>
+	<h2 class="splash-title">
+    ARCA
+    <!-- <img src="extra/img/arca-logo2/arca-logo2e.png" alt="ARCA logo" style="max-width:70px; margin-top: -0px;  display: inline-block; padding-left: 7px;"> -->
+  </h2>
 	<div class="blue-rect">
 	<h4 class="splash-subtitle">Software Architectures & Design Calculi</h4>
   <h4 class="splash-subtitle"> Research team @ HASLab, Univ. Minho</h4>
@@ -75,31 +83,89 @@
 
 
 <div id="myTabContent" class="container">
+<div class="row"> 
 
-<!-- -------   HOME ------- -->
-  <div class="row">
-  <div class="tab-pane fade active in" id="home">
+
+<!-- ~~~~~~~~~~~~~~~~~ -->
+<!--~~~~~~ HOME ~~~~~~~-->
+<!-- ~~~~~~~~~~~~~~~~~ -->
+
+<div class="tab-pane fade active in" id="home">
 
   <div class="col-sm-8">
   <div class="bs-component">
   <h3 class="intro-title--">
-    About Arca
+    Arca Foundations
   </h3>
 
 
   <p>
     Arca – Software <u>Ar</u>chitecture & Design <u>Ca</u>lculi – is a research team lead by prof. <a href="http://www.di.uminho.pt/~lsb">Luís Barbosa</a> and prof. <a href="http://www.di.uminho.pt/~jno">José Nuno Oliveira</a>. It investigates formal approaches based on calculi of programs, processes, algorithms, etc. and on software quality, focusing on components, architectures, coordination, and variability.
-</p>
+  </p>
 
   <p>
     This team is part of the <a href="http://haslab.uminho.pt">HASLab</a> group, which is a software laboratory the <a href="http://di.uminho.pt">university of Minho</a> associated to <a href="http://inesctec.pt/">INESC TEC</a>.
   </p>
 
+
+  <p>
+    Arca is grounded on 3 fundamental pilars:
+    <br> (include diagram)
+  </p>
+
+  <h5> Software Components </h5>
+  Lead by <a href="#">Renato Neves</a>, ...
+
+  <h5> Software Architectures </h5>
+  Lead by <a href="#">José Proença</a>, ...
+
+  <h5> Dynamic Logics </h5>
+  Lead by <a href="#">Alexandre Madeira</a>, ...
   
-  <h4>Members</h4>
+
+
+
+  </div> <!-- bscomponent -->
+  </div> <!-- col-sm-8 -->
+  
+  <div class="col-sm-4">
+  <div class="bs-component">
+    
+    <h3>Tweets</h3>
+    <a class="twitter-timeline"
+      data-dnt="true"
+      href="https://twitter.com/ArcaHASLab"
+      data-widget-id="663687431233937408"
+      data-chrome="nofooter noheader transparent"
+      height="500"
+      width="2000"
+      data-link-color="#2196f3">Tweets by @ArcaHASLab</a>
+      <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+            
+
+<!-- 
+    <h3>Contact</h3>
+    <p>
+      For any further information please contact <a href="mailto:...">the Responsible Person</a>.
+    </p>
+ -->
+
+
+  </div> <!-- bs-component -->
+  </div> <!-- col-sm-4 --> 
+</div>  <!-- home -->
+
+
+
+<!-- ~~~~~~~~~~~~~~~~~~~~~~~ -->
+<!-- ~~~~~~  Members  ~~~~~~ -->
+<!-- ~~~~~~~~~~~~~~~~~~~~~~~ -->
+
+<div class="tab-pane fade" id="members">
+<div class="bs-component">
+
+  <h3>Members</h3>
     <ul>
-      <li><a href="http://www.unsl.edu.ar/~asanchez/index.php">
-        Alejandro Sanchez </a></li>
       <li><a href="http://alfa.di.uminho.pt/~madeira/">
         Alexandre Madeira </a></li>
       <li><a href="http://haslab.uminho.pt/ctavares/">
@@ -116,80 +182,41 @@
         Luís Barbosa </a></li>
       <li><a href="http://alfa.di.uminho.pt/~nevrenato/">
         Renato Neves </a></li>
-      <!-- <li><a> Tiago Loureiro </a></li> -->
             
     </ul>
 
+  <h3>Former members</h3>
+    <ul>
+      <li><a href="http://www.unsl.edu.ar/~asanchez/index.php">
+        Alejandro Sanchez </a></li>
+      <li><a href="#">Tiago Loureiro</a></li>
+    </ul>  
+
+</div> <!-- col-sm-4 --> 
+</div>  <!-- home -->
 
 
-  </div>
-  </div>
-  
-  <div class="col-sm-4">
-    <div class="bs-component">
-    
-    <h3>Tweets</h3>
-    <a class="twitter-timeline"
-      data-dnt="true"
-      href="https://twitter.com/ArcaHASLab"
-      data-widget-id="663687431233937408"
-      data-chrome="nofooter noheader transparent"
-      height="500"
-      width="2000"
-      data-link-color="#2196f3">Tweets by @ArcaHASLab</a>
-      <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
-            
+<!-- ~~~~~~~~~~~~~~~~~~~~~~~~ -->
+<!-- ~~~~  Publications  ~~~~ -->
+<!-- ~~~~~~~~~~~~~~~~~~~~~~~~ -->
 
-<!-- 
-    <h3>News</h3>
-    <p>
-      I propose to replace this part with a tweeter feed belonging to arca.
-    </p>
+<div class="tab-pane fade" id="publications">
+<div class="bs-component">
 
-    <h3>Contact</h3>
-    <p>
-      For any further information please contact the <a href="mailto:jose.proenca@cs.kuleuven.be?cc=massimo.tivoli@univaq.it">FOCLASA 2015 PC Chairs</a> 
-    </p>
- -->
+<h3>Key Publications</h3>
+
+<div id="list-publications"> </div>
+
+</div>
+</div>
 
 
-    </div>
-  </div>
-  
-  
-  </div>  
-<!-- -------   Activity ------- -->
-<!-- 
-  <div class="tab-pane fade" id="activity">
-  <div class="bs-component">
+<!-- ~~~~~~~~~~~~~~~~~~~~~~~~ -->
+<!-- ~~~~~~  Projects  ~~~~~~ -->
+<!-- ~~~~~~~~~~~~~~~~~~~~~~~~ -->
 
-<h3>Selected publications</h3>
-
-<ul>
-<li> ...
-</ul>
-
-
-<h3>Projects</h3>
-
-<ul>
-<li><a href="http://twiki.di.uminho.pt/twiki/bin/view/Research/DALI/WebHome">DALI</a>: Dynamic logics for cyber-physical systems; 2016–2018.
-</li>
-<li><a href="http://twiki.di.uminho.pt/twiki/bin/view/Research/TRUST/WebHome">TRUST</a>: Trustworthy Software Design with Alloy; 2016–2018.
-</li>
-<li><a href="http://wiki.di.uminho.pt/twiki/bin/view/Research/NASONI/WebHome">NASONI</a>: Heterogeneous software coordination: Foundations, methods, tools; 2013-2015.
-</li>
-</ul>
-
-
-
-
-  </div> 
-  </div>
- -->
-<!-- -------  Projects ------- -->
-  <div class="tab-pane fade" id="projects">
-  <div class="bs-component">
+<div class="tab-pane fade" id="projects">
+<div class="bs-component">
 
 
 <h3>Existing Projects</h3>
@@ -372,11 +399,16 @@ The main goal of this PhD project is the development of a general notion of asym
 
 
 
-  </div> 
-  </div>
-<!-- -------   ARCA Meetings ------- -->    
-  <div class="tab-pane fade" id="meetings">
-  <div class="bs-component">
+</div> 
+</div>  
+
+
+<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+<!-- ~~~~~~ ARCA Meetings ~~~~~ -->    
+<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+
+<div class="tab-pane fade" id="meetings">
+<div class="bs-component">
 
 
 <h3>Arca Meetings</h3>
@@ -396,16 +428,22 @@ We meet every two weeks to discuss ongoing work within the team.
 <ul id="list-prevTalks"> </ul>
 <!-- generated by javascript below -->
 
+</div>
+</div>
 
 
-  </div>
-  </div>
+<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+<!-- ~~~ end of CONTENT ~~~~~~ -->
+<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~ -->
 
 
 </div>
 </div>
 
-<!-- FOOTERS -->
+
+<!-- ~~~~~~~~~~~~~~~~~ -->
+<!-- ~~~~ FOOTERS ~~~~ -->
+<!-- ~~~~~~~~~~~~~~~~~ -->
 
 <div class="panel-footer" id="wrapper-footer">
 <div id="footer">
@@ -413,9 +451,14 @@ Copyright 2015-2017 – Arca
 </div>
 </div>
 
+<!-- ~~~~~~~~~~~~~~~~~ -->
+<!-- ~~~~ Scripts ~~~~ -->
+<!-- ~~~~~~~~~~~~~~~~~ -->
+
 <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
 <script src="extra/js/bootstrap.min.js"></script>
 <script src="talks.js"></script>
+<script src="publications.js"></script>
 <!-- <script src="../assets/js/bootswatch.js"></script> -->
 
 <script>
@@ -425,6 +468,7 @@ Copyright 2015-2017 – Arca
   ////////////////////
   loadTalks(nextTalks,'list-nextTalks');
   loadTalks(prevTalks,'list-prevTalks');
+  loadPublications(publications,'list-publications');
 
   function loadTalks(table,tableID) {
     var items='';
@@ -445,6 +489,24 @@ Copyright 2015-2017 – Arca
     $('#'+tableID).html(items);
   }
   
+  function loadPublications(table,tableID) {
+    var years='';
+    for (var year = 2017; year in table; year--) {
+      years += '<h4>'+year+'</h4> <ul>';
+      $.each(table[year], function(index,item) {
+        var row = '<li>';
+        if ("title" in item)   row += ' <strong>'+item['title']+'</strong>';
+        if ("author" in item)   row += ' <em>'+item['author']+'</em>';
+        if ("venue" in item)  row += ', '+item['venue'];
+        if ("paper" in item) row += ', <a href="'+item['paper']+'">[paper]</a>';
+        if ("doi" in item) row += ' <a href="https://doi.org/'+item['doi']+'">[doi]</a>';
+        years += row+'.'
+      });
+      years += '</ul>'
+    }
+    $('#'+tableID).html(years);
+  }
+
 //   function loadOpenProjects(){
 //     
 //   }

@@ -12,6 +12,13 @@
   text-align: center;
 }
 
+#arcalogo {
+  max-width:63px;
+  margin-top: -12px;
+  display: inline-block;
+  padding-left: 7px;
+}
+
 .intro-title {
   text-align: center;
 }
@@ -24,19 +31,48 @@
   display: block;
 }
 
+p.extraspace {
+  padding-top: 10px;
+  padding-bottom: 15px;
+}
+
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:hover, .navbar-default .navbar-nav>.active>a:focus {
+/*.navbar-nav>.active>a {*/
+  color: #436CAC;  
+  font-family: bold;
+  padding-top: 21px;
+  padding-bottom: 10px;
+}
+
 .navbar-default .navbar-nav>li>a:hover, .navbar-default .navbar-nav>li>a:focus {
   background-color: rgba(0, 0, 0, 0.02);
+  padding-top: 19px;
+  padding-bottom: 17px;
+}
+
+.navbar-nav>li>a {
+  padding-top: 19px;
+  padding-bottom: 17px;
 }
 
 .navbar-nav {
-  margin: 3px 0 3px 0;
+  border: none;
 }
+
+#myTabContent {
+  min-height: 50vh;
+}
+
 
 .well {
   border-radius: 15px;
 }
 .well>ul {
   margin-bottom: 0px;
+}
+
+.publications>li {
+  margin-left: 0px;
 }
 
 /* Twitter tweaks */
@@ -48,13 +84,40 @@ h4.pulldown {
   padding-top: 20px;
 }
 
-
 .bioPhoto { 
   float: right; 
   width: 23%;
-  padding: 10px;
+  padding: 0 10px 10px 10px;
 }
 
+.bioPhoto2 { 
+  float: left; 
+  width: 20%;
+  padding: 0px 10px 10px 0px;
+}
+.person2 {
+  float: right;
+  min-width: 80%;
+  max-width: 80%;
+}
+
+.persons {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+.persons>li {
+    float: left;
+    padding-top: 10px;
+}
+
+.person {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  /*max-width: 375px;*/
+  /*min-width: 250px;*/
+}
 
 /*.col-lg-4, .col-sm-8 {
   max-width: 647px;
@@ -105,6 +168,10 @@ html {
 /* fixing program looks */
 .panel-heading>.container-fluid {
   padding-left: 0px;
+}
+
+a {
+  color: #436CAC;
 }
 
 .panel-default>.panel-heading {
@@ -176,6 +243,10 @@ h5 {
   margin-bottom: 8px;
 }
 
+/*.navbar-fixed-top {
+  position: static;
+}*/
+
 @media (min-width: 350px) {
   .splash-title {
     margin-right: 25px;
@@ -204,4 +275,43 @@ h5 {
     margin-left: 50px;
     font-size:24px;
   }
+  #arcalogo {
+    max-width:70px;
+  }
+/*  .navbar-fixed-top {
+    position: fixed;
+  }*/
+  .bioPhoto2 { 
+    float: left; 
+    width: 30%;
+    padding: 0px 10px 10px 0px;
+  }
+  .person2 {
+    float: right;
+    min-width: 70%;
+    max-width: 70%;
+    padding-right: 10px;
+    min-height: 200px;
+  }
+
+  .persons {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+  .persons>li {
+      float: left;
+  }
+
+  .person {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    max-width: 360px;
+    /*min-width: 250px;*/
+  }
+  .person2>ul {
+    padding-left: 20px;
+  }
+
 }

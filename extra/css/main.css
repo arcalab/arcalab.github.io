@@ -287,8 +287,11 @@ h5 {
   }*/
   .bioPhoto2 { 
     float: left; 
-    width: 30%;
-    padding: 0px 10px 10px 0px;
+    width: 27%;
+    margin: 0px 10px 10px 0px;
+    padding: 4px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
   }
   .person2 {
     float: right;
@@ -299,6 +302,9 @@ h5 {
   }
   .psmaller {
     min-height: 100px;
+  }
+  .psmaller2 {
+    min-height: 130px;
   }
 
   .persons {

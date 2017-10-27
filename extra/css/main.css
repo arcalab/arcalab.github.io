@@ -297,6 +297,9 @@ h5 {
     padding-right: 10px;
     min-height: 200px;
   }
+  .psmaller {
+    min-height: 100px;
+  }
 
   .persons {
     list-style-type: none;

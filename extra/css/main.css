@@ -289,8 +289,9 @@ h5 {
     float: left; 
     width: 27%;
     margin: 0px 10px 10px 0px;
-    padding: 4px;
-    border: 1px solid #ddd;
+    /*padding: 4px;*/
+    /*border: 1px solid #ddd;*/
+    padding: 0;
     border-radius: 4px;
   }
   .person2 {

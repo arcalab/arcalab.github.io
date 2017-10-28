@@ -31,6 +31,11 @@
   display: block;
 }
 
+.strong {
+  font-family: bold;
+  margin-bottom: 8px;
+}
+
 h5.extraspace {
   padding-top: 15px;
 }
@@ -302,7 +307,7 @@ h5 {
     min-height: 200px;
   }
   .psmaller {
-    min-height: 100px;
+    min-height: 105px;
   }
   .psmaller2 {
     min-height: 130px;

@@ -9,7 +9,11 @@ supported fields:
 */
 
 var nextTalks = [{
-    "title": "tba"
+    "date":"8 Nov 2017",
+    "author":"José Proença",
+    "title": "Welcome meeting 2017/2018",
+    "alink": "jose.proenca.org",
+    "location": "Sala de Reuniões"
 }];
 var prevTalks = [{
     "date":"30 Nov 2016",

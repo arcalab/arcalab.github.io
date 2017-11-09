@@ -9,13 +9,26 @@ supported fields:
 */
 
 var nextTalks = [{
-    "date":"8 Nov 2017",
-    "author":"José Proença",
-    "title": "Welcome meeting 2017/2018",
-    "alink": "jose.proenca.org",
+    "date":"22 Nov 2017",
+    "author":"Guillermina Cledou",
+    "title": "Refinenemt of Families of Timed Automata",
+    "location": "Sala de Reuniões"
+    },{
+    "date":"6 Dez 2017",
+    "title": "tba",
+    "location": "Sala de Reuniões"
+    },{
+    "date":"20 Dez 2017",
+    "title": "tba",
     "location": "Sala de Reuniões"
 }];
 var prevTalks = [{
+    "date":"8 Nov 2017",
+    "author":"José Proença and Luís Barbosa",
+    "title": "Welcome meeting 2017/2018",
+    "alink": "jose.proenca.org",
+    "slides": "content/opening1718.pdf"
+  },{
     "date":"30 Nov 2016",
     "author":"Guillermina Cledou",
     "title": "Composing families of Timed Automata",

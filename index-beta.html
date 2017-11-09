@@ -471,19 +471,22 @@
 
 <bibtex src="content/bib.bib"></bibtex>
 <div class="bibtex_template">
-  <div class="if author" style="font-weight: bold;">
+  <div class="if author">
     <li>
-      <span class="if year">
-        <span class="year"></span>, 
-      </span>
-      <span class="author"></span>
+      <div style="font-weight: bold;">
+        <span class="if year">
+          <span class="year"></span>, 
+        </span>
+        <span class="author"></span>
+      </div>
       <span class="if url" style="margin-left: 20px">
         <a class="url" style="color:black; font-size:10px">(view online)</a>
       </span>
       <div style="margin-left: 10px; margin-bottom:5px;">
         <span class="title"></span>
-        <span class="if journal">, <span class="journal"></span></span> 
-        <span class="if volume"> (<span class="volume"></span>)</span> 
+        <span class="if journal">, <span class="journal"></span>
+          <span class="if volume"> (<span class="volume"></span>)</span> 
+        </span>
         <span class="if series">, <span class="series"></span></span> 
       </div>
     </li>

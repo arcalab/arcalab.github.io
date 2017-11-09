@@ -462,15 +462,15 @@
 <div class="tab-pane fade" id="publications">
 <div class="bs-component">
 
-<h3>Key Publications</h3>
+<h3>Key Publications from 2015</h3>
 
-<div id="list-publications"> </div>
+<!-- <div id="list-publications"> </div> -->
 
-
-<h3>Experiment with bibtex</h3>
-
+<!-- USING BIBTEX -->
 <bibtex src="content/bib.bib"></bibtex>
+
 <div class="bibtex_template">
+  <ul>
   <div class="if author">
     <div style="font-weight: bold;">
       <li>
@@ -478,23 +478,37 @@
           <span class="year"></span>, 
         </span>
         <span class="author"></span>
-        <span class="if url" style="margin-left: 20px">
-          <a class="url" style="color:black; font-size:10px">(view online)</a>
-        </span>
       </li>
     </div>
     <div style="margin-left: 10px; margin-bottom:5px;">
       <span class="title"></span>
-      <span class="if journal">, <span class="journal"></span>
-        <span class="if volume"> (<span class="volume"></span>)</span> 
+      <span class="if url" style="margin-left: 10px">
+        <!-- <a class="url" style="color:black; font-size:10px">(view online)</a> -->
+        <a class="bibtexVar" href="+URL+" extra="URL">
+          <img style="display:inline; float:none; border: none; margin: 0 0 0 0;"
+               alt="download" title="PDF download" name="PDF download" src="extra/img/acrobat.gif">
+        </a>
       </span>
-      <span class="if series">, <span class="series"></span></span> 
+      <span class="if doi" style="margin-left: 10px">
+        <a class="bibtexVar" href="https://doi.org/+DOI+" extra="DOI">
+          <img style="display:inline; float:none; border: none; margin: 0 0 0 0;"
+               alt="download" title="DOI reference" name="DOI reference" src="extra/img/doi.gif">
+        </a>
+      </span>
+      <span class="if journal"> <p> <span class="journal"></span>
+        <span class="if volume"> (<span class="volume"></span>)</span> </p>
+      </span>
+      <p>
+        <span class="if booktitle"> <span class="booktitle"></span></span>
+        <span class="if series">, <span class="series"></span></span>
+        <span class="if publisher">, <span class="publisher"></span></span>
+      </p>
     </div>
   </div>
+  </ul>
 </div>
 
-<p> tests </p>
-
+<!-- where bib will be displayed. -->
 <div id="bibtex_display"></div>
 
 </div>

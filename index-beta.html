@@ -469,45 +469,6 @@
 <!-- USING BIBTEX -->
 <bibtex src="content/bib.bib"></bibtex>
 
-<div class="bibtex_template">
-  <ul>
-  <div class="if author">
-    <div style="font-weight: bold;">
-      <li>
-        <span class="if year">
-          <span class="year"></span>, 
-        </span>
-        <span class="author"></span>
-      </li>
-    </div>
-    <div style="margin-left: 10px; margin-bottom:5px;">
-      <span class="title"></span>
-      <span class="if url" style="margin-left: 10px">
-        <!-- <a class="url" style="color:black; font-size:10px">(view online)</a> -->
-        <a class="bibtexVar" href="+URL+" extra="URL">
-          <img style="display:inline; float:none; border: none; margin: 0 0 0 0;"
-               alt="download" title="PDF download" name="PDF download" src="extra/img/acrobat.gif">
-        </a>
-      </span>
-      <span class="if doi" style="margin-left: 10px">
-        <a class="bibtexVar" href="https://doi.org/+DOI+" extra="DOI">
-          <img style="display:inline; float:none; border: none; margin: 0 0 0 0;"
-               alt="download" title="DOI reference" name="DOI reference" src="extra/img/doi.gif">
-        </a>
-      </span>
-      <span class="if journal"> <p> <span class="journal"></span>
-        <span class="if volume"> (<span class="volume"></span>)</span> </p>
-      </span>
-      <p>
-        <span class="if booktitle"> <span class="booktitle"></span></span>
-        <span class="if series">, <span class="series"></span></span>
-        <span class="if publisher">, <span class="publisher"></span></span>
-      </p>
-    </div>
-  </div>
-  </ul>
-</div>
-
 <!-- where bib will be displayed. -->
 <div id="bibtex_display"></div>
 
@@ -889,6 +850,51 @@ We meet every two weeks to discuss ongoing work within the team.
 <div id="footer">
 Copyright 2015-2017 – Arca 
 </div>
+</div>
+
+<div class="bibtex_template">
+  <ul>
+  <div class="if author">
+    <div style="font-weight: bold;">
+      <li>
+        <span class="if year">
+          <span class="year"></span>, 
+        </span>
+        <span class="author"></span>
+      </li>
+    </div>
+    <div style="margin-left: 10px; margin-bottom:5px;">
+      <!-- <span class="title"></span> -->
+      <!-- <span class="if url" style="margin-left: 10px"> -->
+        <!-- <a class="url" style="color:black; font-size:10px">(view online)</a> -->
+      <span class="if url">
+        <a class="bibtexVar" href="+URL+" extra="URL">
+<!--           <img style="display:inline; float:none; border: none; margin: 0 0 0 0;"
+               alt="download" title="PDF download" name="PDF download" src="extra/img/acrobat.gif">
+-->    
+          <span class="title"></span>
+        </a>
+      </span>
+      <span class="if !url">
+          <span class="title"></span>
+      </span>
+      <span class="if doi" style="margin-left: 10px">
+        <a class="bibtexVar" href="https://doi.org/+DOI+" extra="DOI">
+          <img style="display:inline; float:none; border: none; margin: 0 0 0 0;"
+               alt="download" title="DOI reference" name="DOI reference" src="extra/img/doi.gif">
+        </a>
+      </span>
+      <span class="if journal"> <p> <span class="journal"></span>
+        <span class="if volume"> (<span class="volume"></span>)</span> </p>
+      </span>
+      <p>
+        <span class="if booktitle"> <span class="booktitle"></span></span>
+        <span class="if series">, <span class="series"></span></span>
+        <span class="if publisher">, <span class="publisher"></span></span>
+      </p>
+    </div>
+  </div>
+  </ul>
 </div>
 
 <!-- ~~~~~~~~~~~~~~~~~ -->

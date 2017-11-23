@@ -895,6 +895,11 @@ Copyright 2015-2017 – Arca
 </div>
 </div>
 
+
+
+<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+<!-- ~~~~ LOADING PUBLICATIONS ~~~~ -->
+<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
 <div class="bibtex_template">
   <ul>
   <div class="if author">
@@ -973,12 +978,14 @@ Copyright 2015-2017 – Arca
       }
       if ("title" in item)  row += item['title']+' ';
       if ("slides" in item) row += '<a href="'+item['slides']+'">[slides]</a> ';
+      if ("paper" in item) row += '<a href="'+item['paper']+'">[paper]</a> ';
       if ("location" in item) row += '<em>('+item["location"]+')</em> ';
       items += row
     });
     $('#'+tableID).html(items);
   }
   
+  // NOT IN USE - now using bibtex
   function loadPublications(table,tableID) {
     var res='';
     // for (var year = Object.keys(table)[0]; year in table; year--) {

@@ -5,14 +5,25 @@ supported fields:
  - author   - who gave the talk
  - alink    - website of the author (without "http://")
  - slides   - link for the slides (full or relative url)
+ - paper    - link for the paper, if applicable
  - location - where the talk takes/took place
 */
 
+var AM  = '<a href="http://alfa.di.uminho.pt/~madeira/">Alexandre Madeira </a>'
+var CT  = '<a href="http://haslab.uminho.pt/ctavares/">Carlos Tavares </a>'
+var GC  = '<a href="http://haslab.uminho.pt/mgc/">Guillermina Cledou </a>'
+var JNO = '<a href="http://www.di.uminho.pt/~jno">José Nuno Oliveira </a>'
+var JP  = '<a href="http://jose.proenca.org">José Proença </a>'
+var LG  = '<a href="http://haslab.uminho.pt/lgomes/">Leandro Gomes </a>'
+var LSB = '<a href="http://www.di.uminho.pt/~lsb">Luís Barbosa </a>'
+var RN  = '<a href="http://alfa.di.uminho.pt/~nevrenato/">Renato Neves </a>'
+
 var nextTalks = [{
-    "date":"22 Nov 2017",
-    "author":"Guillermina Cledou",
+    "date":"24 Nov 2017 @ 14h",
+    "author":GC,
     "title": "Refinenemt of Families of Timed Automata",
-    "location": "Sala de Reuniões"
+    "location": "Sala de Reuniões",
+    "paper": "http://jose.proenca.org/papers/iftarefinement.pdf"
     },{
     "date":"6 Dez 2017",
     "title": "tba",
@@ -24,7 +35,7 @@ var nextTalks = [{
 }];
 var prevTalks = [{
     "date":"8 Nov 2017",
-    "author":"José Proença and Luís Barbosa",
+    "author":JP+" and "+LSB,
     "title": "Welcome meeting 2017/2018",
     "alink": "jose.proenca.org",
     "slides": "content/opening1718.pdf"

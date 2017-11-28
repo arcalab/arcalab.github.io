@@ -19,21 +19,21 @@ var LSB = '<a href="http://www.di.uminho.pt/~lsb">Luís Barbosa </a>'
 var RN  = '<a href="http://alfa.di.uminho.pt/~nevrenato/">Renato Neves </a>'
 
 var nextTalks = [{
-    "date":"24 Nov 2017 @ 14h",
-    "author":GC,
-    "title": "Refinenemt of Families of Timed Automata",
-    "location": "Sala de Reuniões",
-    "paper": "http://jose.proenca.org/papers/iftarefinement.pdf"
-    },{
     "date":"6 Dez 2017",
     "title": "tba",
-    "location": "Sala de Reuniões"
+    "location": "Room DI.2.13 @ 14h30"
     },{
     "date":"20 Dez 2017",
     "title": "tba",
     "location": "Sala de Reuniões"
 }];
 var prevTalks = [{
+    "date":"24 Nov 2017 @ 14h",
+    "author":GC,
+    "title": "Refinenemt of Families of Timed Automata",
+    // "location": "Sala de Reuniões",
+    "paper": "http://jose.proenca.org/papers/iftarefinement.pdf"
+    },{
     "date":"8 Nov 2017",
     "author":JP+" and "+LSB,
     "title": "Welcome meeting 2017/2018",

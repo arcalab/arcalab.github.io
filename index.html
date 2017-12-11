@@ -953,7 +953,7 @@ Copyright 2015-2017 – Arca
 <script src="extra/js/bootstrap.min.js"></script>
 <script src="extra/js/bibtex_js.js"></script>
 <script src="talks.js"></script>
-<script src="publications.js"></script>
+<!-- <script src="publications.js"></script> -->
 <!-- <script src="../assets/js/bootswatch.js"></script> -->
 
 <script>
@@ -963,7 +963,7 @@ Copyright 2015-2017 – Arca
   ////////////////////
   loadTalks(nextTalks,'list-nextTalks');
   loadTalks(prevTalks,'list-prevTalks');
-  loadPublications(publications,'list-publications');
+  // loadPublications(publications,'list-publications');
 
   function loadTalks(table,tableID) {
     var items='';
@@ -979,6 +979,7 @@ Copyright 2015-2017 – Arca
       if ("title" in item)  row += item['title']+' ';
       if ("slides" in item) row += '<a href="'+item['slides']+'">[slides]</a> ';
       if ("paper" in item) row += '<a href="'+item['paper']+'">[paper]</a> ';
+      if ("info" in item) row += '<a href="'+item['info']+'">[info]</a> ';
       if ("location" in item) row += '<em>('+item["location"]+')</em> ';
       items += row
     });
@@ -986,39 +987,39 @@ Copyright 2015-2017 – Arca
   }
   
   // NOT IN USE - now using bibtex
-  function loadPublications(table,tableID) {
-    var res='';
-    // for (var year = Object.keys(table)[0]; year in table; year--) {
-    // for (year in table) {
-    var years = Object.keys(table).sort().reverse();
-    for (i in years) {
-      res += '<h4>'+years[i]+'</h4> <ul class="publications">';
-      $.each(table[years[i]], function(index,item) {
-        var row = '<li>';
-        if ("title" in item)   row += ' <strong>'+item['title']+'</strong>';
-        if ("authors" in item)   row += ' - <em>'+item['authors']+'</em>';
-        if ("venue" in item)  row += ', '+item['venue'];
-        if ("volume" in item)  row += ', volume '+item['volume'];
-        if ("pages" in item)  row += ', page '+item['pages'];
-        if ("publisher" in item)  row += ', '+item['publisher'];
-        // if ("paper" in item) row += ', <a href="'+item['paper']+'">[paper]</a>';
-        // if ("doi" in item) row += ' <a href="https://doi.org/'+item['doi']+'">[doi]</a>';
-        // if ("bibtex" in item) row += ' <a href="'+item['bibtex']+'">[bibtex]</a>';
-        if ("paper" in item) row += ' <a href="'+item['paper']+'">'+
-            '<img style="display:inline; float:none; border: none; margin: 0 0 0 0;"'+
-            ' alt="download" title="PDF download" name="PDF download" src="extra/img/acrobat.gif"></a>';
-        if ("bibtex" in item) row += ' <a href="'+item['bibtex']+'">'+
-            ' <img style="display:inline; float:none; border: none; margin: 0 0 0 0;"'+
-            ' alt="bibtexfile" title="BibTeX" name="BibTeX" src="extra/img/bibtex.png"></a>';
-        if ("doi" in item) row += ' <a href="'+item['doi']+'">'+
-            ' <img style="display:inline; float:none; border: none; margin: 0 0 0 0;"'+
-            ' alt="doi link" title="DOI link" name="DOI" src="extra/img/doi.gif"></a>';
-        res += row+'.'
-      });
-      res += '</ul>'
-    }
-    $('#'+tableID).html(res);
-  }
+  // function loadPublications(table,tableID) {
+  //   var res='';
+  //   // for (var year = Object.keys(table)[0]; year in table; year--) {
+  //   // for (year in table) {
+  //   var years = Object.keys(table).sort().reverse();
+  //   for (i in years) {
+  //     res += '<h4>'+years[i]+'</h4> <ul class="publications">';
+  //     $.each(table[years[i]], function(index,item) {
+  //       var row = '<li>';
+  //       if ("title" in item)   row += ' <strong>'+item['title']+'</strong>';
+  //       if ("authors" in item)   row += ' - <em>'+item['authors']+'</em>';
+  //       if ("venue" in item)  row += ', '+item['venue'];
+  //       if ("volume" in item)  row += ', volume '+item['volume'];
+  //       if ("pages" in item)  row += ', page '+item['pages'];
+  //       if ("publisher" in item)  row += ', '+item['publisher'];
+  //       // if ("paper" in item) row += ', <a href="'+item['paper']+'">[paper]</a>';
+  //       // if ("doi" in item) row += ' <a href="https://doi.org/'+item['doi']+'">[doi]</a>';
+  //       // if ("bibtex" in item) row += ' <a href="'+item['bibtex']+'">[bibtex]</a>';
+  //       if ("paper" in item) row += ' <a href="'+item['paper']+'">'+
+  //           '<img style="display:inline; float:none; border: none; margin: 0 0 0 0;"'+
+  //           ' alt="download" title="PDF download" name="PDF download" src="extra/img/acrobat.gif"></a>';
+  //       if ("bibtex" in item) row += ' <a href="'+item['bibtex']+'">'+
+  //           ' <img style="display:inline; float:none; border: none; margin: 0 0 0 0;"'+
+  //           ' alt="bibtexfile" title="BibTeX" name="BibTeX" src="extra/img/bibtex.png"></a>';
+  //       if ("doi" in item) row += ' <a href="'+item['doi']+'">'+
+  //           ' <img style="display:inline; float:none; border: none; margin: 0 0 0 0;"'+
+  //           ' alt="doi link" title="DOI link" name="DOI" src="extra/img/doi.gif"></a>';
+  //       res += row+'.'
+  //     });
+  //     res += '</ul>'
+  //   }
+  //   $('#'+tableID).html(res);
+  // }
 
 //   function loadOpenProjects(){
 //     

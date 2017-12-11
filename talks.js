@@ -23,6 +23,7 @@ var nextTalks = [{
     "author":"Prof. Einar Broch Johnsen",
     "alink":"http://einarj.at.ifi.uio.no",
     "title": "Resource-Aware Models in ABS",
+    "info":"http://haslab.uminho.pt/infoblender/presentations/resource-aware-models-abs",
     "location": "0.07 (DI-0.03)"
     },{
     "date":"20 Dec 2017",

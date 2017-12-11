@@ -19,15 +19,21 @@ var LSB = '<a href="http://www.di.uminho.pt/~lsb">Luís Barbosa </a>'
 var RN  = '<a href="http://alfa.di.uminho.pt/~nevrenato/">Renato Neves </a>'
 
 var nextTalks = [{
-    "date":"6 Dez 2017",
-    "title": "tba",
-    "location": "Room DI.2.13 @ 14h30"
+    "date":"14 Dec 2017",
+    "author":"Prof. Einar Broch Johnsen",
+    "alink":"http://einarj.at.ifi.uio.no",
+    "title": "Resource-Aware Models in ABS",
+    "location": "0.07 (DI-0.03)"
     },{
-    "date":"20 Dez 2017",
+    "date":"20 Dec 2017",
     "title": "tba",
     "location": "Sala de Reuniões"
 }];
 var prevTalks = [{
+    "date":"6 Dec 2017",
+    "title": "Internal discussions"
+//     "location": "Room DI.2.13 @ 14h30"
+    },{
     "date":"24 Nov 2017 @ 14h",
     "author":GC,
     "title": "Refinenemt of Families of Timed Automata",
@@ -46,7 +52,7 @@ var prevTalks = [{
     "alink": "haslab.uminho.pt/mgc/",
     "slides": "content/ifta.pdf"
   },{
-    "date":"19 Outubro 2016",
+    "date":"19 Oct 2016",
     "author":"Allberson Dantas",
     "title": "Modelling SAFeSWF - a practical distributed workflow"
   },{
@@ -71,14 +77,14 @@ var prevTalks = [{
     "title": "Research on a generalised KAT via Prover9 ",
 //     "location": "Room DI.2.13 @ 14h30"
   },{
-    "date":"17 Fev 2016",
+    "date":"17 Feb 2016",
     "author": "José Nuno Oliveira",
     "alink": "www.di.uminho.pt/~jno",
     "title": "Towards a Linear Algebra Semantics for SQL",
     "slides": "content/jno-linearAlgebraForSQL.pdf"
 //     "location": "Given at <a href=\"http://haslab.uminho.pt/infoblender/\">InfoBlender</a> @ 13h30"
   },{
-    "date":"3 Fev 2016",
+    "date":"3 Feb 2016",
     "author": "Gillermina Cledou",
     "alink": "haslab.uminho.pt/mgc/",
     "title": "An ontology for licensing public transport services"

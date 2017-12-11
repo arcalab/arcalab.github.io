@@ -6,6 +6,7 @@ supported fields:
  - alink    - website of the author (without "http://")
  - slides   - link for the slides (full or relative url)
  - paper    - link for the paper, if applicable
+ - info     - link for more information about the talk, if applicable
  - location - where the talk takes/took place
 */
 

@@ -20,18 +20,19 @@ var LSB = '<a href="http://www.di.uminho.pt/~lsb">Luís Barbosa </a>'
 var RN  = '<a href="http://alfa.di.uminho.pt/~nevrenato/">Renato Neves </a>'
 
 var nextTalks = [{
+    "date":"10 Jan 2018",
+    "title": "Dynamic Logics for Quantum Probabilistic Programs",
+    "author": CT,
+    "location": "Sala de Reuniões"
+}];
+var prevTalks = [{
     "date":"14 Dec 2017",
     "author":"Prof. Einar Broch Johnsen",
     "alink":"http://einarj.at.ifi.uio.no",
     "title": "Resource-Aware Models in ABS",
     "info":"http://haslab.uminho.pt/infoblender/presentations/resource-aware-models-abs",
-    "location": "0.07 (DI-0.03)"
+    // "location": "0.07 (DI-0.03)"
     },{
-    "date":"20 Dec 2017",
-    "title": "tba",
-    "location": "Sala de Reuniões"
-}];
-var prevTalks = [{
     "date":"6 Dec 2017",
     "title": "Internal discussions"
 //     "location": "Room DI.2.13 @ 14h30"

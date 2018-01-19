@@ -20,12 +20,6 @@ var LSB = '<a href="http://www.di.uminho.pt/~lsb">Luís Barbosa </a>'
 var RN  = '<a href="http://alfa.di.uminho.pt/~nevrenato/">Renato Neves </a>'
 
 var nextTalks = [{
-    "date":"12 Jan 2018 @ 17h",
-    "title": "PLQP & Company: Decidable Logics for Quantum Algorithms (Baltag et al. 2014)",
-    "paper": "http://www.vub.ac.be/CLWF/SS/IQSA.proc.v4%20-%20flattened.pdf",
-    "author": CT,
-    "location": "Room A1, DI"
-    },{
     "date":" 24 Jan 2018",
     "title": "Brainstorming - DaLi SI",
     "location": "Sala de Reuniões"
@@ -39,6 +33,13 @@ var nextTalks = [{
     "location": "Sala de Reuniões"
 }];
 var prevTalks = [{
+    "date":"12 Jan 2018 @ 17h",
+    "title": "PLQP & Company: Decidable Logics for Quantum Algorithms (Baltag et al. 2014)",
+    "paper": "http://www.vub.ac.be/CLWF/SS/IQSA.proc.v4%20-%20flattened.pdf",
+    "author": CT,
+    "slides": "content/PLQP_and_company.pdf"
+    // "location": "Room A1, DI"
+    },{
     "date":"14 Dec 2017",
     "author":"Prof. Einar Broch Johnsen",
     "alink":"http://einarj.at.ifi.uio.no",

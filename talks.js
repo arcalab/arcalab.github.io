@@ -20,19 +20,21 @@ var LSB = '<a href="http://www.di.uminho.pt/~lsb">Luís Barbosa </a>'
 var RN  = '<a href="http://alfa.di.uminho.pt/~nevrenato/">Renato Neves </a>'
 
 var nextTalks = [{
-    "date":" 24 Jan 2018",
-    "title": "Brainstorming - DaLi SI",
-    "location": "Sala de Reuniões"
-    },{
     "date":" 7 Feb 2018",
-    "title": "Internal discussions",
-    "location": "Sala de Reuniões"
+    "title": "Using Coq and Recurrent Neural Network to Model and Verify Timed Connectors",
+    "author": "Meng Sun",
+    "alink": "http://www.math.pku.edu.cn/teachers/sunm/indexen.html",
+    "location": "tba"
     },{
     "date":" 21 Feb 2018",
     "title": "Internal discussions",
     "location": "Sala de Reuniões"
 }];
 var prevTalks = [{
+    "date":" 24 Jan 2018",
+    "title": "Brainstorming - DaLi SI",
+    // "location": "Sala de Reuniões"
+    },{
     "date":"12 Jan 2018 @ 17h",
     "title": "PLQP & Company: Decidable Logics for Quantum Algorithms (Baltag et al. 2014)",
     "paper": "http://www.vub.ac.be/CLWF/SS/IQSA.proc.v4%20-%20flattened.pdf",

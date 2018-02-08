@@ -20,17 +20,18 @@ var LSB = '<a href="http://www.di.uminho.pt/~lsb">Luís Barbosa </a>'
 var RN  = '<a href="http://alfa.di.uminho.pt/~nevrenato/">Renato Neves </a>'
 
 var nextTalks = [{
-    "date":" 7 Feb 2018",
-    "title": "Using Coq and Recurrent Neural Network to Model and Verify Timed Connectors",
-    "author": "Meng Sun",
-    "alink": "http://www.math.pku.edu.cn/teachers/sunm/indexen.html",
-    "location": "tba"
-    },{
     "date":" 21 Feb 2018",
     "title": "Internal discussions",
     "location": "Sala de Reuniões"
 }];
 var prevTalks = [{
+    "date":" 7 Feb 2018",
+    "title": "Using Coq and Recurrent Neural Network to Model and Verify Timed Connectors",
+    "author": "Meng Sun",
+    "alink": "http://www.math.pku.edu.cn/teachers/sunm/indexen.html",
+    "slides": "content/ms-coq_and_rnn-18.pdf",
+    "info":"http://haslab.uminho.pt/infoblender/presentations/using-coq-and-recurrent-neural-network-model-and-verify-timed-connectors"
+    },{
     "date":" 24 Jan 2018",
     "title": "Brainstorming - DaLi SI",
     // "location": "Sala de Reuniões"

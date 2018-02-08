@@ -20,7 +20,7 @@ var LSB = '<a href="http://www.di.uminho.pt/~lsb">Luís Barbosa </a>'
 var RN  = '<a href="http://alfa.di.uminho.pt/~nevrenato/">Renato Neves </a>'
 
 var nextTalks = [{
-    "date":" 21 Feb 2018",
+    "date":" 28 Feb 2018",
     "title": "Internal discussions",
     "location": "Sala de Reuniões"
 }];
@@ -36,7 +36,7 @@ var prevTalks = [{
     "title": "Brainstorming - DaLi SI",
     // "location": "Sala de Reuniões"
     },{
-    "date":"12 Jan 2018 @ 17h",
+    "date":"12 Jan 2018",
     "title": "PLQP & Company: Decidable Logics for Quantum Algorithms (Baltag et al. 2014)",
     "paper": "http://www.vub.ac.be/CLWF/SS/IQSA.proc.v4%20-%20flattened.pdf",
     "author": CT,
@@ -54,7 +54,7 @@ var prevTalks = [{
     "title": "Internal discussions"
 //     "location": "Room DI.2.13 @ 14h30"
     },{
-    "date":"24 Nov 2017 @ 14h",
+    "date":"24 Nov 2017",
     "author":GC,
     "title": "Refinenemt of Families of Timed Automata",
     // "location": "Sala de Reuniões",

@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<title>Arca - Software Architecture & Design Calculi</title>		
+
+	<meta name="description" content="Arca website">
+	<meta name="keywords" content="software architecture, process calculi, coordination, algebraic reasoning, program transformation, components">
+	<meta name="author" content="Jose Proenca" >
+  <meta name="google-site-verification" 
+        content="DRIp9oJtDGoKi2pPuGMqBkksSgKuidiWN_kRCrZMvkg" />
+<!-- 	<base href="http://arca.di.uminho.pt/" target="_parent" /> -->
+	
+	<link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
+  <link href="../../extra/css/bootstrap-bw.min.css" rel="stylesheet" media="screen">
+  <link href="../../extra/css/main.css" rel="stylesheet">
+
+  <!-- see more examples in http://bootswatch.com/paper/# -->
+</head>
+
+<body>
+
+<div class="navbar navbar-default navbar-fixed-top"> <!-- navbar-fixed-top -->
+  <div class="navbar-header">
+    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-responsive-collapse">
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+    </button>
+    <a class="navbar-brand" href="index.html">
+      <img id="arcalogo" src="../../extra/img/arca-logo2/arca-logo2e.png" alt="ARCA logo">
+    <!-- ARCA -->
+  </a>
+  </div>
+  <div class="navbar-collapse collapse navbar-responsive-collapse">
+    <ul class="nav navbar-nav" id="myTab">
+      <li><a href="../../index.html#home" data-toggle="tab" aria-expanded="true">Home</a></li>
+      <!--~~~~~~~~~~~~~~~~~
+        CHANGE TABS HERE
+      ~~~~~~~~~~~~~~~~~~-->
+      <li><a href="../../index.html#members" data-toggle="tab" aria-expanded="false">Members</a></li>
+      <li class="active"><a href="../../index.html#projects" data-toggle="tab" aria-expanded="false">Projects</a></li>
+      <li><a href="../../index.html#publications" data-toggle="tab" aria-expanded="false">Publications</a></li>
+      <li><a href="../../index.html#tools" data-toggle="tab" aria-expanded="false">Tools</a></li>
+      <li><a href="../../index.html#teaching" data-toggle="tab" aria-expanded="false">Teaching</a></li>
+      <li><a href="../../index.html#events" data-toggle="tab" aria-expanded="false">Events</a></li>
+      <!--~~~~~~~~~~~~~~-->
+    </ul>
+  </div>
+</div>
+
+
+<div class="splash">
+	<h2 class="splash-title">ARCA</h2>
+	<div class="blue-rect">
+	<h4 class="splash-subtitle">Software Architectures & Design Calculi</h4>
+  <h4 class="splash-subtitle"> Research team @ HASLab, Univ. Minho</h4>
+  </div>
+</div>
+
+
+<div id="myTabContent" class="container">
+<div class="tab-pane fade active in" id="activity">
+<div class="bs-component">
+
+<!-- REAL CONTENT GOES HERE -->
+
+<h1 ><div id="title">KLEE<div></h1>
+<h4 ><div id="title">Modelação Coalgébrica e Análise para Biologia Sintética Computacional<div></h4>
+<!-- <h6 ><div id="title">Coalgebraic Modeling and Analysis for Computational Synthetic Biology<div></h6> -->
+
+<!-- <div id="summary">
+  </div>
+ -->
+<!-- <h3>Context</h3>
+<div id="context">
+</div>
+ -->
+
+<p>(Projecto a iniciar em 2018)</p>
+
+<p>
+A biologia sintética é normalmente definida como a engenharia dos sistemas biológicos complexos, ortogonal a todos os níveis da hierarquia das estruturas biológicas. O objectivo é desenvolver sistemas biológicos de uma forma sistemática, um processo cujas características mais significativas se assemelham à composição de software: componentes e dispositivos com conexões standard e “off-the-shelf”, interfaces/cápsulas biológicas robustas (como as da levedura e da E. coli), processos standard para associação de componentes em sistemas mais e mais complexos.
+</p>
+
+<p> 
+Naturalmente deste quadro fazem parte diversas tecnologias que são estritamente biológicas. Por exemplo na síntese de DNA. Mas, por outro lado, são necessários novos modelos que se adequem à natureza complexa e heterogénea dos sistemas biológicos. Neste contexto, o nosso ponto de partida é considerar uma rede de interacção de genes e proteínas como um sistema dinâmico, evoluindo no espaço e no tempo de acordo com leis fundamentais de reacção, difusão e transporte. Estas leis governam a forma como uma rede regulatória, estimulada, determina a resposta apropriada de uma célula. Tal sistema de processamento de informação pode ser descrito em termos matemáticos precisos, por recurso à teoria dos sistemas de transição híbridos. Os sistemas de transição de estados, tal como entendidos em software reactivo, mas combinando componentes discretas, contínuas e estocásticas; as correspondentes noções de comportamento emergente, e técnicas para expressar, analisar e verificar propriedades estruturais e comportamentais, podem levar a uma nova percepção deste domínio. 
+</p>
+
+<p> 
+No entanto, mais investigação, fundamental e aplicada, é necessária. Por um lado, estes modelos e técnicas são ainda um domínio em aberto. O projecto KLEE adopta uma perspectiva específica: a perspectiva coalgébrica, uma teoria popularizada como a matemática dos sistemas reactivos, mas que fornece uma forma muito genérica de expressar, raciocinar e interrelacionar diversas noções de observação, transição, comportamento e modalidade. Este é o nosso ponto de partida. Contudo, os modelos híbridos são notoriamente difíceis de analisar e verificar. Em particular, faltam ferramentas analíticas para combinar restrições estocásticas e físicas e para (automaticamente) transformar modelos não computacionais em modelos computacionais eficientes. Por outro lado, se em engenharia de software, as componentes são geralmente bem compreendidas, o mesmo não se passa nos sistemas biológicos. Os dispositivos em biologia sintética, não importa quão refinadamente projectados, evoluem no tempo e desenvolvem interacções e redundâncias extremamente complexas e imprevisíveis.
+</p>
+
+<p> 
+Assim KLEE será centrado:
+<ol>
+<li> No desenvolvimento de modelos e lógicas coalgébricas para redes e dispositivos em biologia sintética, combinando comportamentos discretos, contínuos e estocásticos;</li>
+<li> Nas suas aplicações à analise e validação de propriedades estruturais e quantitativas de redes biológicas regulatórias.</li>
+<li> No desenvolvimento de ferramentas computacionais de suporte.</li>
+</p>
+
+<p>  
+O projecto baseia-se na investigação desenvolvida pela equipa nos últimos 4 anos em modelos coalgébricos para componentes de software. Dada a natureza interdisciplinar do projecto, uma investigadora em biologia sintética do grupo BIOCORE, INRIA, integra a equipa. 
+</p>
+
+
+<!-- END OF REAL CONTENT -->
+
+</div> 
+</div>
+</div>
+
+<!-- FOOTERS -->
+
+<div class="panel-footer" id="wrapper-footer">
+<div id="footer">
+Copyright 2015-2018 – Arca 
+</div>
+</div>
+
+<script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
+<script src="extra/js/bootstrap.min.js"></script>
+<script src="talks.js"></script>
+<!-- <script src="../assets/js/bootswatch.js"></script> -->
+
+<script>
+
+  ////////////////////
+  //  LOADING TALKS //
+  ////////////////////
+  loadTalks(nextTalks,'list-nextTalks');
+  loadTalks(prevTalks,'list-prevTalks');
+
+  function loadTalks(table,tableID) {
+    var items='';
+    $.each(table, function(index,item) {
+      var row = '<li>';
+      if ("date" in item)   row += '<strong>'+item['date']+'</strong> - ';
+      if ("author" in item) {
+        if ("alink" in item)
+          row += '<a href="http://'+item['alink']+'">'+item['author']+'</a>, ';
+         else
+          row += '<a>'+item['author']+'</a>, ';
+      }
+      if ("title" in item)  row += item['title']+' ';
+      if ("slides" in item) row += '<a href="'+item['slides']+'">[slides]</a> ';
+      if ("location" in item) row += '<em>('+item["location"]+')</em> ';
+      items += row
+    });
+    $('#'+tableID).html(items);
+  }
+
+  ////////////////////
+  // ACTIVATING TABS BASED ON URL
+  ////////////////////
+  $(function () {
+   var activeTab = $('[href=' + location.hash + ']');
+//    activeTab && activeTab.tab('show');
+   activeTab.tab('show');
+  });
+  
+  ////////////////////
+  // ACTIVATING TABS BY CLICKING
+  ////////////////////
+  $('#myTab a').click(function (e) {
+      e.preventDefault();
+      $(this).tab('show');
+      var id = $(e.target).attr("href").substr(1);
+      window.location.hash = id;
+      $('html,body').scrollTop(0); // go to top!
+      //$('html, body').animate({ scrollTop: 0 }, 'fast'); // animate and go to top
+//       $(".navbar-toggle").click() //bootstrap 3.x by Richard
+  });
+
+  $(document).on('click','.navbar-collapse.in',function(e) {
+    if( $(e.target).is('a') && $(e.target).attr('class') != 'dropdown-toggle' ) {
+        $(this).collapse('hide');
+    }
+  });
+  
+  ////////////////////
+  // POST-PROCESS the tweeter feed.
+  ////////////////////
+  (function ($) {
+    window.setTimeout(function(){
+      $(".twitter-timeline").contents().find(".e-entry-title").attr("style", "color: #666666; font-family: 'Roboto','Helvetica Neue',Helvetica,Arial,sans-serif;");
+    }, 1000);
+
+  })(jQuery);
+
+</script>
+
+</body>
+</html>
+

@@ -18,10 +18,12 @@ var JP  = '<a href="http://jose.proenca.org">José Proença </a>'
 var LG  = '<a href="http://haslab.uminho.pt/lgomes/">Leandro Gomes </a>'
 var LSB = '<a href="http://www.di.uminho.pt/~lsb">Luís Barbosa </a>'
 var RN  = '<a href="http://alfa.di.uminho.pt/~nevrenato/">Renato Neves </a>'
+var AN  = '<a >Ana Neri</a>'
 
 var nextTalks = [{
     "date":" 28 Feb 2018",
-    "title": "Internal discussions",
+    "title": "Towards quantamorphisms — some thoughts on (constructive) reversibility",
+    "author": AN+" and "+JNO,
     "location": "Sala de Reuniões"
 }];
 var prevTalks = [{

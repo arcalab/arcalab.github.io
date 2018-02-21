@@ -24,7 +24,7 @@ var nextTalks = [{
     "date":" 28 Feb 2018",
     "title": "Towards quantamorphisms — some thoughts on (constructive) reversibility",
     "author": AN+" and "+JNO,
-    "location": "Sala de Reuniões"
+    "location": "Room DI.2.13 @ 14h30"
 }];
 var prevTalks = [{
     "date":" 7 Feb 2018",

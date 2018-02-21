@@ -18,7 +18,8 @@ var JP  = '<a href="http://jose.proenca.org">José Proença </a>'
 var LG  = '<a href="http://haslab.uminho.pt/lgomes/">Leandro Gomes </a>'
 var LSB = '<a href="http://www.di.uminho.pt/~lsb">Luís Barbosa </a>'
 var RN  = '<a href="http://alfa.di.uminho.pt/~nevrenato/">Renato Neves </a>'
-var AN  = '<a >Ana Neri</a>'
+var AN  = '<a href="http://arca.di.uminho.pt/extra/img/photos/an.JPG">Ana Neri</a>'
+var AR  = '<a href="http://arca.di.uminho.pt/extra/img/photos/ar.JPG">Afonso Rodrigues</a>'
 
 var nextTalks = [{
     "date":" 28 Feb 2018",

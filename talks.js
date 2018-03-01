@@ -22,12 +22,17 @@ var AN  = '<a href="http://arca.di.uminho.pt/extra/img/photos/an.JPG">Ana Neri</
 var AR  = '<a href="http://arca.di.uminho.pt/extra/img/photos/ar.JPG">Afonso Rodrigues</a>'
 
 var nextTalks = [{
-    "date":" 28 Feb 2018",
-    "title": "Towards quantamorphisms — some thoughts on (constructive) reversibility",
-    "author": AN+" and "+JNO,
+    "date":" 16 Mar 2018",
+    "title": "tba",
     "location": "Room DI.2.13 @ 14h30"
 }];
 var prevTalks = [{
+    "date":" 28 Feb 2018",
+    "title": "Towards quantamorphisms — some thoughts on (constructive) reversibility",
+    "author": AN+" and "+JNO,
+    "slides": "content/Quantamorphims.pdf"
+    // "location": "Room DI.2.13 @ 14h30"
+    },{
     "date":" 7 Feb 2018",
     "title": "Using Coq and Recurrent Neural Network to Model and Verify Timed Connectors",
     "author": "Meng Sun",

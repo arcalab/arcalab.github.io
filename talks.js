@@ -18,13 +18,20 @@ var JP  = '<a href="http://jose.proenca.org">José Proença </a>'
 var LG  = '<a href="http://haslab.uminho.pt/lgomes/">Leandro Gomes </a>'
 var LSB = '<a href="http://www.di.uminho.pt/~lsb">Luís Barbosa </a>'
 var RN  = '<a href="http://alfa.di.uminho.pt/~nevrenato/">Renato Neves </a>'
-var AN  = '<a href="http://arca.di.uminho.pt/extra/img/photos/an.JPG">Ana Neri</a>'
-var AR  = '<a href="http://arca.di.uminho.pt/extra/img/photos/ar.JPG">Afonso Rodrigues</a>'
+var AN  = '<a href="extra/img/photos/an.JPG">Ana Neri</a>'
+var AR  = '<a href="extra/img/photos/ar.JPG">Afonso Rodrigues</a>'
+var RC  = '<a href="extra/img/photos/rc.jpg">Rúben Cruz</a>'
 
 var nextTalks = [{
     "date":" 16 Mar 2018",
-    "title": "tba",
-    "location": "Room DI.2.13 @ 14h30"
+    "title": "Talk 1: Web-based analysis of connector families",
+    "author": RC,
+    "location": "Meeting room DI @ 11h00"
+    },{
+    "date":" 16 Mar 2018",
+    "title": "Talk 2: tba",
+    "author": AR,
+    "location": "Meeting room DI @ 11h00"
 }];
 var prevTalks = [{
     "date":" 28 Feb 2018",

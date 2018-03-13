@@ -29,7 +29,7 @@ var nextTalks = [{
     "location": "Meeting room DI @ 11h00"
     },{
     "date":" 16 Mar 2018",
-    "title": "Talk 2: tba",
+    "title": "Talk 2: Validation of Quantum Simulations",
     "author": AR,
     "location": "Meeting room DI @ 11h00"
 }];

@@ -23,17 +23,23 @@ var AR  = '<a href="extra/img/photos/ar.JPG">Afonso Rodrigues</a>'
 var RC  = '<a href="extra/img/photos/rc.jpg">Rúben Cruz</a>'
 
 var nextTalks = [{
-    "date":" 16 Mar 2018",
-    "title": "Talk 1: Web-based analysis of connector families",
-    "author": RC,
-    "location": "Meeting room DI @ 11h00"
-    },{
-    "date":" 16 Mar 2018",
-    "title": "Talk 2: Validation of Quantum Simulations",
-    "author": AR,
-    "location": "Meeting room DI @ 11h00"
+    "date":" 11 Apr 2018",
+    "title": "tba",
+    "author": "tba"
 }];
 var prevTalks = [{
+    "date":" 16 Mar 2018",
+    "title": "Modelling Typed Connectors in mCRL2",
+    "slides": "content/TypedConnectorsInMCRL2.pdf",
+    "author": RC
+    // "location": "Meeting room DI @ 11h00"
+    },{
+    "date":" 16 Mar 2018",
+    "title": "Validation of Quantum Simulations",
+    "slides": "content/VerifyingQuantumComputations.pdf",
+    "author": AR
+    // "location": "Meeting room DI @ 11h00"
+    },{
     "date":" 28 Feb 2018",
     "title": "Towards quantamorphisms — some thoughts on (constructive) reversibility",
     "author": AN+" and "+JNO,

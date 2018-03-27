@@ -32,8 +32,7 @@ var prevTalks = [{
     "title": "Validation of Quantum Simulations",
     "slides": "content/ValidationOfQuantumSimulations-FCT.pdf",
     "author": AR,
-    "location": "Fundação Calouste Gulbenkian",
-    "info": "Workshop of the \"New Talents in Quantum Technologies\" Program"
+    "location": "Presented at the Workshop of the \"New Talents in Quantum Technologies\" Program, in the Calouste Gulbenkian Foundation"
     },{
     "date":" 16 Mar 2018",
     "title": "Validation of Quantum Simulations",

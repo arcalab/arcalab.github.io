@@ -28,16 +28,23 @@ var nextTalks = [{
     "author": "tba"
 }];
 var prevTalks = [{
-    "date":" 16 Mar 2018",
-    "title": "Modelling Typed Connectors in mCRL2",
-    "slides": "content/TypedConnectorsInMCRL2.pdf",
-    "author": RC
-    // "location": "Meeting room DI @ 11h00"
+    "date":" 26 Mar 2018",
+    "title": "Validation of Quantum Simulations",
+    "slides": "content/ValidationOfQuantumSimulations-FCT.pdf",
+    "author": AR,
+    "location": "Fundação Calouste Gulbenkian",
+    "info": "Workshop of the \"New Talents in Quantum Technologies\" Program"
     },{
     "date":" 16 Mar 2018",
     "title": "Validation of Quantum Simulations",
     "slides": "content/VerifyingQuantumComputations.pdf",
     "author": AR
+    // "location": "Meeting room DI @ 11h00"
+    },{
+    "date":" 16 Mar 2018",
+    "title": "Modelling Typed Connectors in mCRL2",
+    "slides": "content/TypedConnectorsInMCRL2.pdf",
+    "author": RC
     // "location": "Meeting room DI @ 11h00"
     },{
     "date":" 28 Feb 2018",

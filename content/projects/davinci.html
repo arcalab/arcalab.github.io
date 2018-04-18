@@ -18,6 +18,25 @@
   <link href="../../extra/css/bootstrap-bw.min.css" rel="stylesheet" media="screen">
   <link href="../../extra/css/main.css" rel="stylesheet">
 
+  <style type="text/css">
+    /* Thin out the marketing headings */
+    .featurette-heading {
+      font-size: 50px;
+      font-weight: 300;
+      line-height: 1;
+      letter-spacing: -1px;
+    }
+
+    .task {
+      font-weight: bold;
+    }
+    .task>span {
+      font-weight: normal;
+    }
+    .strong {
+      font-weight: bold;
+    }
+  </style>
   <!-- see more examples in http://bootswatch.com/paper/# -->
 </head>
 
@@ -68,7 +87,8 @@
 
 <!-- REAL CONTENT GOES HERE -->
 
-<h1 ><div id="title">DaVinci<div></h1>
+<!-- <h1 ><div id="title">DaVinci<div></h1> -->
+<h1 class="featurette-heading" id="title">DaVinci</h1>
 
 <!-- EN  -->
 
@@ -108,20 +128,64 @@ This project will count with the participation of members from INESC TEC at the 
  -->
 
 
+
+
+
 <div class="featurette">
         <h2 class="featurette-heading" id="tasks">Tasks</h2>
         <ol>
           <li class="task">Formal Models for Distributed Families
-           <br><span class="muted">(months: 1-24; Grants: MSc-8 '19)</span></li>
+           <!-- <br><span class="muted">(months: 1-24; Grants: MSc-8 '19)</span></li> -->
+           <br><span class="muted">(months: 1-24; Grants: MSc-8)</span></li>
+           <ul>
+            <li> hybrid components – multi-party consensus of continuous functions</li>
+            <li> real-time behaviour – time constraints to model and verify interactions</li>
+            <li> variability – using a calculus and (dynamic) logics</li>
+            <li> probabilities – probabilistic state machines or enriched connector calculus</li>
+          </ul>
           <li class="task">Distribution of Families of Reactive Systems
-           <br><span class="muted">(months: 12-36; Grants: Lic-3 '19, MSc-6 '19'20)</span></li>
+           <br><span class="muted">(months: 12-36; Grants: Lic-3, MSc-6)</span></li>
+           <!--<br><span class="muted">(months: 12-36; Grants: Lic-3 '19, MSc-6 '19'20)</span></li> -->
+           <ul>
+            <li> DSL's for large systems with unreliable communication</li>
+            <li> minimising number of components involved in interactions on runtime</li>
+            <li> eventual consistency of continuously-evolving variables           </li>
+           </ul>
           <li class="task">Framework for interactive and variable components
-            <br><span class="muted">(months: 7-36; Grants: Lic-6 '19'20, MSc-7 '19'20)</span></li>
+            <br><span class="muted">(months: 7-36; Grants: Lic-6, MSc-7)</span></li>
+            <!--<br><span class="muted">(months: 7-36; Grants: Lic-6 '19'20, MSc-7 '19'20)</span></li> -->
+            <ul>
+            <li> Framework for interactive and variable components</li>
+            <li> Built on web-based technologies</li>
+            </ul>
           <li class="task">Case-study: Remote Wireless Steering with Kurt
-            <br><span class="muted">(months: 7-36; Grants: Lic-3 '20, MSc-3 '19'20)</span></li>
+            <br><span class="muted">(months: 7-36; Grants: Lic-3, MSc-3)</span></li>
+            <!--<br><span class="muted">(months: 7-36; Grants: Lic-3 '20, MSc-3 '19'20)</span></li> -->
+            <ul>
+            <li> Kurt electric city-vehicles</li>
+            <li> based on a modular, scalable and fault tolerant architecture</li>
+            <li> analyse components with continuous behaviour</li>
+            <li> unreliable network to remotely steers the vehicles</li>
+            </ul>
         </ol>
 </div>
 
+
+<div class="featurette">
+        <h2 class="featurette-heading" id="Team">Team</h2>
+
+        <ul>
+          <li> Alexandre Madeira </li>
+          <li> Carlos Baquero-Moreno </li>
+          <li> Guillermina Cledou </li>
+          <li> José Nuno Oliveira </li>
+          <li> José Proença (IR) </li>
+          <li> Leandro Gomes </li>
+          <li> Luís Soares Barbosa </li>
+          <li> Renato Neves </li>
+        </ul>
+
+</div>
 <!-- END OF REAL CONTENT -->
 
 </div> 

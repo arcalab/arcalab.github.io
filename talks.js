@@ -23,11 +23,16 @@ var AR  = '<a href="extra/img/photos/ar.JPG">Afonso Rodrigues</a>'
 var RC  = '<a href="extra/img/photos/rc.jpg">Rúben Cruz</a>'
 
 var nextTalks = [{
-    "date":" 11 Apr 2018",
+    "date":" 16 May 2018",
     "title": "tba",
-    "author": "tba"
+    "author": RN,
+    "location": "Sala de Reuniões do DI"
 }];
 var prevTalks = [{
+    "date":" 18 Abr 2018",
+    "title": "Towards a quantified Hoare Logic",
+    "author": LG
+    },{
     "date":" 26 Mar 2018",
     "title": "Validation of Quantum Simulations",
     "slides": "content/ValidationOfQuantumSimulations-FCT.pdf",

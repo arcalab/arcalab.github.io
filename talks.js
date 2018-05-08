@@ -24,7 +24,7 @@ var RC  = '<a href="extra/img/photos/rc.jpg">Rúben Cruz</a>'
 
 var nextTalks = [{
     "date":" 16 May 2018",
-    "title": "tba",
+    "title": "Compositional Semantics for New Paradigms: Probabilistic, Hybrid And Beyond",
     "author": RN,
     "location": "Sala de Reuniões do DI"
 }];

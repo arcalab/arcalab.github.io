@@ -23,12 +23,17 @@ var AR  = '<a href="extra/img/photos/ar.JPG">Afonso Rodrigues</a>'
 var RC  = '<a href="extra/img/photos/rc.jpg">Rúben Cruz</a>'
 
 var nextTalks = [{
-    "date":" 16 May 2018",
-    "title": "Compositional Semantics for New Paradigms: Probabilistic, Hybrid And Beyond",
-    "author": RN,
+    "date":" 9 Julho 2018 @ 14h30",
+    "title": "Validation of Quantum Simulations - Simulation and Tomography with QISKit",
+    "author": AR,
     "location": "Sala de Reuniões do DI"
 }];
 var prevTalks = [{
+    "date":" 16 May 2018",
+    "title": "Compositional Semantics for New Paradigms: Probabilistic, Hybrid And Beyond",
+    "author": RN,
+    // "location": "Sala de Reuniões do DI"
+    },{
     "date":" 18 Abr 2018",
     "title": "Towards a quantified Hoare Logic",
     "author": LG

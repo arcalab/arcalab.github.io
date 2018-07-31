@@ -23,14 +23,16 @@ var AR  = '<a href="extra/img/photos/ar.JPG">Afonso Rodrigues</a>'
 var RC  = '<a href="extra/img/photos/rc.jpg">Rúben Cruz</a>'
 
 var nextTalks = [{
-    "date":" 31 July 2018 @ 14h00",
+}];
+var prevTalks = [{
+    "date":" 31 July 2018",
     "title": "A Metalanguage for Guarded Iteration",
     "alink": "https://www8.cs.fau.de/sergey",
     "author": "Sergey Goncharov",
     "info": "http://haslab.uminho.pt/infoblender/presentations/metalanguage-guarded-iteration",
-    "location": "DI-A2"
-}];
-var prevTalks = [{
+    "paper": "https://arxiv.org/pdf/1807.11256",
+    // "location": "DI-A2"
+    },{
     "date":" 9 July 2018",
     "title": "Validation of Quantum Simulations - Simulation and Tomography with QISKit",
     "author": AR

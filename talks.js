@@ -23,11 +23,12 @@ var AR  = '<a href="extra/img/photos/ar.JPG">Afonso Rodrigues</a>'
 var RC  = '<a href="extra/img/photos/rc.jpg">Rúben Cruz</a>'
 
 var nextTalks = [{
+    "title": "tba"
 }];
 var prevTalks = [{
     "date":" 31 July 2018",
     "title": "A Metalanguage for Guarded Iteration",
-    "alink": "https://www8.cs.fau.de/sergey",
+    "alink": "www8.cs.fau.de/sergey",
     "author": "Sergey Goncharov",
     "info": "http://haslab.uminho.pt/infoblender/presentations/metalanguage-guarded-iteration",
     "paper": "https://arxiv.org/pdf/1807.11256",
@@ -74,7 +75,7 @@ var prevTalks = [{
     "date":" 7 Feb 2018",
     "title": "Using Coq and Recurrent Neural Network to Model and Verify Timed Connectors",
     "author": "Meng Sun",
-    "alink": "http://www.math.pku.edu.cn/teachers/sunm/indexen.html",
+    "alink": "www.math.pku.edu.cn/teachers/sunm/indexen.html",
     "slides": "content/ms-coq_and_rnn-18.pdf",
     "info":"http://haslab.uminho.pt/infoblender/presentations/using-coq-and-recurrent-neural-network-model-and-verify-timed-connectors"
     },{
@@ -91,7 +92,7 @@ var prevTalks = [{
     },{
     "date":"14 Dec 2017",
     "author":"Prof. Einar Broch Johnsen",
-    "alink":"http://einarj.at.ifi.uio.no",
+    "alink":"einarj.at.ifi.uio.no",
     "title": "Resource-Aware Models in ABS",
     "info":"http://haslab.uminho.pt/infoblender/presentations/resource-aware-models-abs",
     // "location": "0.07 (DI-0.03)"

@@ -23,7 +23,10 @@ var AR  = '<a href="extra/img/photos/ar.JPG">Afonso Rodrigues</a>'
 var RC  = '<a href="extra/img/photos/rc.jpg">Rúben Cruz</a>'
 
 var nextTalks = [{
-    "title": "tba"
+    "date":"2 Nov 2018",
+    "author":GC,
+    "title": "A Virtual Factory for Smart City Service Integration",
+    "location": "Room DI.2.31 @ 16h00"
 }];
 var prevTalks = [{
     "date":" 31 July 2018",

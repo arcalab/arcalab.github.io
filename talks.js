@@ -23,13 +23,18 @@ var AR  = '<a href="extra/img/photos/ar.JPG">Afonso Rodrigues</a>'
 var RC  = '<a href="extra/img/photos/rc.jpg">Rúben Cruz</a>'
 
 var nextTalks = [{
+    "date":"23 Jan 2019",
+    "author": "Michael Oliveira",
+    "title": "Quantum algorithms for Bayesian inference",
+    "location": "tba"
+}];
+var prevTalks = [{
     "date":"29 Nov 2018",
     "author":GC,
     "title": "A Net-based Formal Framework for Causal Loop Diagrams",
-    "paper": "content/csdm2018.pdf",
-    "location": "Room DI.2.31 @ 16h00"
-}];
-var prevTalks = [{
+    "paper": "content/csdm2018.pdf"
+    // "location": "Room DI.2.31 @ 16h00"
+    },{
     "date":"2 Nov 2018",
     "author":GC,
     "title": "A Virtual Factory for Smart City Service Integration",

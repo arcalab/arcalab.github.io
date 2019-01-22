@@ -24,9 +24,16 @@ var RC  = '<a href="extra/img/photos/rc.jpg">Rúben Cruz</a>'
 
 var nextTalks = [{
     "date":"23 Jan 2019",
+    "author": "Regivan Santiago (UNRN, Brasil)",
+    "alink": "https://www.escavador.com/sobre/3229236/regivan-hugo-nunes-santiago",
+    "info": "https://haslab.uminho.pt/infoblender/presentations/introducing-aggregation-functions",
+    "title": "Introducing Aggregation Functions",
+    "location": "DI-A1 @ 14:00"
+    },{
+    "date":"23 Jan 2019",
     "author": "Michael Oliveira",
     "title": "Quantum algorithms for Bayesian inference",
-    "location": "tba"
+    "location": "DI-A1 @ 15:15"
 }];
 var prevTalks = [{
     "date":"29 Nov 2018",

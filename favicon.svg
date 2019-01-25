@@ -32,7 +32,7 @@
        style="overflow:visible">
       <path
          id="path5399"
-         style="fill:#34569c;fill-opacity:1;fill-rule:evenodd;stroke:#34569c;stroke-width:0.625;stroke-linejoin:round;stroke-opacity:1"
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.625;stroke-linejoin:round;stroke-opacity:1"
          d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
          transform="matrix(-0.3,0,0,-0.3,0.69,0)" />
     </marker>
@@ -45,7 +45,7 @@
       <path
          transform="matrix(-0.3,0,0,-0.3,0.69,0)"
          d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
-         style="fill:#34569c;fill-opacity:1;fill-rule:evenodd;stroke:#34569c;stroke-width:0.625;stroke-linejoin:round;stroke-opacity:1"
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.625;stroke-linejoin:round;stroke-opacity:1"
          id="path4327" />
     </marker>
     <marker
@@ -205,11 +205,12 @@
     </marker>
   </defs>
   <g
+     style="fill:#000000;fill-opacity:1"
      transform="matrix(1.9328035,0,0,2.3104533,-186.00798,-661.03182)"
      id="g4248">
     <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:800;font-stretch:normal;font-size:47.60379028px;line-height:125%;font-family:Avenir;-inkscape-font-specification:'Avenir, Ultra-Bold';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#34569c;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       style="font-style:normal;font-variant:normal;font-weight:800;font-stretch:normal;font-size:47.60379028px;line-height:125%;font-family:Avenir;-inkscape-font-specification:'Avenir, Ultra-Bold';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        x="206.79716"
        y="474.99283"
        id="text4282"
@@ -218,7 +219,7 @@
          x="206.79716"
          y="474.99283">C</tspan></text>
     <path
-       style="fill:#34569c;fill-opacity:1;stroke:none;stroke-dasharray:none;stroke-opacity:1"
+       style="fill:#000000;fill-opacity:1;stroke:none;stroke-dasharray:none;stroke-opacity:1"
        d="m 204.7781,494.85223 c -0.44281,0.30519 -0.87056,0.6265 -1.26407,0.9843 -1.13333,1.06081 -2.01666,2.31201 -2.65,3.75361 -0.26826,0.59913 -0.53437,1.21365 -0.62187,1.86024 -0.29062,2.1475 -0.28425,3.33074 0,5.32441 0.0842,0.59026 0.32695,1.15463 0.57187,1.70978 0.6,1.36001 1.46667,2.55682 2.6,3.59042 0.41686,0.38017 0.87957,0.72038 1.36407,1.04168 z"
        id="rect27" />
   </g>
@@ -232,15 +233,16 @@
        x="156.8517"
        id="tspan4203" /></text>
   <g
+     style="fill:#000000;fill-opacity:1"
      transform="matrix(1.9328035,0,0,2.3104533,-147.00272,-661.03182)"
      id="g4253">
     <path
        d="m 145.31816,484.24021 4.49338,0 -13.22997,38.94 -4.49338,0 z"
        id="path43"
-       style="fill:#34569c;fill-opacity:1;stroke:none;stroke-dasharray:none;stroke-opacity:1" />
+       style="fill:#000000;fill-opacity:1;stroke:none;stroke-dasharray:none;stroke-opacity:1" />
     <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:800;font-stretch:normal;font-size:48.70909119px;line-height:125%;font-family:Avenir;-inkscape-font-specification:'Avenir, Ultra-Bold';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#34569c;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       style="font-style:normal;font-variant:normal;font-weight:800;font-stretch:normal;font-size:48.70909119px;line-height:125%;font-family:Avenir;-inkscape-font-specification:'Avenir, Ultra-Bold';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        x="157.39198"
        y="463.34"
        id="text4253"
@@ -253,7 +255,7 @@
      style="display:inline"
      id="layer1">
     <path
-       style="fill:none;fill-opacity:1;stroke:#34569c;stroke-width:4.28349304;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#marker5397)"
+       style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:4.28349304;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#marker5397)"
        id="path47"
        d="m 207.09036,553.30262 c 0,0 -16.17252,11.62763 -37.88146,11.2914 -11.65586,-0.18046 -22.64411,-4.49815 -31.05076,-10.22454" />
   </g>
@@ -263,6 +265,6 @@
     <path
        d="m 139.0762,453.90663 c 0,0 14.90008,-10.81102 34.90093,-10.49839 10.7388,0.16797 20.86249,4.18221 28.60769,9.50648"
        id="path5395"
-       style="fill:none;fill-opacity:1;stroke:#34569c;stroke-width:3.96451974;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#Arrow2Send)" />
+       style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:3.96451974;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#Arrow2Send)" />
   </g>
 </svg>

@@ -22,7 +22,8 @@ var AN  = '<a href="extra/img/photos/an.JPG">Ana Neri</a>'
 var AR  = '<a href="extra/img/photos/ar.JPG">Afonso Rodrigues</a>'
 var RC  = '<a href="extra/img/photos/rc.jpg">Rúben Cruz</a>'
 
-var nextTalks = [{
+var nextTalks = [];
+var prevTalks = [{
     "date":"23 Jan 2019",
     "author": "Regivan Santiago (UNRN, Brasil)",
     "alink": "https://www.escavador.com/sobre/3229236/regivan-hugo-nunes-santiago",
@@ -34,8 +35,7 @@ var nextTalks = [{
     "author": "Michael Oliveira",
     "title": "Quantum algorithms for Bayesian inference",
     "location": "DI-A1 @ 15:15"
-}];
-var prevTalks = [{
+    },{
     "date":"29 Nov 2018",
     "author":GC,
     "title": "A Net-based Formal Framework for Causal Loop Diagrams",

@@ -23,9 +23,22 @@ var AR  = '<a href="extra/img/photos/ar.JPG">Afonso Rodrigues</a>'
 var RC  = '<a href="extra/img/photos/rc.jpg">Rúben Cruz</a>'
 
 var nextTalks = [{
+    "date":"22 May 2019",
+    "author":"Prof. Farhad Arbab (CWI,The Netherlands)",
+    "alink": "homepages.cwi.nl/~farhad/",
+    "title": "Seminar - Quantum Programming in Reo",
+    "location": "DI-A2 @ 14:30" 
+},{
+    "date":"23 May 2019",
+    "author":"Prof. Farhad Arbab (CWI,The Netherlands)",
+    "alink": "homepages.cwi.nl/~farhad/",
+    "title": "Tutorial - Interaction Centric Programming",
+    "location": "DI - room 1.10 from 09:00 to 17:00"
+}];
+var prevTalks = [{
     "date":"23 Jan 2019",
     "author": "Regivan Santiago (UNRN, Brasil)",
-    "alink": "https://www.escavador.com/sobre/3229236/regivan-hugo-nunes-santiago",
+    "alink": "www.escavador.com/sobre/3229236/regivan-hugo-nunes-santiago",
     "info": "https://haslab.uminho.pt/infoblender/presentations/introducing-aggregation-functions",
     "title": "Introducing Aggregation Functions",
     "location": "DI-A1 @ 14:00"
@@ -34,8 +47,7 @@ var nextTalks = [{
     "author": "Michael Oliveira",
     "title": "Quantum algorithms for Bayesian inference",
     "location": "DI-A1 @ 15:15"
-}];
-var prevTalks = [{
+    },{
     "date":"29 Nov 2018",
     "author":GC,
     "title": "A Net-based Formal Framework for Causal Loop Diagrams",

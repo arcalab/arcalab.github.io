@@ -46,7 +46,7 @@ p.extraspace {
 
 .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:hover, .navbar-default .navbar-nav>.active>a:focus {
 /*.navbar-nav>.active>a {*/
-  color: #436CAC;  
+  color: #436CAC;
   font-weight: bold;
   padding-top: 21px;
   padding-bottom: 10px;
@@ -92,14 +92,14 @@ h4.pulldown {
   padding-top: 20px;
 }
 
-.bioPhoto { 
-  float: right; 
+.bioPhoto {
+  float: right;
   width: 23%;
   padding: 0 10px 10px 10px;
 }
 
-.bioPhoto2 { 
-  float: left; 
+.bioPhoto2 {
+  float: left;
   width: 20%;
   padding: 0px 10px 10px 0px;
 }
@@ -159,7 +159,7 @@ h4.pulldown {
 .tab-pane {
   margin-right: auto;
   margin-left: auto;
-  
+
   max-width:750px;
 }
 #home {
@@ -252,6 +252,23 @@ h5 {
   margin-bottom: 8px;
 }
 
+.img-text-text {
+  float: left;
+  width: 75%;
+  padding: 0 10px 10px 10px;
+}
+
+.img-text-img {
+  float: right;
+  width: 40%;
+  padding: 0px 10px 10px 0px;
+}
+.img-text-text {
+  float: left;
+  min-width: 75%;
+  max-width: 75%;
+}
+
 /*.navbar-fixed-top {
   position: static;
 }*/
@@ -290,8 +307,8 @@ h5 {
 /*  .navbar-fixed-top {
     position: fixed;
   }*/
-  .bioPhoto2 { 
-    float: left; 
+  .bioPhoto2 {
+    float: left;
     width: 27%;
     margin: 0px 10px 10px 0px;
     /*padding: 4px;*/

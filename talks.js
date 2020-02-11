@@ -10,6 +10,8 @@ supported fields:
  - location - where the talk takes/took place
 */
 
+/* People */
+
 var AM  = '<a href="http://alfa.di.uminho.pt/~madeira/">Alexandre Madeira </a>'
 var CT  = '<a href="http://haslab.uminho.pt/ctavares/">Carlos Tavares </a>'
 var GC  = '<a href="http://haslab.uminho.pt/mgc/">Guillermina Cledou </a>'
@@ -22,20 +24,33 @@ var AN  = '<a href="extra/img/photos/an.JPG">Ana Neri</a>'
 var AR  = '<a href="extra/img/photos/ar.JPG">Afonso Rodrigues</a>'
 var RC  = '<a href="extra/img/photos/rc.jpg">Rúben Cruz</a>'
 
+/* Projects */
+
+var DaVinci = '<a href="http://davinci.di.uminho.pt/">DaVinci</a>'
+var KLEE = '<a href="http://klee.di.uminho.pt/">KLEE</a>'
+
+/* Talks */
+
 var nextTalks = [{
+    "date":"11 Feb 2020",
+    "author": DaVinci + "-" + KLEE,
+    "alink": "http://davinci.di.uminho.pt/events/davincikleeworkshop2020.html",
+    "title": "DaVinci-KLEE Joint Workshop",
+    "location": "DI-Meeting Room from 10:30 to 15:30" 
+    }];
+var prevTalks = [{
     "date":"22 May 2019",
     "author":"Prof. Farhad Arbab (CWI,The Netherlands)",
     "alink": "homepages.cwi.nl/~farhad/",
     "title": "Seminar - Quantum Programming in Reo",
     "location": "DI-A2 @ 14:30" 
-},{
+    },{
     "date":"23 May 2019",
     "author":"Prof. Farhad Arbab (CWI,The Netherlands)",
     "alink": "homepages.cwi.nl/~farhad/",
     "title": "Tutorial - Interaction Centric Programming",
     "location": "DI - room 1.10 from 09:00 to 17:00"
-}];
-var prevTalks = [{
+    },{
     "date":"23 Jan 2019",
     "author": "Regivan Santiago (UNRN, Brasil)",
     "alink": "www.escavador.com/sobre/3229236/regivan-hugo-nunes-santiago",

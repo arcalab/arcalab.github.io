@@ -33,7 +33,7 @@ var KLEE = '<a href="http://klee.di.uminho.pt/">KLEE</a>'
 
 var nextTalks = [{
     "date":"11 Feb 2020",
-    "author": DaVinci + "-" + KLEE,
+    "author": "DaVinci-KLEE",
     "alink": "http://davinci.di.uminho.pt/events/davincikleeworkshop2020.html",
     "title": "DaVinci-KLEE Joint Workshop",
     "location": "DI-Meeting Room from 10:30 to 15:30" 

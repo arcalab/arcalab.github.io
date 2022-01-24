@@ -8,7 +8,6 @@
   width: 100%;
   height: 150px;
   top:30px;
-
   text-align: center;
 }
 
@@ -147,7 +146,7 @@ h4.pulldown {
 
 .body {
   color: #5c5c5c;
-  font-size: 14px;
+  font-size: 20px;
 }
 
 #myTabContent {

@@ -620,8 +620,10 @@ function bibtex_js_draw() {
     //Gets the BibTex files and adds them together
     var bibstring = "";
     $('bibtex').each(function(index, value) {
-       $.get($(this).attr('src'), function(data) {
-        bibstring += data;
+	$.get($(this).attr('src'), function(data) {
+	    // Renato
+	    bibstring = data;
+//        bibstring += data;
       });
     });
     // Executed on completion of last outstanding ajax call

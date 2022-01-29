@@ -633,25 +633,25 @@ function bibtex_js_draw() {
 }
 
 
-function bibtex_js_draw2() {
-  $(".bibtex_template").hide();
-  if($("#bibtex_input").length){
-    (new BibtexDisplay()).displayBibtex($("#bibtex_input").val(), $("#bibtex_display2"));
-  } else {
-    //Gets the BibTex files and adds them together
-    var bibstring = "";
-    $('bibtex').each(function(index, value) {
-	$.get($(this).attr('src2'), function(data) {
-        bibstring += data;
-      });
-    });
-    // Executed on completion of last outstanding ajax call
-    $(document).ajaxStop(function() {
-      (new BibtexDisplay()).displayBibtex(bibstring, $("#bibtex_display2"));
-      loadExtras();
-    });
-  }
-}
+// function bibtex_js_draw2() {
+//   $(".bibtex_template").hide();
+//   if($("#bibtex_input").length){
+//     (new BibtexDisplay()).displayBibtex($("#bibtex_input").val(), $("#bibtex_display2"));
+//   } else {
+//     //Gets the BibTex files and adds them together
+//     var bibstring = "";
+//     $('bibtex').each(function(index, value) {
+// 	$.get($(this).attr('src2'), function(data) {
+//         bibstring += data;
+//       });
+//     });
+//     // Executed on completion of last outstanding ajax call
+//     $(document).ajaxStop(function() {
+//       (new BibtexDisplay()).displayBibtex(bibstring, $("#bibtex_display2"));
+//       loadExtras();
+//     });
+//   }
+// }
 
 
 /** 
@@ -805,7 +805,7 @@ function createWebPage(defaultTemplate) {
       $("body").append(defaultTemplate);
     }
      bibtex_js_draw();
-     bibtex_js_draw2();
+     // bibtex_js_draw2();
   });
 }
 

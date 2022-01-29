@@ -621,9 +621,7 @@ function bibtex_js_draw() {
     var bibstring = "";
     $('bibtex').each(function(index, value) {
 	$.get($(this).attr('src'), function(data) {
-	    // Renato
-	    bibstring = data;
-//        bibstring += data;
+        bibstring += data;
       });
     });
     // Executed on completion of last outstanding ajax call
@@ -644,9 +642,7 @@ function bibtex_js_draw2() {
     var bibstring = "";
     $('bibtex').each(function(index, value) {
 	$.get($(this).attr('src2'), function(data) {
-	    // Renato
-	    bibstring = data;
-//        bibstring += data;
+        bibstring += data;
       });
     });
     // Executed on completion of last outstanding ajax call

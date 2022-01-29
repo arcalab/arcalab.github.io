@@ -638,7 +638,7 @@ function bibtex_js_draw() {
 function bibtex_js_draw2() {
   $(".bibtex_template").hide();
   if($("#bibtex_input").length){
-    (new BibtexDisplay()).displayBibtex($("#bibtex_input").val(), $("#bibtex_display"));
+    (new BibtexDisplay()).displayBibtex($("#bibtex_input").val(), $("#bibtex_display2"));
   } else {
     //Gets the BibTex files and adds them together
     var bibstring = "";

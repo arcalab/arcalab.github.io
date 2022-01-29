@@ -632,7 +632,7 @@ function bibtex_js_draw() {
   }
 }
 
-function bibtex_js_draw2() {
+function bibtex_js_drawt() {
   $(".bibtex_template").hide();
   if($("#bibtex_input").length){
     (new BibtexDisplay()).displayBibtex($("#bibtex_input").val(), $("#bibtex_displayt"));

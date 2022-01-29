@@ -804,7 +804,8 @@ function createWebPage(defaultTemplate) {
     if ($(".bibtex_template").size() == 0) {
       $("body").append(defaultTemplate);
     }
-    bibtex_js_draw();
+     bibtex_js_draw();
+     bibtex_js_draw2();
   });
 }
 

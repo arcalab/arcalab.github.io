@@ -635,7 +635,7 @@ function bibtex_js_draw() {
 function bibtex_js_draw2() {
   $(".bibtex_template").hide();
   if($("#bibtex_input").length){
-    (new BibtexDisplay()).displayBibtex($("#bibtex_input").val(), $("#bibtex_display2"));
+    (new BibtexDisplay()).displayBibtex($("#bibtex_input").val(), $("#bibtex_displayt"));
   } else {
     //Gets the BibTex files and adds them together
     var bibstring = "";
@@ -646,7 +646,7 @@ function bibtex_js_draw2() {
     });
     // Executed on completion of last outstanding ajax call
     $(document).ajaxStop(function() {
-      (new BibtexDisplay()).displayBibtex(bibstring, $("#bibtex_display2"));
+      (new BibtexDisplay()).displayBibtex(bibstring, $("#bibtex_displayt"));
       loadExtras();
     });
   }
@@ -804,7 +804,7 @@ function createWebPage(defaultTemplate) {
       $("body").append(defaultTemplate);
     }
      bibtex_js_draw();
-     // bibtex_js_draw2();
+     bibtex_js_draw2();
   });
 }
 

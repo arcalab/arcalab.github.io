@@ -634,6 +634,30 @@ function bibtex_js_draw() {
   }
 }
 
+
+function bibtex_js_draw2() {
+  $(".bibtex_template").hide();
+  if($("#bibtex_input").length){
+    (new BibtexDisplay()).displayBibtex($("#bibtex_input").val(), $("#bibtex_display"));
+  } else {
+    //Gets the BibTex files and adds them together
+    var bibstring = "";
+    $('bibtex').each(function(index, value) {
+	$.get($(this).attr('src2'), function(data) {
+	    // Renato
+	    bibstring = data;
+//        bibstring += data;
+      });
+    });
+    // Executed on completion of last outstanding ajax call
+    $(document).ajaxStop(function() {
+      (new BibtexDisplay()).displayBibtex(bibstring, $("#bibtex_display2"));
+      loadExtras();
+    });
+  }
+}
+
+
 /** 
 BibTex Searcher is used with input form
 */

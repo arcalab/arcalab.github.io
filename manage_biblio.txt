@@ -1,1 +1,1 @@
-./bibtex2html -nodoc -nokeys filename
+./bibtex2html -nodoc -nokeys -d -r -noabstract filename

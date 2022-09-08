@@ -1,43 +1,31 @@
-
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-
-	<title>Arca - Software Architecture & Design Calculi</title>
-
-	<meta name="description" content="Arca website">
+	<title>Logic and Formal Methods Group</title>
+	<meta name="description" content="LFM website">
 	<meta name="keywords" content="software architecture, process calculi, coordination, algebraic reasoning, program transformation, components">
-	<meta name="author" content="Jose Proenca" >
+	<meta name="author" content="Renato Neves" >
   <meta name="google-site-verification"
         content="DRIp9oJtDGoKi2pPuGMqBkksSgKuidiWN_kRCrZMvkg" />
 <!-- 	<base href="http://arca.di.uminho.pt/" target="_parent" /> -->
 
-	<link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
-  <link rel="mask-icon" href="favicon.svg" color="#34569c">
+  <link rel="mask-icon" href="" color="#34569c">
   <link href="extra/css/bootstrap-bw.min.css" rel="stylesheet" media="screen">
-  <link href="extra/css/main.css" rel="stylesheet">
-
-  <!-- see more examples in http://bootswatch.com/paper/# -->
+  <link href="extra/css/main2.css" rel="stylesheet">
 </head>
 
 <body>
-
-
-<div class="navbar navbar-default navbar-fixed-top"> <!-- navbar-fixed-top -->
+<div class="navbar navbar-default navbar-fixed-top"> 
   <div class="navbar-header">
     <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-responsive-collapse">
       <span class="icon-bar"></span>
       <span class="icon-bar"></span>
       <span class="icon-bar"></span>
     </button>
-    <a class="navbar-brand" href="index.html">
-      <img id="arcalogo" src="extra/img/arca-logo2/arca-logo4.svg" alt="ARCA logo">
-    <!-- ARCA -->
-  </a>
   </div>
   <div class="navbar-collapse collapse navbar-responsive-collapse">
     <ul class="nav navbar-nav" id="myTab">
@@ -50,38 +38,17 @@
       <li><a href="#publications" data-toggle="tab" aria-expanded="false">Publications</a></li>
       <li><a href="#tools" data-toggle="tab" aria-expanded="false">Tools</a></li>
       <li><a href="#teaching" data-toggle="tab" aria-expanded="false">Teaching</a></li>
-	  	<li><a href="#events" data-toggle="tab" aria-expanded="false">Events</a></li>
-      <!--~~~~~~~~~~~~~~-->
-
-<!--
-      <li class="dropdown">
-        <a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-expanded="false">Dropdown <b class="caret"></b></a>
-        <ul class="dropdown-menu">
-          <li><a href="#">Action</a></li>
-          <li><a href="#">Another action</a></li>
-          <li><a href="#">Something else here</a></li>
-          <li class="divider"></li>
-          <li class="dropdown-header">Dropdown header</li>
-          <li><a href="#">Separated link</a></li>
-          <li><a href="#">One more separated link</a></li>
-        </ul>
-      </li>
- -->
+	  	<!-- <li><a href="#events" data-toggle="tab" aria-expanded="false">Events</a></li> -->
     </ul>
   </div>
 </div>
 
-
-
 <div class="splash">
-	<h2 class="splash-title">
-    ARCA
-    <!-- <img src="extra/img/arca-logo2/arca-logo2e.png" alt="ARCA logo" style="max-width:70px; margin-top: -0px;  display: inline-block; padding-left: 7px;"> -->
-  </h2>
+	<h2 class="splash-title"></h2>
 	<div class="blue-rect">
-	<h4 class="splash-subtitle">Software Architectures & Design Calculi</h4>
-  <h4 class="splash-subtitle"> Research team @ HASLab, Univ. Minho</h4>
-  </div>
+        	<h4 class="splash-subtitle">Logic and Formal Methods Group</h4>
+                <h4 class="splash-subtitle"> Research team @ HASLab, Univ. Minho</h4>
+        </div>
 </div>
 
 
@@ -98,44 +65,53 @@
   <div class="col-sm-8">
   <div class="bs-component">
   <h3 class="intro-title--">
-    Arca Foundations
+    About
   </h3>
 
 
   <p>
-    Arca – Software <u>Ar</u>chitecture & Design <u>Ca</u>lculi – is a research team lead by prof. <a href="http://www.di.uminho.pt/~lsb">Luís Barbosa</a> and prof. <a href="http://www.di.uminho.pt/~jno">José Nuno Oliveira</a>. It investigates formal approaches based on calculi of programs, processes, algorithms, etc. and on software quality, focusing on components, architectures, coordination, and variability.
+    We are a research group on theoretical computer science and formal methods. Our core
+    topics are:
+    <ul>
+      <li> Program semantics and verification </li>
+      <li> Model checking </li>
+      <li> Algebra of Programming
+      <li> Cyber-physical systems </li>
+      <li> Quantum computing </li>
+      <li> Cryptography </li>
+    </ul>
+  </p>  
+
+  <p>
+    We have a long scientific tradition, significant links to national
+    industry, and a deep involvement in teaching activities. We also have an
+    extensive track record on attracting competitive funds from different
+    agencies. 
+  </p>
+  <p>
+    If you are interested in working with us do get in touch!! The summing
+    picture of all our research is given by the diagram below - 
+    which every computer scientist knows.
+  </p>
+  <p style="text-align:center; padding:10px">
+    <img src="CSTriangle.png" width="40%" align="middle">
   </p>
 
   <p>
-    This team is part of the <a href="http://haslab.uminho.pt">HASLab</a> group, which is a software laboratory the <a href="http://di.uminho.pt">university of Minho</a> associated to <a href="http://inesctec.pt/">INESC TEC</a>.
+    We are part of
+    <a href="http://haslab.uminho.pt">HASLab</a>, a software
+    laboratory at <a href="http://di.uminho.pt">University of
+    Minho</a> associated to <a href="http://inesctec.pt/">INESC
+    TEC</a>. We are also articulated with the research group
+    on <a href="https://inl.int/quantum-materials/quantum-software-engineering/">Quantum
+    Software Engineering</a>, hosted
+    by <a href="https://inl.int/">INL</a>, the International Iberian
+    Nanotechnology Laboratory, lead
+    by <a href="http://gec.di.uminho.pt/psantos/">Luís Paulo
+    Santos</a>.
   </p>
 
-  <p>
-    Arca is articulated to a new research group on <a href="https://inl.int/quantum-materials/quantum-software-engineering/">Quantum Software Engineering</a>, hosted by <a href="https://inl.int/">INL</a>, the International Iberian Nanotechnology Laboratory, lead by <a href="http://www.di.uminho.pt/~lsb">Luis Soares Barbosa</a>.
-  </p>
-
-
-  <p>
-    Arca is grounded on <strong>3 fundamental pilars</strong>:
-  </p>
-
-  <p class="extraspace"> <img src="extra/img/foundations.svg" width="100%"> </p>
-
-  <h5 class="extraspace"> Software Components </h5>
-  Lead by <a href="#">Renato Neves</a>, Arca investigates component models and calculi that abstract different computational paradigms. These abstractions include partiality, non-determinism, fuzziness, probabilistic evolution, continuity, quantum, and biology.
-
-
-  <h5 class="extraspace"> Software Architectures </h5>
-  Lead by <a href="#">José Proença</a>, Arca analyses and formalises how heterogeneous and concurrent components interact, inspired by the <a href="http://reo.project.cwi.nl">Reo</a> coordination language.
-  The investigated models and calculi for coordination address notions such as variability and reconfigurability.
-
-  <!-- Components are made oblivious to how and when communication takes place, shifting this concern to an intermediate orchestrating entity, which we call <em<connectors</em>. Our claim is that, by investigating how to specify, formalise, verify, and implement these connectors, we gain a far better insight and trust on the resulting concurrent system.
- -->
-
-  <h5 class="extraspace"> Logics</h5>
-  Lead by <a href="#">Alexandre Madeira</a>, Arca studies how to use logics, in particular modal logics, to specify and verify properties of computational systems, both at the component and the architecture level. This study is generic and later adapted to specific paradigms and application areas.
-
-
+  
   </div> <!-- bscomponent -->
   </div> <!-- col-sm-8 -->
 
@@ -145,12 +121,12 @@
     <h3>Tweets</h3>
     <a class="twitter-timeline"
       data-dnt="true"
-      href="https://twitter.com/ArcaHASLab"
+      href="https://twitter.com/inesctec"
       data-widget-id="663687431233937408"
       data-chrome="nofooter noheader transparent"
       height="500"
       width="2000"
-      data-link-color="#436CAC">Tweets by @ArcaHASLab</a>
+      data-link-color="#436CAC">Tweets by @NASA</a>
       <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
 
 
@@ -175,7 +151,7 @@
 <div class="tab-pane fade" id="members">
 <div class="bs-component">
 
-  <h3>Members</h3>
+  <h3>Staff</h3>
 <!--     <ul>
       <li><a href="http://alfa.di.uminho.pt/~madeira/">
         Alexandre Madeira </a></li>
@@ -220,7 +196,7 @@
           <div class="person2">
             <p class="strong"><a href="http://www.di.uminho.pt/~jno">José Nuno Oliveira</a></p>
             <p>Full Professor at
-              <a href="http://www2.inescporto.pt/">INESC TEC</a> and
+              <a href="http://www2.inescporto.pt/">INESC TEC</a>,
               <a href="http://http://www.uminho.pt/">Univ. Minho</a>.</p>
             <ul>
               <li>Formal methods</li>
@@ -251,45 +227,186 @@
           </div>
       </div> </li>
       <!-- ~~~~~ -->
-      <li>
-        <div class="person">
-          <a href="http://alfa.di.uminho.pt/~madeira/">
-            <img class="bioPhoto2" src="extra/img/photos/am.jpg" alt="Alexandre Madeira">
-          </a>
-          <div class="person2">
-          <p class="strong"><a href="http://alfa.di.uminho.pt/~madeira/">Alexandre Madeira</a></p>
-          <p>Assistant professor at
-            <!-- <a href="http://www2.inescporto.pt/">INESC TEC</a>, -->
-            <!-- <a href="http://http://www.uminho.pt/">Univ. Minho</a>, and -->
-            <a href="http://cidma.mat.ua.pt/ma/home.php">CIDMA</a>.</p>
-          <ul>
-            <li>Formal specification of software</li>
-            <li>Combination and systematic generation of logics</li>
-            <li>Modal/hybrid/dynamic logics</li>
-            <li>Algebraic specification  </li>
-          </ul>
-          </div>
-        </div>
-      </li>
-      <!-- ~~~~~ -->
       <li> <div class="person">
-          <a href="http://haslab.uminho.pt/mgc/">
-            <img class="bioPhoto2" src="extra/img/photos/gc.jpg" alt="Guillermina Cledou">
+          <a href="http://www.di.uminho.pt/~jsp">
+            <img class="bioPhoto2" src="extra/img/photos/jsp.jpg" alt="Jorge Sousa Pinto">
           </a>
           <div class="person2">
-            <p class="strong"><a href="http://haslab.uminho.pt/mgc/">Guillermina Cledou</a></p>
-            <p>Post-Doc at
-              <a href="http://www2.inescporto.pt/">INESC TEC</a> and
+            <p class="strong"><a href="http://www.di.uminho.pt/~jsp">Jorge Sousa Pinto</a></p>
+            <p>Associate professor at
+              <a href="http://www2.inescporto.pt/">INESC TEC</a>,
               <a href="http://http://www.uminho.pt/">Univ. Minho</a>.</p>
             <ul>
-              <li>Software product lines</li>
-              <li>Service integration and verification</li>
-              <li>E-governance</li>
+              <li>Program Verification</li>
             </ul>
           </div>
       </div> </li>
       <!-- ~~~~~ -->
       <li> <div class="person">
+          <a href="https://haslab.uminho.pt/jas/">
+            <img class="bioPhoto2" src="extra/img/photos/js.jpg" alt="João Saraiva">
+          </a>
+          <div class="person2">
+            <p class="strong"><a href="https://haslab.uminho.pt/jas/">João Saraiva</a></p>
+            <p>Associate professor at
+              <a href="http://www2.inescporto.pt/">INESC TEC</a>,
+              <a href="http://http://www.uminho.pt/">Univ. Minho</a>.</p>
+            <ul>
+              <li>Programming Languages Design</li>
+              <li>Software Analysis and Evolution</li>
+            </ul>
+          </div>
+      </div> </li>
+       <!-- ~~~~~ -->
+       <li> <div class="person">
+          <a href="https://www.di.uminho.pt/~jfc/index.shtml">
+            <img class="bioPhoto2" src="extra/img/photos/jc.jpg" alt="José Creissac Campos">
+          </a>
+          <div class="person2">
+            <p class="strong"><a href="https://www.di.uminho.pt/~jfc/index.shtml">José Creissac Campos</a></p>
+            <p>Associate professor at <a href="http://www2.inescporto.pt/">INESC TEC</a>, <a href="http://http://www.uminho.pt/">Univ. Minho</a>
+            <ul>
+              <li>Interactive Systems Engineering</li>
+              <li>Formal Methods</li>
+              <li>Software Engineering</li>
+              <li>Human-Computer Interaction</li>
+            </ul>
+          </div>
+       </div> </li>
+             <li> <div class="person">
+          <a href="http://www.di.uminho.pt/~mjf">
+            <img class="bioPhoto2" src="extra/img/photos/mjf.jpg" alt="Maria João Frade">
+          </a>
+          <div class="person2">
+            <p class="strong"><a href="http://www.di.uminho.pt/~mjf">Maria João Frade</a></p>
+            <p>Auxiliar professor at
+              <a href="http://www2.inescporto.pt/">INESC TEC</a>,
+              <a href="http://http://www.uminho.pt/">Univ. Minho</a>.</p>
+            <ul>
+              <li>Program Verification</li>
+              <li>Functional Programming</li>
+            </ul>
+          </div>
+      </div> </li>
+
+      <li> <div class="person">
+          <a href="https://alcinocunha.github.io/">
+            <img class="bioPhoto2" src="extra/img/photos/ac.jpg" alt="Alcino Cunha">
+          </a>
+          <div class="person2">
+            <p class="strong"><a href="https://alcinocunha.github.io/">Alcino Cunha</a></p>
+            <p>Auxiliar professor at <a href="http://www2.inescporto.pt/">INESC TEC</a>, <a href="http://http://www.uminho.pt/">Univ. Minho</a>
+              <ul>
+	      <li>Software Specification</li>
+              <li>Model Checking</li>
+            </ul>
+          </div>
+      </div> </li>
+            <li> <div class="person">
+          <a href="https://www.di.uminho.pt/~jba/">
+            <img class="bioPhoto2" src="extra/img/photos/jb.jpg" alt="José Carlos Bacelar">
+          </a>
+          <div class="person2">
+            <p class="strong"><a href="https://www.di.uminho.pt/~jba/">José Carlos Bacelar</a></p>
+            <p>Auxiliar professor at <a href="http://www2.inescporto.pt/">INESC TEC</a>, <a href="http://http://www.uminho.pt/">Univ. Minho</a>
+            <ul>
+              <li>Cryptography</li>
+            </ul>
+          </div>
+      </div> </li>
+      <li> <div class="person">
+          <a href="http://alfa.di.uminho.pt/~nevrenato/">
+            <img class="bioPhoto2" src="extra/img/photos/rn.jpg" alt="Renato Neves">
+          </a>
+          <div class="person2">
+            <p class="strong"><a href="http://alfa.di.uminho.pt/~nevrenato/">Renato Neves</a></p>
+            <p>Auxiliar professor at <a href="http://www2.inescporto.pt/">INESC TEC</a>, <a href="http://http://www.uminho.pt/">Univ. Minho</a>
+            <ul>
+              <li>Programming languages</li>
+              <li>Cyber-Physical Systems</li>
+	      <li>Quantum Computing</li>
+            </ul>
+          </div>
+      </div> </li>
+      </ul>
+
+      <h3>Postdocs and PhD Students</h3>
+      <ul class="persons">
+            <!-- ~~~~~ -->
+      <li> <div class="person">
+          <a href="https://anac.nery.name/">
+            <img class="bioPhoto2" src="extra/img/photos/an.JPG" alt="Ana Neri">
+          </a>
+          <div class="person2"> <!-- psmaller2 -->
+            <p class="strong"><a href="https://ana.nery.name/wp/">Ana Neri</a></p>
+            <p>Research Assistant at
+              <a href="http://www2.inescporto.pt/">INESC TEC</a> and
+              <a href="http://http://www.uminho.pt/">Univ. Minho</a>.</p>
+            <ul>
+              <li>Quantum Computing
+            </ul>
+          </div>
+      </div> </li>
+   <li> <div class="person">
+  <img class="bioPhoto2" src="extra/img/photos/mo.jpg"
+         alt="Michael de Oliveira">
+  <div class="person2">
+    <p class="strong"><a href="#">Michael de Oliveira</a></p>
+    <p>PhD student at
+      <a href="http://www.ua.pt">Univ. Minho</a>.
+    <ul>
+      <li>Quantum Computing</li>
+      </ul>
+  </div>
+      </div> </li>
+      <li> <div class="person">
+          <img class="bioPhoto2" src="extra/img/photos/vf.jpg"
+                 alt="Vítor Fernandes">
+          <div class="person2">
+            <p class="strong"><a href="#">Vítor Fernandes</a></p>
+            <p>PhD student at <a href="http://www2.inescporto.pt/">INESC TEC</a> and <a href="http://http://www.uminho.pt/">Univ. Minho</a>.
+            <ul>
+              <li>Quantum Computing</li>
+              </ul>
+          </div>
+      </div> 
+      </li>
+      <li> <div class="person">
+          <img class="bioPhoto2" src="extra/img/photos/ju_souza.jpg"
+                 alt="Juliana Souza">
+          <div class="person2">
+            <p class="strong"><a href="#">Juliana Souza</a></p>
+            <p>PhD student at <a href="http://www2.inescporto.pt/">INESC TEC</a> and <a href="http://http://www.uminho.pt/">Univ. Minho</a>.
+            <ul>
+              <li>Cyber-Physical Programming</li>
+              </ul>
+          </div>
+      </div> 
+      </li>
+
+   </ul>
+
+
+  <h3>Research Associates</h3>
+  <ul class="persons">
+          <li> <div class="person">
+          <a href="http://haslab.uminho.pt/lgomes/">
+            <img class="bioPhoto2" src="extra/img/photos/lg.jpg" alt="Leandro Gomes">
+          </a>
+          <div class="person2">
+            <p class="strong"><a href="http://haslab.uminho.pt/lgomes/">Leandro Gomes</a></p>
+            <p>PhD researcher at
+              <a href="http://www2.inescporto.pt/">INESC TEC</a>,
+              <a href="http://http://www.uminho.pt/">Univ. Minho</a>.</p>
+            <ul>
+              <li>Dynamic logics</li>
+              <li>Contract-based design</li>
+              <li>Algebraic structures</li>
+            </ul>
+          </div>
+      </div> </li>
+
+          <li> <div class="person">
           <a href="http://jose.proenca.org">
             <img class="bioPhoto2" src="extra/img/photos/jp.jpg" alt="José Proença">
           </a>
@@ -310,208 +427,26 @@
             </ul>
           </div>
       </div> </li>
-      <!-- ~~~~~ -->
-      <li> <div class="person">
-          <a href="http://alfa.di.uminho.pt/~nevrenato/">
-            <img class="bioPhoto2" src="extra/img/photos/rn.jpg" alt="Renato Neves">
+        <li>
+        <div class="person">
+          <a href="http://alfa.di.uminho.pt/~madeira/">
+            <img class="bioPhoto2" src="extra/img/photos/am.jpg" alt="Alexandre Madeira">
           </a>
           <div class="person2">
-            <p class="strong"><a href="http://alfa.di.uminho.pt/~nevrenato/">Renato Neves</a></p>
-            <p>Auxiliar professor at <a href="http://http://www.uminho.pt/">Univ. Minho</a>
-            and Researcher at <a href="http://www2.inescporto.pt/">INESC TEC</a>.</p>
-            <ul>
-              <li>Category theory</li>
-              <li>Hybrid Programs</li>
-              <li>Program Semantics</li>
-              <li>Hybrid Logics</li>
-            </ul>
+          <p class="strong"><a href="http://alfa.di.uminho.pt/~madeira/">Alexandre Madeira</a></p>
+          <p>Assistant professor at
+            <!-- <a href="http://www2.inescporto.pt/">INESC TEC</a>, -->
+            <!-- <a href="http://http://www.uminho.pt/">Univ. Minho</a>, and -->
+            <a href="http://cidma.mat.ua.pt/ma/home.php">CIDMA</a>.</p>
+          <ul>
+            <li>Formal specification of software</li>
+            <li>Combination and systematic generation of logics</li>
+            <li>Modal/hybrid/dynamic logics</li>
+            <li>Algebraic specification  </li>
+          </ul>
           </div>
-      </div> </li>
-      <!-- ~~~~~ -->
-      <li> <div class="person">
-          <a href="http://haslab.uminho.pt/ctavares">
-            <img class="bioPhoto2" src="extra/img/photos/ct.jpg" alt="Carlos Tavares">
-          </a>
-          <div class="person2">
-            <p class="strong"><a href="http://haslab.uminho.pt/ctavares">Carlos Tavares</a></p>
-            <p>PhD researcher at
-              <a href="http://www2.inescporto.pt/">INESC TEC</a> and
-              <a href="http://http://www.uminho.pt/">Univ. Minho</a>.</p>
-            <ul>
-              <li>Software science</li>
-              <li>Quantum computing algorithms</li>
-              <li>Ambient Assisted Living</li>
-            </ul>
-          </div>
-      </div> </li>
-      <!-- ~~~~~ -->
-      <li> <div class="person">
-          <a href="http://haslab.uminho.pt/lgomes/">
-            <img class="bioPhoto2" src="extra/img/photos/lg.jpg" alt="Leandro Gomes">
-          </a>
-          <div class="person2">
-            <p class="strong"><a href="http://haslab.uminho.pt/lgomes/">Leandro Gomes</a></p>
-            <p>PhD researcher at
-              <a href="http://www2.inescporto.pt/">INESC TEC</a> and
-              <a href="http://http://www.uminho.pt/">Univ. Minho</a>.</p>
-            <ul>
-              <li>Dynamic logics</li>
-              <li>Contract-based design</li>
-              <li>Algebraic structures</li>
-            </ul>
-          </div>
-      </div> </li>
-      <!-- ~~~~~ -->
-      <li> <div class="person">
-          <a href="http://haslab.uminho.pt/sarafernandes/">
-            <img class="bioPhoto2" src="extra/img/photos/sf.jpg" alt="Sara Fernandes">
-          </a>
-          <div class="person2">
-            <p class="strong"><a href="http://haslab.uminho.pt/sarafernandes/">Sara Fernandes</a></p>
-            <p>PhD researcher at
-              <a href="http://www2.inescporto.pt/">INESC TEC</a> and
-              <a href="http://http://www.uminho.pt/">Univ. Minho</a>m
-              and a UNU-EGOV Fellow at the <a href="https://unu.edu">United Nations University</a>.
-            </p>
-            <ul>
-              <li> Critical software infra-structures
-              <li> Smart Cities
-              <li> Electronic Governance
-            </ul>
-          </div>
-      </div> </li>
-      <!-- ~~~~~ -->
-      <li> <div class="person">
-          <a href="https://anac.nery.name/">
-            <img class="bioPhoto2" src="extra/img/photos/an.JPG" alt="Ana Neri">
-          </a>
-          <div class="person2"> <!-- psmaller2 -->
-            <p class="strong"><a href="https://ana.nery.name/wp/">Ana Neri</a></p>
-            <p>Research Assistant at
-              <a href="http://www2.inescporto.pt/">INESC TEC</a> and
-              <a href="http://http://www.uminho.pt/">Univ. Minho</a>.</p>
-            <ul>
-              <li>Quantum Computing
-            </ul>
-          </div>
-      </div> </li>
-      <!-- ~~~~~ -->
-      <li> <div class="person">
-          <img class="bioPhoto2" src="extra/img/photos/ar.JPG" alt="Afonso Rodrigues">
-          <div class="person2">
-            <p class="strong"><a href="#">Afonso Rodrigues</a></p>
-            <p>Master student at
-              <a href="http://www2.inescporto.pt/">INESC TEC</a> and
-              <a href="http://http://www.uminho.pt/">Univ. Minho</a>.</p>
-            <ul>
-              <li>Quantum Computing
-              <li>Winner of Gulbenkian's competition "New Talents in Quantum Technologies" 2017</li>
-            </ul>
-          </div>
-      </div> </li>
-      <!-- ~~~~~ -->
-      <li> <div class="person">
-          <img class="bioPhoto2" src="https://www.jamf.com/jamf-nation/img/default-avatars/generic-user.png"
-                 alt="Carolina Alves">
-          <div class="person2">
-            <p class="strong"><a href="#">Carolina Alves</a></p>
-            <p>Master student at
-              <a href="http://www.ua.pt">Univ. Minho</a>.
-            <ul>
-              <li>Quantum Computing</li>
-              </ul>
-          </div>
-      </div> </li>
-      <!-- ~~~~~ -->
-      <li> <div class="person">
-          <img class="bioPhoto2" src="https://www.jamf.com/jamf-nation/img/default-avatars/generic-user.png"
-                 alt="Daniel Carvalho">
-          <div class="person2">
-            <p class="strong"><a href="#">Daniel Carvalho</a></p>
-            <p>Master student at
-              <a href="http://www.ua.pt">Univ. Minho</a>.
-            <ul>
-              <li>Quantum Computing</li>
-              </ul>
-          </div>
-      </div> </li>
-      <!-- ~~~~~ -->
-      <li> <div class="person">
-          <img class="bioPhoto2" src="https://www.jamf.com/jamf-nation/img/default-avatars/generic-user.png"
-                 alt="Michael de Oliveira">
-          <div class="person2">
-            <p class="strong"><a href="#">Michael de Oliveira</a></p>
-            <p>Master student at
-              <a href="http://www.ua.pt">Univ. Minho</a>.
-            <ul>
-              <li>Quantum Computing</li>
-              <li>Winner of Gulbenkian's competition "New Talents in Quantum Technologies 2018"</li>
-              </ul>
-          </div>
-      </div> </li>
-      <!-- ~~~~~ -->
-      <li> <div class="person">
-          <img class="bioPhoto2" src="https://www.jamf.com/jamf-nation/img/default-avatars/generic-user.png"
-                 alt="Paulo Ribeiro">
-          <div class="person2">
-            <p class="strong"><a href="#">Paulo Ribeiro</a></p>
-            <p>Master student at
-              <a href="http://www.ua.pt">Univ. Minho</a>.
-            <ul>
-              <li>Quantum Computing</li>
-              </ul>
-          </div>
-      </div> </li>
-      <!-- ~~~~~ -->
-      <li> <div class="person">
-          <img class="bioPhoto2" src="https://www.jamf.com/jamf-nation/img/default-avatars/generic-user.png"
-                 alt="Sofia Oliveira">
-          <div class="person2">
-            <p class="strong"><a href="#">Sofia Oliveira</a></p>
-            <p>Master student at
-              <a href="http://www.ua.pt">Univ. Minho</a>.
-            <ul>
-              <li>Quantum Computing</li>
-              </ul>
-          </div>
-      </div> </li>
-      <!-- ~~~~~ -->
-      <li> <div class="person">
-          <img class="bioPhoto2" src="https://www.jamf.com/jamf-nation/img/default-avatars/generic-user.png"
-                 alt="Vítor Fernandes">
-          <div class="person2">
-            <p class="strong"><a href="#">Vítor Fernandes</a></p>
-            <p>Master student at
-              <a href="http://www.ua.pt">Univ. Minho</a>.
-            <ul>
-              <li>Quantum Computing</li>
-              </ul>
-          </div>
-      </div> </li>
-
-
-
-      <!-- ~~~~~ -->
-<!--        <li> <div class="person">
-          <img class="bioPhoto2" src="extra/img/photos/rc.jpg" alt="Rúben Cruz">
-          <div class="person2">
-            <p class="strong"><a href="#">Rúben Cruz</a></p>
-            <p>Master student at
-              <a href="http://www2.inescporto.pt/">INESC TEC</a> and
-              <a href="http://http://www.uminho.pt/">Univ. Minho</a>.</p>
-            <ul>
-                <li>Formal specification and analysis</li>
-                <li>Concurrent systems</li>
-                <li>Machine Learning</li>
-            </ul>
-          </div>
-      </div> </li>
- -->      <!-- ~~~~~ -->
-    </ul>
-
-
-  <h3>Research Associates</h3>
-    <ul class="persons">
+        </div>
+      </li>
       <!-- ~~~~~ -->
       <li> <div class="person">
           <a href="http://sweet.ua.pt/dirk/">
@@ -544,50 +479,27 @@
           </ul>
         </div>
       </div> </li>
-      <!-- ~~~~~ -->
-      <li> <div class="person">
-          <img class="bioPhoto2" src="https://www.jamf.com/jamf-nation/img/default-avatars/generic-user.png" alt="Daniel Figueiredo">
-          <div class="person2">
-            <p class="strong"><a href="#">Daniel Figueiredo</a></p>
-            <p>PhD researcher at
-              <a href="http://www.ua.pt">Univ. Aveiro</a>.
-            <ul>
-              	    <li>Continuous behaviour</li>
-		    <li> Syntetic biology </li>
-		    <li> Modelling biological regulatory networks </li>
-            </ul>
-          </div>
-      </div> </li>
-      <!-- ~~~~~ -->
-<!--       <li> <div class="person">
-          <img class="bioPhoto2" src="https://www.jamf.com/jamf-nation/img/default-avatars/generic-user.png" alt="Rita Vale">
-          <div class="person2">
-            <p class="strong"><a href="#">Rita Vale</a></p>
-            <p>Master student at
-              <a href="http://www.ua.pt">Univ. Aveiro</a>.
-            <ul>
-              <li>Functional Programming</li>
-            </ul>
-          </div>
-      </div> </li>
- -->
-      <!-- ~~~~~ -->
-    </ul>
+   </ul>
 
 
 
   <h3>Former members</h3>
-    <ul>
-      <li><a href="https://www.linkedin.com/in/rubenamcruz/?originalSubdomain=pt">
-         Rúben Cruz</a> (2018)</li>
+  <ul>
+      <li>Guillermina Cledou (2022) </li>
+      <li>Carlos Tavares (2022) </li>
+      <li>Sofia Oliveira (2020) </li>
+      <li>Paulo Ribeiro (2020)</li>
+      <li>Afonso Rodrigues (2020)</li>
+      <li>Rúben Cruz(2018)</li>
       <li>Rita Vale (2017)</li>
       <li>Tiago Loureiro (2017)</li>
-      <li><a href="http://www.unsl.edu.ar/~asanchez/index.php">
-        Alejandro Sanchez</a> (2016)</li>
-    </ul>
+      <li>Alejandro Sanchez (2016)</li>
+  </ul>
 
 </div> <!-- col-sm-4 -->
 </div>  <!-- home -->
+
+
 
 <!-- ~~~~~~~~~~~~~~~~~~~~~~~~ -->
 <!-- ~~~~  Publications  ~~~~ -->
@@ -596,18 +508,183 @@
 <div class="tab-pane fade" id="publications">
 <div class="bs-component">
 
-<h3>Key Publications since 2015</h3>
+<h3>Key publications</h3>
 
-<!-- <div id="list-publications"> </div> -->
 
-<!-- USING BIBTEX -->
-<bibtex src="content/bib.bib"></bibtex>
+<p><a name="neves22"></a>
 
-<!-- where bib will be displayed. -->
-<div id="bibtex_display"></div>
+Fredrik Dahlqvist and Renato Neves.
+ An internal language for categories enriched over generalised metric
+  spaces.
+ In Florin Manea and Alex Simpson, editors, <em>30th EACSL Annual
+  Conference on Computer Science Logic, CSL 2022, February 14-19, 2022,
+  G&ouml;ttingen, Germany (Virtual Conference)</em>, volume 216 of <em>LIPIcs</em>,
+  pages 16:1--16:18. Schloss Dagstuhl - Leibniz-Zentrum f&uuml;r Informatik,
+  2022.
+[&nbsp;<a href="Kbib_bib.html#neves22">bib</a>&nbsp;| 
+<a href="http://dx.doi.org/10.4230/LIPIcs.CSL.2022.16">DOI</a>&nbsp;| 
+<a href="https://doi.org/10.4230/LIPIcs.CSL.2022.16">http</a>&nbsp;]
+
+</p>
+
+<p><a name="Campos:2020"></a>
+
+J.C. Campos, C.&nbsp;Fayollas, M.D. Harrison, C.&nbsp;Martinie, P.&nbsp;Masci, and
+  P.&nbsp;Palanque.
+ Supporting the analysis of safety critical user interfaces: an
+  exploration of three formal tools.
+ <em>ACM Transactions on Computer-Human Interaction</em>, 27(5), August
+  2020.
+[&nbsp;<a href="Kbib_bib.html#Campos:2020">bib</a>&nbsp;| 
+<a href="http://dx.doi.org/10.1145/3404199">DOI</a>&nbsp;| 
+<a href="http://www.di.uminho.pt/~jfc/publications/Campos20-TOCHI-author.pdf">.pdf</a>&nbsp;]
+
+</p>
+
+<p><a name="goncharov-implementing-ictac-20"></a>
+
+Sergey Goncharov, Renato Neves, and Jos&eacute; Proen&ccedil;a.
+ Implementing hybrid semantics: From functional to imperative.
+ In Ka&nbsp;I Pun, Adenilso da&nbsp;Silva&nbsp;Sim&atilde;o, and Volker Stolz, editors,
+  <em>Theoretical Aspects of Computing - ICTAC 2020 - 17th International
+  Colloquium, Macau S.A.R., China, October 31 - November 30, 2020,
+  Proceedings</em>, volume 12545 of <em>Lecture Notes in Computer Science</em>.
+  Springer, 2020.
+[&nbsp;<a href="Kbib_bib.html#goncharov-implementing-ictac-20">bib</a>&nbsp;| 
+<a href="http://davinci.di.uminho.pt/publications/goncharov-implementing-ictac-20.pdf">.pdf</a>&nbsp;]
+
+</p>
+
+<p><a name="HarrisonMC:2019"></a>
+
+M.D. Harrison, P.&nbsp;Masci, and J.C. Campos.
+ Verification templates for the analysis of user interface software
+  design.
+ <em>IEEE Transactions on Software Engineering</em>, 45(8):802--822,
+  August 2019.
+[&nbsp;<a href="Kbib_bib.html#HarrisonMC:2019">bib</a>&nbsp;| 
+<a href="http://dx.doi.org/10.1109/TSE.2018.2804939">DOI</a>&nbsp;| 
+<a href="http://www.di.uminho.pt/~jfc/publications/HarrisonMC18-IEEETSE-postprint.pdf">.pdf</a>&nbsp;]
+
+</p>
+
+<p><a name="DBLP:conf/concur/0001JN18"></a>
+
+Sergey Goncharov, Julian Jakob, and Renato Neves.
+ A semantics for hybrid iteration.
+ In Sven Schewe and Lijun Zhang, editors, <em>29th International
+  Conference on Concurrency Theory, CONCUR 2018, September 4-7, 2018,
+  Beijing, China</em>, volume 118 of <em>LIPIcs</em>, pages 22:1--22:17. Schloss
+  Dagstuhl - Leibniz-Zentrum f&uuml;r Informatik, 2018.
+[&nbsp;<a href="Kbib_bib.html#DBLP:conf/concur/0001JN18">bib</a>&nbsp;| 
+<a href="http://dx.doi.org/10.4230/LIPIcs.CONCUR.2018.22">DOI</a>&nbsp;| 
+<a href="https://doi.org/10.4230/LIPIcs.CONCUR.2018.22">http</a>&nbsp;]
+
+</p>
+
+<p><a name="CamposSAH:2016"></a>
+
+J.C. Campos, M.&nbsp;Sousa, M.&nbsp;Alves, and M.D. Harrison.
+ Formal verification of a space system's user interface with the ivy
+  workbench.
+ <em>IEEE Transactions on Human-Machine Systems</em>, 46(2):303--316,
+  2016.
+[&nbsp;<a href="Kbib_bib.html#CamposSAH:2016">bib</a>&nbsp;| 
+<a href="http://dx.doi.org/10.1109/THMS.2015.2421511">DOI</a>&nbsp;| 
+<a href="http://www.di.uminho.pt/~jfc/publications/thms-paper-author_version.pdf">.pdf</a>&nbsp;]
+
+</p><hr><p><em>This file was generated by
+<a href="http://www.lri.fr/~filliatr/bibtex2html/">bibtex2html</a> 1.99.</em></p>
+
+
+<h3>Recent publications</h3>
+
+
+<p><a name="HarrisonMC:2021"></a>
+
+M.D. Harrison, P.&nbsp;Masci, and J.C. Campos.
+ Balancing the formal and the informal in user centred design.
+ <em>Interacting with Computers</em>, 33(1):55--72, January 2021.
+[&nbsp;<a href="Rbib_bib.html#HarrisonMC:2021">bib</a>&nbsp;| 
+<a href="http://dx.doi.org/10.1093/iwcomp/iwab012">DOI</a>&nbsp;]
+
+</p>
+
+<p><a name="SilvaVCCR:2020"></a>
+
+C.&nbsp;Silva, J.&nbsp;Vieira, J.C. Campos, R.&nbsp;Couto, and A.N. Ribeiro.
+ Development and validation of a descriptive cognitive model for a low
+  code development platform.
+ <em>Human Factors</em>, 63(6):1012--1032, 2021.
+[&nbsp;<a href="Rbib_bib.html#SilvaVCCR:2020">bib</a>&nbsp;| 
+<a href="http://dx.doi.org/10.1177/0018720820920429">DOI</a>&nbsp;]
+
+</p>
+
+<p><a name="CannyNCP:2019"></a>
+
+A.&nbsp;Canny, D.&nbsp;Navarre, J.C. Campos, and P.&nbsp;Palanque.
+ Model-based testing of post-wimp interactions using petri-nets.
+ In E.&nbsp;Sekerinski et&nbsp;al., editor, <em>Formal Methods. FM 2019
+  International Workshops</em>, volume 12232 of <em>Lecture Notes in Computer
+  Science</em>, pages 486--502. Springer, 2020.
+[&nbsp;<a href="Rbib_bib.html#CannyNCP:2019">bib</a>&nbsp;| 
+<a href="http://dx.doi.org/10.1007/978-3-030-54994-7_35">DOI</a>&nbsp;]
+
+</p>
+
+<p><a name="DBLP:journals/mscs/HofmannNN19"></a>
+
+Dirk Hofmann, Renato Neves, and Pedro Nora.
+ Limits in categories of vietoris coalgebras.
+ <em>Math. Struct. Comput. Sci.</em>, 29(4):552--587, 2019.
+[&nbsp;<a href="Rbib_bib.html#DBLP:journals/mscs/HofmannNN19">bib</a>&nbsp;| 
+<a href="http://dx.doi.org/10.1017/S0960129518000269">DOI</a>&nbsp;| 
+<a href="https://doi.org/10.1017/S0960129518000269">http</a>&nbsp;]
+
+</p>
+
+<p><a name="DBLP:conf/ppdp/0001N19"></a>
+
+Sergey Goncharov and Renato Neves.
+ An adequate while-language for hybrid computation.
+ In Ekaterina Komendantskaya, editor, <em>Proceedings of the 21st
+  International Symposium on Principles and Practice of Programming Languages,
+  PPDP 2019, Porto, Portugal, October 7-9, 2019</em>, pages 11:1--11:15. ACM,
+  2019.
+[&nbsp;<a href="Rbib_bib.html#DBLP:conf/ppdp/0001N19">bib</a>&nbsp;| 
+<a href="http://dx.doi.org/10.1145/3354166.3354176">DOI</a>&nbsp;| 
+<a href="https://doi.org/10.1145/3354166.3354176">http</a>&nbsp;]
+
+</p>
+
+<p><a name="DBLP:journals/tcs/NevesB18"></a>
+
+Renato Neves and Lu&iacute;s&nbsp;Soares Barbosa.
+ Languages and models for hybrid automata: A coalgebraic
+  perspective.
+ <em>Theor. Comput. Sci.</em>, 744:113--142, 2018.
+[&nbsp;<a href="Rbib_bib.html#DBLP:journals/tcs/NevesB18">bib</a>&nbsp;| 
+<a href="http://dx.doi.org/10.1016/j.tcs.2017.09.038">DOI</a>&nbsp;| 
+<a href="https://doi.org/10.1016/j.tcs.2017.09.038">http</a>&nbsp;]
+
+</p><hr><p><em>This file was generated by
+<a href="http://www.lri.fr/~filliatr/bibtex2html/">bibtex2html</a> 1.99.</em></p>
+
+
 
 </div>
 </div>
+
+
+<!-- <\!-- USING BIBTEX -\-> -->
+<!-- <bibtex src="content/Rbib.bib"></bibtex> -->
+
+<!-- <\!-- where bib will be displayed. -\-> -->
+<!-- <div id="bibtex_display"></div> -->
+
+<!-- </div> -->
+
 
 
 <!-- ~~~~~~~~~~~~~~~~~~~~~~~ -->
@@ -619,34 +696,11 @@
 
 <h3>Tools</h3>
 
-<ul>
-  <li><a href="http://arcatools.org">ArcaTools.org</a> -
-  The frontend for a running server, based on Scala and JavaScript compilation, to bring most tools below developed by Arca members to an interactive and visual web-browser. </li>
-  <li><a class="strong" href="https://github.com/ReoLanguage/ReoLive">ReoLive</a> -
-  A web-based project, converting the analysis and visualization of Preo connectors into JavaScript+HTML code.</li>
-  <li> <a class="strong" href="https://github.com/haslab/ifta">IFTA: Interface Featured Timed Automata</a> -
-    Scala implementation of the Interface Featured Timed Automata (IFTA), including a scala DSL, a composition operator of IFTAs, and an export into UPPAAL Timed Automata with features.
-  </li>
-  <li><a href="https://github.com/arcalab/hybrid-programming">Lince</a> - Analysis of hybrid programs using simulation and estimation of approximation errors caused by small perturbations.</li>
-  <li><a class="strong" href="https://github.com/ReoLanguage/preo">Preo - parameterised Reo connectors</a> - A clean fork of "parameterised connectors" with emphasis on the language-related aspects.</li>
-  <li><a class="strong" href="https://github.com/joseproenca/parameterised-connectors">Parameterised connectors</a> - A language for type-checking families of connectors.</li>
-  <li><a class="strong" href="https://github.com/joseproenca/picc">PICC: Partial Interactive Coordination Constraints</a> -
-     A constraint-based engine in Scala for running connectors based on Reo.
-  </li>
-</ul>
-
-<p>Check our GitHub site at <a href="https://github.com/arcalab" target="#">https://github.com/arcalab</a>.</p>
-
-
-<h3>Contributions</h3>
-List of contributions to other projects.
-
-<ul>
-  <li> <a class="strong" href="http://hets.eu">Hets</a> -
-  Added support for HybridCASL, providing a method to automatically combine the standard properties of hybrid logics with any logic already integrated in Hets.
-</ul>
-
-
+  <p><a href="https://github.com/arcalab/hybrid-programming">Lince</a> - Modelling and and simulation of hybrid programs.</p><p>
+  <a href="https://github.com/haslab/ifta">IFTA: Interface Featured
+    Timed Automata</a> - Implementation of the Interface Featured
+    Timed Automata (IFTA).
+  </p>
 </div>
 </div>
 
@@ -660,9 +714,23 @@ List of contributions to other projects.
 <div class="bs-component">
 
 
-<h3>Projects</h3>
+<h3>Recent projects</h3>
 
 <ul class="persons">
+    <li>
+    <div class="person">
+      <a href="http://arca.di.uminho.pt/Ibex/">
+        <img class="bioPhoto2" src="extra/img/photos/Spanish_Ibex_Portrait.jpg" alt="Ibex">
+<!--         <h1 class="bioPhoto2" style="text-align: center; font-size: 19pt; background-color: rgb(255, 248, 180); line-height: 40pt;">DaVinci</h1> -->
+      </a>
+      <div class="person2 psmaller">
+      <p class="strong"><a href="http://arca.di.uminho.pt/Ibex/">Ibex</a></p>
+      <p> Quantitative methods for cyber-physical programming; Started in 2022.
+      <!-- </br><span class="text-muted">POCI-01-0145-FEDER-029946 (18-21)</span> -->
+</p>
+      </div>
+    </div>
+  </li>
   <li>
     <div class="person">
       <a href="http://arca.di.uminho.pt/davinci/">
@@ -671,7 +739,7 @@ List of contributions to other projects.
       </a>
       <div class="person2 psmaller">
       <p class="strong"><a href="http://davinci.di.uminho.pt">DaVinci</a></p>
-      <p> Distributed Architectures: Variability and Interaction for Cyber-Physical Systems; Started in 2018.
+      <p> Distributed Architectures: Variability and Interaction for Cyber-Physical Systems; 2018-2022.
       <!-- </br><span class="text-muted">POCI-01-0145-FEDER-029946 (18-21)</span> -->
 </p>
       </div>
@@ -686,7 +754,7 @@ List of contributions to other projects.
       </a>
       <div class="person2 psmaller">
       <p class="strong"><a href="http://klee.di.uminho.pt">KLEE</a></p>
-      <p> Coalgebraic Modeling and Analysis for Computational Synthetic Biology; Started in 2018.</p>
+      <p> Coalgebraic Modeling and Analysis for Computational Synthetic Biology; 2018-2021</p>
       </div>
     </div>
   </li>
@@ -713,21 +781,22 @@ List of contributions to other projects.
     </div>
   </li>
   <!-- ~~~~~ -->
+  <li>
+    <div class="person">
+      <a href="http://trust.di.uminho.pt"><img class="bioPhoto2" src="extra/img/photos/trust.png" alt="TRUST"></a>
+      <div class="person2 psmaller">
+      <p class="strong"><a href="http://trust.di.uminho.pt">TRUST</a></p>
+      <p>Trustworthy Software Design with Alloy; 2016–2018.</p>
+      </div>
+    </div>
+  </li>
 
 </ul>
 
 
 <h3>Collaboration</h3>
 
-We are also involved in the following projects.
-<!-- <ul>
-<li><a href="http://pt-flad-chair.di.uminho.pt">PT-FLAD Chair on smart Cities & Smart Governance</a>: Chair jointly supported by PT and FLAD, since June 2016.</li>
-<li><a href="http://dali.di.uminho.pt">DaLí</a>: Dynamic logics for cyber-physical systems; 2016–2018.
-</li>
-<li><a href="http://trust.di.uminho.pt">TRUST</a>: Trustworthy Software Design with Alloy; 2016–2018.</li>
-<li><a>SmartEGOV</a>: (P2020 NORTE-45-2015-23) Harnessing EGOV for smart governance: Foundations and tools, since May, 2016.</li>
-</ul>
- -->
+We were also involved in the following projects.
 
 <ul class="persons">
   <!-- ~~~~~ -->
@@ -741,42 +810,11 @@ We are also involved in the following projects.
     </div>
   </li>
   <!-- ~~~~~ -->
-  <li>
-    <div class="person">
-      <a href="http://trust.di.uminho.pt"><img class="bioPhoto2" src="extra/img/photos/trust.png" alt="TRUST"></a>
-      <div class="person2 psmaller">
-      <p class="strong"><a href="http://trust.di.uminho.pt">TRUST</a></p>
-      <p>Trustworthy Software Design with Alloy; 2016–2018.</p>
-      </div>
-    </div>
-  </li>
   <!-- ~~~~~ -->
   <li> <p class="strong"><a href="http://www.nipe.eeg.uminho.pt/ModuleLeft.aspx?mdl=~/Modules/Generic/GenericView.ascx&ItemID=798&Mid=718&lang=en-US&pageid=218&tabid=14">SmartEGOV</a></p>
        <p>(P2020 NORTE-45-2015-23) Harnessing EGOV for smart governance: Foundations and tools, since May, 2016.</p>
   </li>
 </ul>
-
-
-<h3>Ongoing PhD and Master projects</h3>
-
-<!-- ? Sara Fernandes? Rogério? -->
-
-<ul>
-<li> [PhD]
-  <strong>Quantum algebraic specifications</strong>, by
-  <a href="http://haslab.uminho.pt/ctavares/">Carlos Tavares</a>.
-  <p>Supervisor: <a href="http://www.di.uminho.pt/~lsb">Luís Barbosa</a>.</p>
-  <p class="topic-descr"> This project investigates algebraic approaches to specify and analyse quantum computer science.</p>
-
-<li> [PhD]
-  <strong>Dynamising dynamic logic</strong>, by
-  <a href="http://haslab.uminho.pt/lgomes/">Leandro Gomes</a>.
-  <p>Supervisor: <a href="http://www.di.uminho.pt/~lsb">Luís Barbosa</a>.</p>
-  <p class="topic-descr"> This project aims at building a systematic process of generating dynamic logic, by developing a general theory of such logics. This approach favours a contract-based design method for software speciﬁcation, and the development of an algebraic structure to model the space of programs and the corresponding domains of behaviours.</p>
-
-
-</ul>
-
 
 
 <h3>Past Projects</h3>
@@ -789,31 +827,31 @@ We are also involved in the following projects.
 </ul>
 
 
-<h5> Dissertations </h5>
+<!-- <h5> Dissertations </h5> -->
 
-<ul>
-  <li> [Master]
-    <strong>Animation of monad H</strong>, by
-    <a href="">Tiago Loureiro</a>.
-    <p>Supervisors: <a href="http://www.di.uminho.pt/~lsb">Luís Barbosa</a> and <a href="http://alfa.di.uminho.pt/~nevrenato/">Renato Neves</a>.</p>
-    <p class="topic-descr">This project proposes an Haskell implementation for hybrid systems, capable of visually depicting the evolution of continuous functions.</p>
-  </li>
+<!-- <ul> -->
+<!--   <li> [Master] -->
+<!--     <strong>Animation of monad H</strong>, by -->
+<!--     <a href="">Tiago Loureiro</a>. -->
+<!--     <p>Supervisors: <a href="http://www.di.uminho.pt/~lsb">Luís Barbosa</a> and <a href="http://alfa.di.uminho.pt/~nevrenato/">Renato Neves</a>.</p> -->
+<!--     <p class="topic-descr">This project proposes an Haskell implementation for hybrid systems, capable of visually depicting the evolution of continuous functions.</p> -->
+<!--   </li> -->
 
-  <li> [PhD]
-    <strong>Logics and calculi for cyber–physical components</strong>, by
-    <a href="http://alfa.di.uminho.pt/~nevrenato/">Renato Neves</a>.
-    <p>Supervisor: <a href="http://www.di.uminho.pt/~lsb">Luís Barbosa</a>.</p>
-    <p class="topic-descr">This project focuses mainly on the foundations of cyber physical systems; coalgebras, proof theory and institutional theory. It also covers a myriad of logics, in particular modal logics.</p>
-  </li>
+<!--   <li> [PhD] -->
+<!--     <strong>Logics and calculi for cyber–physical components</strong>, by -->
+<!--     <a href="http://alfa.di.uminho.pt/~nevrenato/">Renato Neves</a>. -->
+<!--     <p>Supervisor: <a href="http://www.di.uminho.pt/~lsb">Luís Barbosa</a>.</p> -->
+<!--     <p class="topic-descr">This project focuses mainly on the foundations of cyber physical systems; coalgebras, proof theory and institutional theory. It also covers a myriad of logics, in particular modal logics.</p> -->
+<!--   </li> -->
 
-  <li> [PhD]
-    <strong>A Virtual Factory for Smart City Service Integration</strong>, by
-    <a href="http://haslab.uminho.pt/mgc/">Guillermina Cledou</a>.
-    <p>Supervisors: <a href="http://www.di.uminho.pt/~lsb">Luís Barbosa</a>
-    and <a href="http://unu.edu/experts/elsa-estevez.html">Elsa Estevez</a>.</p>
-    <p class="topic-descr">The aim of the thesis is to advance the state of the art in software modelling and development tools for the rapid development of integrated city-level electronic public services.</p>
-  </li>
-</ul>
+<!--   <li> [PhD] -->
+<!--     <strong>A Virtual Factory for Smart City Service Integration</strong>, by -->
+<!--     <a href="http://haslab.uminho.pt/mgc/">Guillermina Cledou</a>. -->
+<!--     <p>Supervisors: <a href="http://www.di.uminho.pt/~lsb">Luís Barbosa</a> -->
+<!--     and <a href="http://unu.edu/experts/elsa-estevez.html">Elsa Estevez</a>.</p> -->
+<!--     <p class="topic-descr">The aim of the thesis is to advance the state of the art in software modelling and development tools for the rapid development of integrated city-level electronic public services.</p> -->
+<!--   </li> -->
+<!-- </ul> -->
 
 
 
@@ -829,142 +867,45 @@ We are also involved in the following projects.
 <div class="bs-component">
 
 <h3>Courses</h3>
+<h4>Ph.D. level</h4>
+Cyber-Physical Computation (<a target="#" href="http://alfa.di.uminho.pt/~nevrenato/CPC.html">2019/20</a>)<br>
+Quantum Computing (<a target="#" href="http://alfa.di.uminho.pt/~nevrenato/mapi-qc-2021/QC2021.html">2020/21</a>, <a target="#" href="http://arca.di.uminho.pt/mapi-quantum-computation-1920/">2019/20</a>)<br>
+Algebraic and Coalgebraic Models in Software Development (<a href="http://wiki.di.uminho.pt/twiki/bin/view/Education/ACMSD/WebHome" target="#">2016/17</a>)
 
-<ul>
-  <li> <strong>Cyber-Physical Computation (<a target="#" href="http://alfa.di.uminho.pt/~nevrenato/CPC.html">2019/20</a>)</strong>
-    For PhD students, on fundamental concepts and formal methods to analyse cyber-physical systems, assuming time evolves continuously.
-  <li> <strong>Quantum Computing (MAP-i) (<a target="#" href="http://alfa.di.uminho.pt/~nevrenato/mapi-qc-2021/QC2021.html">2020/21</a>, <a target="#" href="http://arca.di.uminho.pt/mapi-quantum-computation-1920/">2019/20</a>)</strong>
-    For PhD students, on fundamental concepts and formal methods in Quantum Computing.
-	  
-  <li> <strong>Software architecture and Calculi (<a href="http://arca.di.uminho.pt/ac-2021/">2020/21</a>, <a href="http://arca.di.uminho.pt/ac-1920/">2019/20</a>, <a href="http://arca.di.uminho.pt/ac-1819/">2018/19</a>, <a href="http://arca.di.uminho.pt/ac-1718/">2017/18</a>, <a href="http://wiki.di.uminho.pt/twiki/bin/view/Education/MFES1617/AC">2016/17</a>, <a href="http://ac1516.proenca.org" target="#">2015/16</a>)</strong>
-    For Master students, on how to model and analyse concurrent systems.
+<h4>M.Sc. level</h4>
 
-  <li><strong>Interaction and Concurrency (<a href="http://arca.di.uminho.pt/ic-2021/">2020/21</a>, <a href="http://arca.di.uminho.pt/ic-1920/">2019/20</a>, <a href="http://arca.di.uminho.pt/ic-1819/">2018/19</a>, <a href="http://arca.di.uminho.pt/ic-1718/">2017/18</a>, <a href="http://alfa.di.uminho.pt/~madeira/IntConc.html" target="#">2016/17</a>)</strong>
-    3rd year course on process algebra and other concurrency models.
-
-  <li><strong>Algebraic and Coalgebraic Models in Software Development (<a href="http://wiki.di.uminho.pt/twiki/bin/view/Education/ACMSD/WebHome" target="#">2016/17</a>)</strong>
-    For PhD students - Doctoral program  of <a href="http://mapi.map.edu.pt/pages/1" target="#">MAP-i</a>, including the universities of Minho, Aveiro and Porto.
-
-  <li> <strong> Quantum Logic (<a href="http://arca.di.uminho.pt/quantum-logic-2021" target="#">2020/21</a>, <a href="http://arca.di.uminho.pt/quantum-logic-1920" target="#">2019/20</a>, <a href="http://arca.di.uminho.pt/quantum-logic-1819" target="#">2018/19</a>, <a href="http://arca.di.uminho.pt/quantum-logic-1718" target="#">2017/18</a>)</strong>
-
-  <li> <strong> Quantum Computing (<a href="http://arca.di.uminho.pt/quantum-computation-2122">2021/22</a>, <a href="http://arca.di.uminho.pt/quantum-computation-2021">2020/21</a>, <a href="http://arca.di.uminho.pt/quantum-computation-1920">2019/20</a>, <a href="http://arca.di.uminho.pt/quantum-computation-1819">2018/19</a>, <a href="http://arca.di.uminho.pt/quantum-computation-1718">2017/18</a>, <a href="#">2016/17</a>)</strong>
-
-  <li> <strong>Mathematics for Computer Science (<a href="http://mi1718.proenca.org" target="#">2017/18</a>)</strong> An introductory course to Logic and Relations given to external students.
-</ul>
-
-
+Cyber-Physical Computation
+    (<a href="https://arca.di.uminho.pt/CyPhyComp">2021/22</a>) <br>
+Formal methods in programming
+    (<a href="https://haslab.github.io/MFP/">2021/22</a>) <br>
+Software architecture and Calculi
+    (<a href="http://arca.di.uminho.pt/ac-2021/">2020/21</a>, <a href="http://arca.di.uminho.pt/ac-1920/">2019/20</a>, <a href="http://arca.di.uminho.pt/ac-1819/">2018/19</a>, <a href="http://arca.di.uminho.pt/ac-1718/">2017/18</a>, <a href="http://wiki.di.uminho.pt/twiki/bin/view/Education/MFES1617/AC">2016/17</a>, <a href="http://ac1516.proenca.org"
+    target="#">2015/16</a>)<br>
+Quantum Logic (<a href="http://arca.di.uminho.pt/quantum-logic-2021" target="#">2020/21</a>, <a href="http://arca.di.uminho.pt/quantum-logic-1920" target="#">2019/20</a>, <a href="http://arca.di.uminho.pt/quantum-logic-1819" target="#">2018/19</a>, <a href="http://arca.di.uminho.pt/quantum-logic-1718" target="#">2017/18</a>)<br>
+Quantum Computing (<a href="http://arca.di.uminho.pt/quantum-computation-2122">2021/22</a>, <a href="http://arca.di.uminho.pt/quantum-computation-2021">2020/21</a>, <a href="http://arca.di.uminho.pt/quantum-computation-1920">2019/20</a>, <a href="http://arca.di.uminho.pt/quantum-computation-1819">2018/19</a>, <a href="http://arca.di.uminho.pt/quantum-computation-1718">2017/18</a>, <a href="#">2016/17</a>)<br>
+Information Systems by Calculation
+    (<a href="https://haslab.github.io/MFP/CSI/2122/index">2021/22</a>)<br>
+    
+<h4>B.Sc. level</h4>
+Interaction and Concurrency (<a href="http://arca.di.uminho.pt/ic-2021/">2020/21</a>, <a href="http://arca.di.uminho.pt/ic-1920/">2019/20</a>, <a href="http://arca.di.uminho.pt/ic-1819/">2018/19</a>, <a href="http://arca.di.uminho.pt/ic-1718/">2017/18</a>, <a href="http://alfa.di.uminho.pt/~madeira/IntConc.html" target="#">2016/17</a>)<br>
+Program Calculus (<a href="https://haslab.github.io/CP/">2021/22</a>)<br>
 
 <h3>Research Opportunities</h3>
 
 <p>
-These is a selection of possible projects for master students that would like to work with us. We are also open for discussion about other topics.
-Note that <strong>we have a few grants</strong> that can pay for most of the ideas presented in these projects.
-If you are interested, just come and talk to us.
+Here is a selection of possible projects for M.Sc. students that would like
+to work with us. We are also open for discussion about other topics.  Note that
+<strong>we have a few grants</strong> that can pay for most of the ideas
+presented in these projects.  If you are interested, just come and talk to us.
 </p>
 
-<!-- <ul id="list-projects"></ul> -->
-
-<div class="panel panel-default open-topic">
-<h5><a href="content/projects/alloy-and-hl.html">Alloy and Hybrid Logic</a></h5>
-<p> (Funded by either the <a href="http://trust.di.uminho.pt">Trust</a> or the <a href="http://dali.di.uminho.pt">DaLí</a> project.)
-</p>
 <p>
-The purpose of this project is to explore a variant of hybrid
-logics in which worlds are equipped with Alloy models. In
-principle, such a logic (generated via the hybridisation
-method "hybridisation") provides a canonical language to address
-reconfigurability in Alloy specifications.
-</p>
+<a href="content/pdfs/projectRN22.pdf">Equivalence for Quantum
+Processes: from theory to practice</a>
+
 <p>
-The workplan involves the implementation of a calculus for this
-logic (reported in <a href="http://www.sciencedirect.com/science/article/pii/S0167642316000691">Proof theory for hybridised logics</a>) and the
-development of a case study that illustrates its
-potentialities (and limitations) in the software development
-process.
-</p>
-</div>
+<a href="content/pdfs/projectRN22b.pdf">Verification of Hybrid Programs</a>
 
-
-<div class="panel panel-default open-topic">
-<h5><a href="content/projects/rg-in-alloy.html">Model checking R/G programs in Alloy</a></h5>
-<p> (Funded by the <a href="http://trust.di.uminho.pt">Trust</a> project.)
-</p>
-<p>When you run a program on your lap-top you "<emph>rely</emph>" on the operating system
-not letting any other program to interfere with your state space. But programs
-could be designed in a collaborative-style, with sub-programs helping each other
-over a shared state. (Example: on-the-fly garbage collection.)
-<!--
-</p>
-<p>Thus "no-interference" programming is just a special case of "allow-interference"
-programming.
- -->
-In the early 1980s, Cliff Jones proposed a dynamic extension to
-(static) Hoare logic: further to pre / post conditions, one could also specify interference
-of the environment via <emph>rely / guarantee conditions</emph>. Interest on R/G programming is
-growing a lot due to its potential for concurrency.
-<!--
-But it has become clear that
-"allow-interference" programming has its subtleties, e.g. concerning
-non-termination.
- -->
-</p>
-<p>
-In this project we would like to use <a href="http://alloy.mit.edu/alloy/">Alloy</a> to model the semantics of a simple
-imperative language with R/G commands and model-check their interference.
-The idea is to find design errors of (possibly non-terminating) R/G programs
-by analysing finite traces only.
-</p>
-</div>
-
-
-<div class="panel panel-default open-topic">
-<h5><a href="content/projects/spec2proc.html">From specifications to concrete processes</a></h5>
-<p>
-<p> (Funded by the <a href="http://dali.di.uminho.pt">DaLí</a> project.)
-</p>
-This project aims at studying a <emph>dynamic logic with binders</emph>,
-and (automatic) translations from specifications in (some fragment) of this logic into a concrete process algebra.
-</p>
-</div>
-
-
-<!-- <div class="panel panel-default open-topic">
-<h5><a href="content/projects/webreo.html">Reo families in your browser</a></h5>
-<p> (Funded by either the <a href="http://trust.di.uminho.pt">Trust</a> or the <a href="http://dali.di.uminho.pt">DaLí</a> project.)
-</p>
-<p>
-This project aims at producing an extensible web-based framework to specify and analyse systems of coordinated components. It will involve developing a web-oriented framework for Reo connectors, possibly with a graphical frontend, and designing an extensible architecture with clear separations between the core model, the frontends, and the backends. To illustrate the extensibility of the framework, an extension for parameterised Reo connectors should be developed.
-</p>
-</div>
- -->
-
-<div class="panel panel-default open-topic">
-<h5><a href="content/projects/quantumpl.html">Quantum Programming Languages</a></h5>
-<p>
-This project aims at exploring the field of quantum programming languages and quantum artificial intelligence in a new line of research of the group of formal methods of Department of Informatics.
-The project involves the implementation of some quantum algorithms and its comparison with more classical approaches.
-</p>
-</div>
-
-<!--
-<div class="panel panel-default open-topic">
-<h5><a href="content/projects/tictacsensor.html">Tic-Tac Sensor</a></h5>
-<p>
-This project will exploit a recent extension to Wireless Sensor Networks (WSNs) under development at KUL, which include a cheap but powerful distributed clock provided by a new network infrastructure. You will be expected to investigate how to map an application specified in a synchronous dataflow language into:
-(1) a set of deployment instructions, and (2) a set of rules for each node describing the local execution of the synchronous application.
-</p>
-</div>
- -->
-
-
-<div class="panel panel-default open-topic">
-<h5><a href="content/projects/making-logics-coalgebraic.pdf">[PhD] Making Logics Coalgebraic</a></h5>
-<p> (Funded by the <a href="http://dali.di.uminho.pt">DaLí</a> project.)
-</p>
-<p>
-The main goal of this PhD project is the development of a general notion of asymmetric combination of logic that turns logics coalgebraic. More concretely, a process that equips any given logic with suitable coalgebraic machinery re- spective to a given functor; this means that, in contrast to hybridisation, or temporalisation, the input parameter is not just the base logic, but also the functor that gives rise to the intended type of transitions.
-</p>
-</div>
 
 
 </div>
@@ -976,40 +917,28 @@ The main goal of this PhD project is the development of a general notion of asym
 <!-- ~~~~~~ ARCA Meetings ~~~~~ -->
 <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
 
-<div class="tab-pane fade" id="events">
-<div class="bs-component">
-
-<h3>Dissemination events</h3>
-
-<ul>
-  <li> <a class="strong" href="http://facs2017.di.uminho.pt">FACS 2017</a>
-    is an International Conference on Fundamental Aspects for Component Software, which we organised in Braga in 10-13 October, 2017.</li>
-
-  <li> <a class="strong" href="http://workshop.dali.di.uminho.pt">DaLí - Dynamic Logic: new trends and applications</a> is a workshop co-located with TABLEAUX, FROCOS and ITP 2017, organised in Brasília, 23-24 September, 2017, promoted by the <a href="http://dali.di.uminho.pt/">DaLí project</a></li>
-
-  <li> <a class="strong" href="http://probprogschool2017.di.uminho.pt/">Probabilistic Programming Summer School 2017</a>
-    International Summer School, which included a rich set of highly influential speakers, was organised next to Braga in May, 2017.</li>
-</ul>
+<!-- <div class="tab-pane fade" id="events"> -->
+<!-- <div class="bs-component"> -->
 
 
-<h3>Arca Meetings</h3>
+<!-- <h3>LFM Meetings</h3> -->
 
-<p>
-We meet every two weeks to discuss ongoing work within the team.
-</p>
+<!-- <p> -->
+<!-- We meet every two weeks to discuss ongoing work within the team. -->
+<!-- </p> -->
 
-<h4> Upcoming meetings </h3>
+<!-- <h4> Upcoming meetings </h3> -->
 
-<ul id="list-nextTalks"> </ul>
-<!-- generated by javascript below -->
+<!-- <ul id="list-nextTalks"> </ul> -->
+<!-- <\!-- generated by javascript below -\-> -->
 
-<h4> Previous meetings </h3>
+<!-- <h4> Previous meetings </h3> -->
 
-<ul id="list-prevTalks"> </ul>
-<!-- generated by javascript below -->
+<!-- <\!-- <ul id="list-prevTalks"> </ul> -\-> -->
+<!-- <\!-- generated by javascript below -\-> -->
 
-</div>
-</div>
+<!-- </div> -->
+<!-- </div> -->
 
 
 <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~ -->
@@ -1027,10 +956,9 @@ We meet every two weeks to discuss ongoing work within the team.
 
 <div class="panel-footer" id="wrapper-footer">
 <div id="footer">
-Copyright 2015-2019 – Arca
+Copyright 2022 – The LFM Research Group <i class="fa fa-flask"></i> 
 </div>
 </div>
-
 
 
 <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->

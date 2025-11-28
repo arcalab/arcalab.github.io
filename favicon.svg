@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <svg
-   xmlns:dc="http://purl.org/dc/elements/1.1/"
-   xmlns:cc="http://creativecommons.org/ns#"
-   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-   xmlns:svg="http://www.w3.org/2000/svg"
-   xmlns="http://www.w3.org/2000/svg"
+   version="1.1"
+   viewBox="108 441 80 80"
+   width="80pt"
+   height="80pt"
    id="svg2"
-   height="126pt"
-   width="126pt"
-   viewBox="108 441 126 126"
-   version="1.1">
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:dc="http://purl.org/dc/elements/1.1/">
   <metadata
      id="metadata4"> Produced by OmniGraffle 6.5.1 <dc:date>2017-10-20 15:07:20 +0000</dc:date>
 <rdf:RDF>
@@ -18,253 +18,223 @@
     <dc:format>image/svg+xml</dc:format>
     <dc:type
        rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-    <dc:title></dc:title>
   </cc:Work>
 </rdf:RDF>
 </metadata>
   <defs
      id="defs6">
     <marker
-       orient="auto"
-       refY="0"
-       refX="0"
-       id="marker5397"
-       style="overflow:visible">
-      <path
-         id="path5399"
-         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.625;stroke-linejoin:round;stroke-opacity:1"
-         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
-         transform="matrix(-0.3,0,0,-0.3,0.69,0)" />
-    </marker>
-    <marker
        style="overflow:visible"
-       id="Arrow2Send"
+       id="marker5397"
        refX="0"
        refY="0"
        orient="auto">
       <path
          transform="matrix(-0.3,0,0,-0.3,0.69,0)"
          d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
-         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.625;stroke-linejoin:round;stroke-opacity:1"
-         id="path4327" />
-    </marker>
-    <marker
-       style="overflow:visible"
-       id="Arrow2Mend"
-       refX="0"
-       refY="0"
-       orient="auto">
-      <path
-         transform="scale(-0.6,-0.6)"
-         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
          style="fill:#34569c;fill-opacity:1;fill-rule:evenodd;stroke:#34569c;stroke-width:0.625;stroke-linejoin:round;stroke-opacity:1"
-         id="path4321" />
+         id="path5399" />
     </marker>
     <marker
-       style="overflow:visible"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="Arrow2Mend"
+       style="overflow:visible">
+      <path
+         id="path4321"
+         style="fill:#34569c;fill-opacity:1;fill-rule:evenodd;stroke:#34569c;stroke-width:0.625;stroke-linejoin:round;stroke-opacity:1"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         transform="scale(-0.6)" />
+    </marker>
+    <marker
+       orient="auto"
+       refY="0"
+       refX="0"
        id="marker4627"
-       refX="0"
-       refY="0"
-       orient="auto">
+       style="overflow:visible">
       <path
-         transform="matrix(-0.2,0,0,-0.2,-1.2,0)"
+         id="path4629"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
          style="fill:#34569c;fill-opacity:1;fill-rule:evenodd;stroke:#34569c;stroke-width:1pt;stroke-opacity:1"
-         d="M 0,0 5,-5 -12.5,0 5,5 0,0 Z"
-         id="path4629" />
+         transform="matrix(-0.2,0,0,-0.2,-1.2,0)" />
     </marker>
     <marker
-       style="overflow:visible"
-       id="Arrow1Send"
-       refX="0"
+       orient="auto"
        refY="0"
-       orient="auto">
+       refX="0"
+       id="Arrow1Send"
+       style="overflow:visible">
       <path
-         transform="matrix(-0.2,0,0,-0.2,-1.2,0)"
+         id="path4309"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
          style="fill:#34569c;fill-opacity:1;fill-rule:evenodd;stroke:#34569c;stroke-width:1pt;stroke-opacity:1"
-         d="M 0,0 5,-5 -12.5,0 5,5 0,0 Z"
-         id="path4309" />
+         transform="matrix(-0.2,0,0,-0.2,-1.2,0)" />
     </marker>
     <font-face
-       overline-thickness="0"
-       overline-position="0"
-       strikethrough-thickness="0"
-       strikethrough-position="0"
-       v-hanging="0"
-       v-mathematical="0"
-       v-alphabetic="0"
-       v-ideographic="0"
-       hanging="0"
-       mathematical="0"
-       alphabetic="0"
-       ideographic="0"
-       accent-height="0"
-       stemh="0"
-       stemv="0"
-       id="font-face8"
-       font-weight="500"
-       descent="-365.99731"
-       ascent="1000"
-       cap-height="920"
-       x-height="468"
-       slope="0"
-       underline-thickness="50"
-       underline-position="-75"
-       units-per-em="1000"
-       panose-1="2 0 5 3 2 0 0 2 0 3"
+       font-family="Avenir"
        font-size="50"
-       font-family="Avenir">
-      <font-face-src>
-        <font-face-name
-           name="Avenir-Book" />
-      </font-face-src>
-    </font-face>
-    <font-face
-       overline-thickness="0"
-       overline-position="0"
-       strikethrough-thickness="0"
-       strikethrough-position="0"
-       v-hanging="0"
-       v-mathematical="0"
-       v-alphabetic="0"
-       v-ideographic="0"
-       hanging="0"
-       mathematical="0"
-       alphabetic="0"
-       ideographic="0"
-       accent-height="0"
-       stemh="0"
-       stemv="0"
-       id="font-face10"
-       font-weight="500"
-       descent="-365.99731"
-       ascent="1000"
-       cap-height="920"
-       x-height="468"
-       slope="0"
-       underline-thickness="50"
-       underline-position="-75"
-       units-per-em="1000"
        panose-1="2 0 5 3 2 0 0 2 0 3"
-       font-size="60"
-       font-family="Avenir">
+       units-per-em="1000"
+       underline-position="-75"
+       underline-thickness="50"
+       slope="0"
+       x-height="468"
+       cap-height="920"
+       ascent="1000"
+       descent="-365.99731"
+       font-weight="500"
+       id="font-face8"
+       stemv="0"
+       stemh="0"
+       accent-height="0"
+       ideographic="0"
+       alphabetic="0"
+       mathematical="0"
+       hanging="0"
+       v-ideographic="0"
+       v-alphabetic="0"
+       v-mathematical="0"
+       v-hanging="0"
+       strikethrough-position="0"
+       strikethrough-thickness="0"
+       overline-position="0"
+       overline-thickness="0">
       <font-face-src>
         <font-face-name
            name="Avenir-Book" />
       </font-face-src>
     </font-face>
     <font-face
-       overline-thickness="0"
-       overline-position="0"
-       strikethrough-thickness="0"
-       strikethrough-position="0"
-       v-hanging="0"
-       v-mathematical="0"
-       v-alphabetic="0"
-       v-ideographic="0"
-       hanging="0"
-       mathematical="0"
-       alphabetic="0"
-       ideographic="0"
-       accent-height="0"
-       stemh="0"
-       stemv="0"
-       id="font-face12"
-       font-weight="bold"
-       descent="-365.99731"
-       ascent="1000"
-       cap-height="708"
-       x-height="480"
-       slope="0"
-       underline-thickness="50"
-       underline-position="-75"
+       font-family="Avenir"
+       font-size="60"
+       panose-1="2 0 5 3 2 0 0 2 0 3"
        units-per-em="1000"
-       panose-1="2 11 7 3 2 2 3 2 2 4"
+       underline-position="-75"
+       underline-thickness="50"
+       slope="0"
+       x-height="468"
+       cap-height="920"
+       ascent="1000"
+       descent="-365.99731"
+       font-weight="500"
+       id="font-face10"
+       stemv="0"
+       stemh="0"
+       accent-height="0"
+       ideographic="0"
+       alphabetic="0"
+       mathematical="0"
+       hanging="0"
+       v-ideographic="0"
+       v-alphabetic="0"
+       v-mathematical="0"
+       v-hanging="0"
+       strikethrough-position="0"
+       strikethrough-thickness="0"
+       overline-position="0"
+       overline-thickness="0">
+      <font-face-src>
+        <font-face-name
+           name="Avenir-Book" />
+      </font-face-src>
+    </font-face>
+    <font-face
+       font-family="Avenir"
        font-size="40"
-       font-family="Avenir">
+       panose-1="2 11 7 3 2 2 3 2 2 4"
+       units-per-em="1000"
+       underline-position="-75"
+       underline-thickness="50"
+       slope="0"
+       x-height="480"
+       cap-height="708"
+       ascent="1000"
+       descent="-365.99731"
+       font-weight="bold"
+       id="font-face12"
+       stemv="0"
+       stemh="0"
+       accent-height="0"
+       ideographic="0"
+       alphabetic="0"
+       mathematical="0"
+       hanging="0"
+       v-ideographic="0"
+       v-alphabetic="0"
+       v-mathematical="0"
+       v-hanging="0"
+       strikethrough-position="0"
+       strikethrough-thickness="0"
+       overline-position="0"
+       overline-thickness="0">
       <font-face-src>
         <font-face-name
            name="Avenir-Heavy" />
       </font-face-src>
     </font-face>
     <marker
-       style="color:#34569c;overflow:visible"
-       markerHeight="6"
-       markerWidth="6"
-       viewBox="-1 -3 6 6"
-       id="FilledArrow_Marker"
-       markerUnits="strokeWidth"
+       orient="auto"
        overflow="visible"
-       orient="auto">
+       markerUnits="strokeWidth"
+       id="FilledArrow_Marker"
+       viewBox="-1 -3 6 6"
+       markerWidth="6"
+       markerHeight="6"
+       color="#34569c">
       <g
          id="g15">
         <path
-           style="fill:currentColor;stroke:currentColor;stroke-width:1"
-           id="path17"
-           d="M 3.2,0 0,-1.2 0,1.2 Z" />
+           d="M 3.2,0 0,-1.2 v 2.4 z"
+           fill="currentColor"
+           stroke="currentColor"
+           stroke-width="1"
+           id="path17" />
       </g>
     </marker>
   </defs>
-  <g
-     style="fill:#000000;fill-opacity:1"
-     transform="matrix(1.9328035,0,0,2.3104533,-186.00798,-661.03182)"
-     id="g4248">
-    <text
-       xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:800;font-stretch:normal;font-size:47.60379028px;line-height:125%;font-family:Avenir;-inkscape-font-specification:'Avenir, Ultra-Bold';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       x="206.79716"
-       y="474.99283"
-       id="text4282"
-       transform="scale(0.9095331,1.0994652)"><tspan
-         id="tspan4284"
-         x="206.79716"
-         y="474.99283">C</tspan></text>
-    <path
-       style="fill:#000000;fill-opacity:1;stroke:none;stroke-dasharray:none;stroke-opacity:1"
-       d="m 204.7781,494.85223 c -0.44281,0.30519 -0.87056,0.6265 -1.26407,0.9843 -1.13333,1.06081 -2.01666,2.31201 -2.65,3.75361 -0.26826,0.59913 -0.53437,1.21365 -0.62187,1.86024 -0.29062,2.1475 -0.28425,3.33074 0,5.32441 0.0842,0.59026 0.32695,1.15463 0.57187,1.70978 0.6,1.36001 1.46667,2.55682 2.6,3.59042 0.41686,0.38017 0.87957,0.72038 1.36407,1.04168 z"
-       id="rect27" />
-  </g>
   <text
-     id="text4201"
-     y="647.88562"
+     xml:space="preserve"
+     style="font-style:normal;font-variant:normal;font-weight:800;font-stretch:normal;line-height:0%;font-family:Avenir;-inkscape-font-specification:'Avenir, Ultra-Bold';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
      x="156.8517"
-     style="font-style:normal;font-variant:normal;font-weight:800;font-stretch:normal;font-size:32px;line-height:125%;font-family:Avenir;-inkscape-font-specification:'Avenir, Ultra-Bold';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-     xml:space="preserve"><tspan
-       y="647.88562"
+     y="647.88562"
+     id="text4201"><tspan
+       id="tspan4203"
        x="156.8517"
-       id="tspan4203" /></text>
+       y="647.88562"
+       style="font-size:32px;line-height:1.25"> </tspan></text>
   <g
-     style="fill:#000000;fill-opacity:1"
-     transform="matrix(1.9328035,0,0,2.3104533,-147.00272,-661.03182)"
-     id="g4253">
-    <path
-       d="m 145.31816,484.24021 4.49338,0 -13.22997,38.94 -4.49338,0 z"
-       id="path43"
-       style="fill:#000000;fill-opacity:1;stroke:none;stroke-dasharray:none;stroke-opacity:1" />
-    <text
-       xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:800;font-stretch:normal;font-size:48.70909119px;line-height:125%;font-family:Avenir;-inkscape-font-specification:'Avenir, Ultra-Bold';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       x="157.39198"
-       y="463.34"
-       id="text4253"
-       transform="scale(0.88562217,1.1291497)"><tspan
-         id="tspan4255"
-         x="157.39198"
-         y="463.34">A</tspan></text>
-  </g>
+     id="layer1"
+     style="display:inline" />
   <g
      style="display:inline"
-     id="layer1">
+     id="g5393">
+    <g
+       id="path1400-9"
+       style="stroke:#34569c;stroke-linejoin:round;fill:#000000;fill-opacity:1"
+       transform="matrix(0.88320948,0,0,0.9875688,18.397922,5.9759435)">
+      <g
+         id="path2353"
+         style="fill:#000000;fill-opacity:1" />
+      <g
+         id="path2355"
+         style="fill:#000000;fill-opacity:1" />
+    </g>
+    <g
+       id="path1400"
+       style="fill:#000000;fill-opacity:1" />
+    <g
+       id="path1400-7"
+       style="fill:#000000;fill-opacity:1" />
+    <g
+       id="path1400-7-3"
+       style="fill:#000000;fill-opacity:1" />
+    <g
+       id="path1400-7-3-8"
+       style="fill:#000000;fill-opacity:1" />
     <path
-       style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:4.28349304;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#marker5397)"
-       id="path47"
-       d="m 207.09036,553.30262 c 0,0 -16.17252,11.62763 -37.88146,11.2914 -11.65586,-0.18046 -22.64411,-4.49815 -31.05076,-10.22454" />
-  </g>
-  <g
-     id="g5393"
-     style="display:inline">
-    <path
-       d="m 139.0762,453.90663 c 0,0 14.90008,-10.81102 34.90093,-10.49839 10.7388,0.16797 20.86249,4.18221 28.60769,9.50648"
-       id="path5395"
-       style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:3.96451974;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#Arrow2Send)" />
+       id="path4010"
+       style="color:#000000;fill:#000000;fill-opacity:1;-inkscape-stroke:none"
+       d="m 157.44141,441.13672 -12.35352,33.35547 -12.00391,-32.97852 -1.8789,0.6836 13.86719,38.09765 14.24414,-38.46289 z m 1.97851,43.19336 c -0.50788,4.4e-4 -0.91948,0.41204 -0.91992,0.91992 v 6.16016 c 4.4e-4,0.50788 0.41204,0.91948 0.91992,0.91992 h 25.21485 c 0.50788,-4.4e-4 0.91948,-0.41204 0.91992,-0.91992 V 485.25 c -4.4e-4,-0.50788 -0.41204,-0.91948 -0.91992,-0.91992 z m 0.92188,1.84179 h 23.37109 v 4.31641 H 160.3418 Z m -0.92117,-0.92116 v 6.15874 h 25.21343 v -6.15874 z m -1.73899,-20.6179 v 0.9961 7.0039 H 188 v -8 z m 1.99609,1.99414 h 26.32813 v 4.00977 h -26.32813 z m -0.99765,-0.99714 v 6.0052 h 28.32242 v -6.0052 z m -24.81094,-20.25676 -25.875,0.0625 0.008,3.60742 25.875,-0.0625 z M 108.85547,441 c -0.47245,3e-5 -0.85544,0.38302 -0.85547,0.85547 v 6.28906 c 3e-5,0.47245 0.38302,0.85544 0.85547,0.85547 h 23.28906 C 134.04281,447.86681 133,443.95539 133,441.85547 c -3e-5,-0.47245 -0.38302,-0.85544 -0.85547,-0.85547 z M 109,513.22461 c -0.55226,6e-5 -0.99994,0.44774 -1,1 V 520 c 6e-5,0.55226 0.44774,0.99994 1,1 h 32.40234 c 0.55226,-6e-5 0.99994,-0.44774 1,-1 v -5.77539 c -6e-5,-0.55226 -0.44774,-0.99994 -1,-1 z m 0,1.00019 V 520 h 32.40203 v -5.7752 z M 111.91992,441 c -2.1648,2.7e-4 -3.91965,1.75512 -3.91992,3.91992 v 72.16016 c 2.7e-4,2.1648 1.75512,3.91965 3.91992,3.91992 h 12.90625 c 2.1648,-2.7e-4 3.91965,-1.75512 3.91992,-3.91992 v -72.16016 c -2.7e-4,-2.1648 -1.75512,-3.91965 -3.91992,-3.91992 z m 3.91992,7.83984 h 5.06641 v 64.32032 h -5.06641 z M 157.86567,441 c -0.24321,3e-5 -0.44063,0.21992 -0.4416,0.49186 l -0.002,0.86412 v 0.002 l -0.0862,78.12594 c 2e-5,0.2727 0.19772,0.49376 0.4416,0.49379 l 6.9777,0.0154 c 0.24455,10e-4 0.44331,-0.22033 0.44333,-0.49378 l 0.0863,-78.99201 c -3e-5,-0.27269 -0.19772,-0.49375 -0.4416,-0.49378 z m 0.43988,0.98757 6.09622,0.0135 -0.0863,78.00443 -6.09621,-0.0135 0.0862,-77.63409 z m 1.10056,0.7426 c -0.24388,3e-5 -0.44158,0.22109 -0.4416,0.49379 l -0.0811,75.53743 c 0.67951,1.12381 3.06565,0.49919 4.33152,0.50179 0.24389,-2e-5 0.44159,-0.22109 0.44161,-0.49379 l 0.0828,-75.53743 c -2e-5,-0.2727 -0.19772,-0.49377 -0.44161,-0.49379 z m 0.44161,0.98951 3.00843,0.006 c 0.51322,86.78163 -4.01875,75.29775 -3.00843,-0.006 z m -1.98205,-2.2259 -0.002,0.86413 -0.0862,78.12594 6.97943,0.0154 0.0863,-78.99201 z m 1.54044,1.73018 3.89165,0.008 -0.0828,75.53743 -3.88992,-0.008 z m -0.76936,-1.35984 c -0.24389,2e-5 -0.44159,0.22109 -0.44161,0.49379 -3.35301,10.63001 1.34788,83.32238 6.23254,77.27716 l 0.0845,-77.26376 c 9.3e-4,-0.27345 -0.19705,-0.49568 -0.4416,-0.49571 z m 0.4416,0.9895 4.55061,0.01 -0.0845,76.27619 -4.5506,-0.01 z m -0.4422,-0.49501 -0.0849,77.26448 5.43439,0.0113 0.0849,-77.26448 z" />
   </g>
 </svg>

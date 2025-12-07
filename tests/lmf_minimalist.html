@@ -1,0 +1,227 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Logic & Formal Methods — Univ. Minho</title>
+  <meta name="description" content="Logic & Formal Methods Group — clean, minimalist site template">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <style>
+    :root{
+      --bg:#ffffff; /* page background */
+      --muted:#6b7280; /* secondary text */
+      --accent:#0f766e; /* accent color */
+      --maxw:1100px;
+    }
+    *{box-sizing:border-box}
+    html,body{height:100%}
+    body{
+      margin:0;
+      font-family:Inter,system-ui,-apple-system,"Segoe UI",Roboto,"Helvetica Neue",Arial;
+      color:#0f172a;
+      background:var(--bg);
+      -webkit-font-smoothing:antialiased;
+      -moz-osx-font-smoothing:grayscale;
+      line-height:1.6;
+      padding-bottom:60px;
+    }
+    .container{max-width:var(--maxw);margin:0 auto;padding:40px 20px}
+
+    /* Header */
+    header{position:sticky;top:0;background:rgba(255,255,255,0.8);backdrop-filter:saturate(130%) blur(6px);border-bottom:1px solid #eef2f7}
+    .nav{display:flex;align-items:center;justify-content:space-between;padding:12px 20px;max-width:var(--maxw);margin:0 auto}
+    .brand{display:flex;align-items:center;gap:12px}
+    .logo{width:44px;height:44px;border-radius:8px;background:linear-gradient(135deg,var(--accent),#115e59);display:flex;align-items:center;justify-content:center;color:white;font-weight:700}
+    .brand h1{font-size:1rem;margin:0}
+    nav ul{display:flex;gap:18px;list-style:none;margin:0;padding:0}
+    nav a{color:var(--muted);text-decoration:none;font-weight:600;font-size:0.95rem}
+    nav a:hover{color:var(--accent)}
+
+    /* Hero */
+    .hero{padding:48px 0;display:grid;grid-template-columns:1fr 360px;gap:40px;align-items:center}
+    .hero h2{font-size:2rem;margin:0 0 12px}
+    .hero p{color:var(--muted);margin:0 0 18px}
+    .cta{display:inline-block;padding:10px 16px;border-radius:8px;background:var(--accent);color:white;text-decoration:none;font-weight:600}
+    .hero-card{border:1px solid #eef2f7;border-radius:12px;padding:18px}
+    .muted-small{color:var(--muted);font-size:0.95rem}
+
+    /* Sections */
+    section{padding:36px 0;border-top:1px solid #fafafa}
+    .section-title{display:flex;align-items:baseline;gap:16px;margin-bottom:18px}
+    .section-title h3{margin:0;font-size:1.1rem}
+    .grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(240px,1fr));gap:18px}
+
+    /* Card */
+    .card{border:1px solid #eef2f7;padding:18px;border-radius:10px;background:white}
+    .card h4{margin:0 0 8px;font-size:1rem}
+    .card p{margin:0;color:var(--muted);font-size:0.95rem}
+
+    /* People */
+    .people .photo{width:84px;height:84px;border-radius:10px;object-fit:cover;display:block}
+    .person{display:flex;gap:12px;align-items:center}
+    .person .meta{display:block}
+    .name{font-weight:600}
+    .role{color:var(--muted);font-size:0.95rem}
+
+    /* Publications list */
+    .pub{padding:10px 0;border-bottom:1px dashed #f2f4f7}
+
+    footer{padding:30px 20px;color:var(--muted);text-align:center;border-top:1px solid #f8fafc;margin-top:40px}
+
+    /* Responsive */
+    @media (max-width:820px){
+      .hero{grid-template-columns:1fr;gap:20px}
+      nav ul{display:none}
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="nav">
+      <div class="brand">
+        <div class="logo">LMF</div>
+        <div>
+          <h1 style="font-size:0.95rem;margin:0">Logic & Formal Methods</h1>
+          <div class="muted-small">Department of Informatics — University of Minho</div>
+        </div>
+      </div>
+      <nav>
+        <ul>
+          <li><a href="#about">About</a></li>
+          <li><a href="#people">People</a></li>
+          <li><a href="#research">Research</a></li>
+          <li><a href="#publications">Publications</a></li>
+          <li><a href="#tools">Tools</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <!-- Hero -->
+    <section class="hero" id="about">
+      <div>
+        <h2>Logic & Formal Methods Group</h2>
+        <p>We study formal methods, logic, programming-language semantics, and foundations of computation. Short, precise descriptions with links to our work below.</p>
+        <a class="cta" href="#people">Meet the team</a>
+      </div>
+      <aside class="hero-card">
+        <div style="font-weight:600;margin-bottom:8px">Quick links</div>
+        <div class="muted-small"><strong>Latest paper:</strong> Title of recent paper (2025)</div>
+        <div style="height:12px"></div>
+        <div class="muted-small"><strong>Next seminar:</strong> Date — Topic</div>
+        <div style="height:12px"></div>
+        <div class="muted-small"><strong>Contact:</strong> <a href="mailto:lmf@di.uminho.pt">lmf@di.uminho.pt</a></div>
+      </aside>
+    </section>
+
+    <!-- Featured projects -->
+    <section id="research">
+      <div class="section-title">
+        <h3>Featured research</h3>
+        <div class="muted-small">Selected projects</div>
+      </div>
+      <div class="grid">
+        <article class="card">
+          <h4>Project Title A</h4>
+          <p class="muted-small">A one-sentence summary of the project. <a href="#">Read more →</a></p>
+        </article>
+        <article class="card">
+          <h4>Project Title B</h4>
+          <p class="muted-small">Another short summary. <a href="#">Read more →</a></p>
+        </article>
+        <article class="card">
+          <h4>Project Title C</h4>
+          <p class="muted-small">Short summary. <a href="#">Read more →</a></p>
+        </article>
+      </div>
+    </section>
+
+    <!-- Publications -->
+    <section id="publications">
+      <div class="section-title">
+        <h3>Recent publications</h3>
+        <div class="muted-small">Most recent first — see repository for full list</div>
+      </div>
+      <div>
+        <div class="pub"><strong>2025</strong> — Author A, Author B. <em>Title of paper.</em> <a href="#">pdf</a></div>
+        <div class="pub"><strong>2024</strong> — Author C. <em>Another paper title.</em> <a href="#">pdf</a></div>
+        <div class="pub"><strong>2023</strong> — ...</div>
+        <div style="margin-top:12px"><a href="#" class="muted-small">See all publications →</a></div>
+      </div>
+    </section>
+
+    <!-- People -->
+    <section id="people" class="people">
+      <div class="section-title">
+        <h3>People</h3>
+        <div class="muted-small">Faculty, researchers, students</div>
+      </div>
+      <div class="grid">
+        <div class="card person">
+          <img class="photo" src="https://via.placeholder.com/160" alt="Person photo">
+          <div class="meta">
+            <div class="name">Prof. Alice Example</div>
+            <div class="role">Principal Investigator</div>
+            <div class="muted-small">Research interests: logic, semantics</div>
+          </div>
+        </div>
+        <div class="card person">
+          <img class="photo" src="https://via.placeholder.com/160" alt="Person photo">
+          <div class="meta">
+            <div class="name">Dr. Bob Example</div>
+            <div class="role">Postdoctoral Researcher</div>
+            <div class="muted-small">Research interests: program verification</div>
+          </div>
+        </div>
+        <div class="card person">
+          <img class="photo" src="https://via.placeholder.com/160" alt="Person photo">
+          <div class="meta">
+            <div class="name">Catarina Student</div>
+            <div class="role">PhD Candidate</div>
+            <div class="muted-small">Research interests: category theory</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Tools / Resources -->
+    <section id="tools">
+      <div class="section-title">
+        <h3>Tools & resources</h3>
+        <div class="muted-small">Software and datasets</div>
+      </div>
+      <div class="grid">
+        <div class="card">
+          <h4>Tool Name</h4>
+          <p class="muted-small">Short description. <a href="#">GitHub</a></p>
+        </div>
+        <div class="card">
+          <h4>Dataset / Demo</h4>
+          <p class="muted-small">Short description. <a href="#">Explore</a></p>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer>
+    <div style="max-width:var(--maxw);margin:0 auto;padding:8px 20px">© <span id="year"></span> Logic & Formal Methods — Department of Informatics, University of Minho · <a href="mailto:lmf@di.uminho.pt">lmf@di.uminho.pt</a></div>
+  </footer>
+
+  <script>
+    // Small JS to set year and smooth scrolling
+    document.getElementById('year').textContent = new Date().getFullYear();
+    document.querySelectorAll('a[href^="#"]').forEach(a=>{
+      a.addEventListener('click', e=>{
+        e.preventDefault();
+        const id = a.getAttribute('href').slice(1);
+        const el = document.getElementById(id);
+        if(el) el.scrollIntoView({behavior:'smooth',block:'start'});
+      })
+    })
+  </script>
+</body>
+</html>

@@ -1,0 +1,695 @@
+<!doctype HTML>
+
+<html lang="en">
+  <head>
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">    
+  <meta http-equiv="content-language" content="en">
+  <meta name="author" content="LMF">
+  <style>
+  body {
+    margin: 0;
+    padding-top: 25px; /* adjust to your bar height */
+    padding-bottom: 25px; /* adjust to your bar height */
+  }
+  hr {
+  margin: 1.875em 0;
+  border: none;
+  border-bottom: solid 1px #000000;
+  }
+  hr.new1 {
+  border-bottom: dashed 1px #ccc;
+  }
+  hr.new2 {
+  margin: 0.5em 0;
+  border-bottom: dashed 1px #ccc;
+  }
+  #wrap {
+    max-width: 800px;
+    width: 100%;        /* lets page shrink while staying centered */
+    margin: 0 auto;
+    padding: 0;
+        }
+ #topbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;           /* same idea as #wrap */
+    max-width: 800px;
+    margin: 0 auto;
+    box-sizing: border-box;
+    text-align: center;
+    background-color: #ffffff;
+    padding: 5px 0px;
+
+    z-index: 1000;
+
+    border-bottom: dashed 1px #ccc;
+ }
+  #topleft {
+      color: navy;
+      height:250px;
+      max-width:420px;
+      box-sizing: border-box;
+      padding: 10px 0px;  
+  }
+  #topright {
+      height:250px;
+      width:380px;
+      box-sizing: border-box;
+
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+  }
+  #headerwrap{
+      display: flex;
+      justify-content: space-between;
+      align-items: center;     /* vertically centers the text */
+      flex-wrap: wrap;         /* allows stacking *only* when too narrow */
+      gap: 10px;               /* small spacing between items */
+  }
+  #lastupdate {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+
+    width: 100%;           /* same idea as #wrap */
+    max-width: 800px;     /* match your #wrap max-width */
+    margin: 0 auto;       /* center it */
+
+    box-sizing: border-box;
+    background-color: #ffffff;
+    text-align: center;
+    padding: 0px 10px;
+    z-index: 1000;
+
+    border-top: 1px dashed #ccc; /* optional but looks nice */
+  }
+  #content {
+      clear:both;
+      width:100%;
+      margin-bottom: 00px;
+      box-sizing: border-box;
+  }
+  #topbar a {
+      padding:10px 40px;
+  }
+  #topbar a:hover {
+  background-color: #ffffff;
+  color: black;    
+  padding:03px 40px;
+  }
+  #topbar a:active {
+  color: white;
+  }
+  a:link {
+      color: #d14d41;
+  }
+  a:visited {
+      color: #d14d41;
+  }
+  h1 { 
+       font-size: 24px;
+       font-weight: 400; line-height: 20px;
+       color: #000000;
+  }
+  h2 { 
+       font-size: 20px;
+       font-style: normal; font-variant: normal;
+       font-weight: 400; line-height: 20px;
+       color: #000000;
+  }
+  h3 { 
+       font-size: 16px; font-style: normal;
+       font-variant: normal;
+       font-weight: 400; line-height: 20px;
+       color: #000000;
+  }
+  p { 
+      font-size: 15px;
+      font-style: normal; font-variant: normal;
+      color: #000000;
+      line-height: 20px;
+  }
+  blockquote {
+      font-size: 21px; font-style: normal;
+      font-variant: normal;
+      font-weight: 400; line-height: 20px;
+  }
+  pre {
+      font-size: 15px;
+      font-style: normal;
+      font-variant: normal;
+      font-weight: 400;
+      line-height: 20px;
+      color: #000000;
+  }
+  ul li{
+      font-size: 15px;
+      font-style: normal; font-variant: normal;
+      font-weight: 400; line-height: 20px;
+      color: #000000;
+  }
+  table tr td{
+      font-size: 15px;
+      font-style: normal; font-variant: normal;
+      color: #000000;
+      line-height: 20px;
+  }
+  .two-columns {
+      columns: 2;              /* split into 2 columns */
+      -webkit-columns: 2;      /* Safari/Chrome support */
+      -moz-columns: 2;         /* Firefox support */
+      column-gap: 2rem;        /* space between columns */
+      list-style-position: inside; /* optional: align bullets nicely */
+    }
+  .member-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    gap: 20px;
+    margin-top: 20px;
+  }
+  .member-card {
+    text-align: center;
+    padding: 10px;
+  }
+  .member-card img {
+    width: 90px;
+    height: 90px;
+    object-fit: cover;
+    border-radius: 4px;  /* small corner rounding; use 0px if you want perfect squares */
+    margin-bottom: 10px;
+    border: 1px solid #ccc;  /* optional – gives a crisp academic look */
+  }
+  /* .member-card img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 10px;
+  } */
+  .member-name {
+    font-size: 15px;
+    margin-bottom: 6px;
+  }
+  .member-interests {
+    font-size: 0.9em;
+}
+</style>
+<title>LMF</title>
+</head>
+
+<body style="font-family:Tahoma, sans-serif;"> 
+        <div id=topbar>
+                        <a href="#about">About</a>
+                        <a href="#members">Members</a>
+                        <a href="#teaching">Teaching</a>
+                        <a href="#research">Research</a>
+                        <a href="#archive">Archive</a>
+        </div> 
+        <div id="wrap">
+                <div id="headerwrap">
+                <div id="topleft">
+                        <img src="dept.jpg" alt="Departamento Informática" style="width:360px;height:228px">
+                </div>
+                <div id="topright">
+                        <h2> Logic and Formal Methods Group </h2>
+                        Improving Practice through Theory
+                        <hr class="new2">
+                        <p>
+                        @ 
+                        <a href="https://www.uminho.pt">University of Minho</a> and 
+                        <a href="https://www.inesctec.pt">INESC-TEC</a>
+                        </p>
+                </div>
+                </div>
+                <div id="content">
+                        <h2 id="about"> About </h2>
+
+                        <p>
+                        We are a long-standing research group dedicated to
+                        Theoretical Computer Science and Formal Methods.  Our
+                        core topics include
+                        <ul class="two-columns">
+                          <li> Programming languages </li>
+                          <li> Logic </li>
+                          <li> Cyber-physical systems </li>
+                          <li> Category theory </li>
+                          <li> Quantum computing </li>
+                          <li> Cryptography </li>
+                        </ul>
+                        </p>  
+                        
+                        <hr class="new1">
+
+                        <h2 id="members"> Members </h2>
+
+
+                        <div class="member-grid">
+
+                          <div class="member-card">
+                            <img src="pics/lsb.jpg" alt="Luís Barbosa">
+                            <div class="member-name">
+                              <a href="https://www.di.uminho.pt/~lsb/">Luís Barbosa</a>
+                              <a href="https://dblp.org/pid/40/3466.html">[dblp]</a>
+                            </div>
+                            <div class="member-interests">
+                              Software components • Logic • Quantum
+                            </div>
+                          </div>
+                        
+                          <div class="member-card">
+                            <img src="pics/jno.jpg" alt="José Oliveira">
+                            <div class="member-name">
+                              <a href="https://www.di.uminho.pt/~jno/">José Oliveira</a>
+                              <a href="https://dblp.org/pid/o/JoseNunoOliveira.html">[dblp]</a>
+                            </div>
+                            <div class="member-interests">
+                              Relational algebra • Programming theory
+                            </div>
+                          </div>
+                        
+                          <div class="member-card">
+                            <img src="pics/rn.jpg" alt="Renato Neves">
+                            <div class="member-name">
+                              <a href="https://alfa.di.uminho.pt/~nevrenato/">Renato Neves</a>
+                              <a href="https://dblp.org/pid/04/8871.html">[dblp]</a>
+                            </div>
+                            <div class="member-interests">
+                              Categorical logic • Quantum  • 
+                              Cyber-physical
+                            </div>
+                          </div>
+
+                          <div class="member-card">
+                            <img src="pics/jsp.jpg" alt="Jorge Pinto">
+                            <div class="member-name">
+                              <a href="https://www.di.uminho.pt/~jsp/">Jorge Pinto</a>
+                              <a href="https://dblp.org/pid/54/5302.html">[dblp]</a>
+                            </div>
+                            <div class="member-interests">
+                              Program verification • Algorithms 
+                            </div>
+                          </div>
+
+                          <div class="member-card">
+                            <img src="pics/jbb.jpg" alt="José Barros">
+                            <div class="member-name">
+                              <a href="https://www.di.uminho.pt/~jbb/">José Barros</a>
+                              <a href="https://dblp.org/pid/98/2867.html">[dblp]</a>
+                            </div>
+                            <div class="member-interests">
+                              Algorithms and data structures • Complexity 
+                            </div>
+                          </div>
+
+                          <div class="member-card">
+                            <img src="pics/js.jpg" alt="João Saraiva">
+                            <div class="member-name">
+                              <a href="https://www.di.uminho.pt/~jas/">João Saraiva</a>
+                              <a href="https://dblp.org/pid/97/3668.html">[dblp]</a>
+                            </div>
+                            <div class="member-interests">
+                              Functional programming • Optimization
+                            </div>
+                          </div>
+
+                          <div class="member-card">
+                            <img src="pics/jc.jpg" alt="José Campos">
+                            <div class="member-name">
+                              <a href="https://dblp.org/pid/c/JoseCreissacCampos.html">José Campos</a>
+                              <a href="">[dblp]</a>
+                            </div>
+                            <div class="member-interests">
+                              Software eng • Human-computer interaction
+                            </div>
+                          </div>
+
+                          <div class="member-card">
+                            <img src="pics/ac.jpg" alt="Alcino Cunha">
+                            <div class="member-name">
+                              <a href="https://alcinocunha.github.io/">Alcino Cunha</a>
+                              <a href="https://dblp.org/pid/65/603.html">[dblp]</a>
+                            </div>
+                            <div class="member-interests">
+                              Software specification • Model checking
+                            </div>
+                          </div>
+
+                          <div class="member-card">
+                            <img src="pics/nm.jpg" alt="Nuno Macedo">
+                            <div class="member-name">
+                              <a href="https://nmacedo.github.io/">Nuno Macedo</a>
+                              <a href="https://dblp.org/pid/118/5967.html">[dblp]</a>
+                            </div>
+                            <div class="member-interests">
+                              Software specification • Model checking
+                            </div>
+                          </div>
+
+                          <div class="member-card">
+                            <img src="pics/hp.jpg" alt="Hugo Pacheco">
+                            <div class="member-name">
+                              <a href="https://www.dcc.fc.up.pt/~hpacheco/">Hugo Pacheco</a>
+                              <a href="https://dblp.org/pid/10/3783.html">[dblp]</a>
+                            </div>
+                            <div class="member-interests">
+                              Cryptography • Programming languages
+                            </div>
+                          </div>
+
+                          <div class="member-card">
+                            <img src="pics/hm.jpg" alt="Hugo Macedo">
+                            <div class="member-name">
+                              <a href="https://scholar.google.com/citations?user=74pDpFYAAAAJ&hl=en">Hugo Macedo</a>
+                              <a href="https://dblp.org/pid/46/1948.html">[dblp]</a>
+                            </div>
+                            <div class="member-interests">
+                              Linear algebra • Formal methods
+                            </div>
+                          </div>
+
+                          <div class="member-card">
+                            <img src="pics/to.jpg" alt="Tiago Oliveira">
+                            <div class="member-name">
+                              <a href="https://scholar.google.pt/citations?user=6ULLb44AAAAJ&hl=pt-PT">Tiago Oliveira</a>
+                              <a href="https://dblp.org/pid/87/4879-4.html">[dblp]</a>
+                            </div>
+                            <div class="member-interests">
+                               Cryptography • Programming languages 
+                            </div>
+                          </div>
+
+                          <div class="member-card">
+                            <img src="pics/mjf.jpg" alt="Maria João Frade">
+                            <div class="member-name">
+                              <a href="https://www.di.uminho.pt/~mjf/">Maria João Frade</a>
+                              <a href="https://dblp.org/pid/99/449.html">[dblp]</a>
+                            </div>
+                            <div class="member-interests">
+                               Program verification • Programming languages 
+                            </div>
+                          </div>
+
+                          <div class="member-card">
+                            <img src="pics/jb.jpg" alt="José Almeida">
+                            <div class="member-name">
+                              <a href="https://www.di.uminho.pt/~jba/">José Almeida</a>
+                              <a href="https://dblp.org/pid/66/3456.html">[dblp]</a>
+                            </div>
+                            <div class="member-interests">
+                               Cryptography • Programming languages 
+                            </div>
+                          </div>
+
+                          <div class="member-card">
+                            <img src="pics/to.jpg" alt="Olga Pacheco">
+                            <div class="member-name">
+                              <a href="https://www.di.uminho.pt/~om/">Olga Pacheco</a>
+                              <a href="https://dblp.org/pid/13/4439.html">[dblp]</a>
+                            </div>
+                            <div class="member-interests">
+                               Formal methods • Programming languages 
+                            </div>
+                          </div>
+
+                        </div>
+
+
+                        <h3> PhD students </h3>
+
+                        <div class="member-grid">
+
+                          <div class="member-card">
+                            <img src="pics/neri.jpg" alt="Ana Neri">
+                            <div class="member-name">
+                              <a href="https://www.linkedin.com/in/ana-neri/?originalSubdomain=pt">Ana Neri</a>
+                              <a href="https://dblp.uni-trier.de/pid/277/1241.html">[dblp]</a>
+                            </div>
+                            <div class="member-interests">
+                               Quantum • Programming languages 
+                            </div>
+                          </div>
+
+                          <div class="member-card">
+                            <img src="pics/vf.jpg" alt="Vítor Fernandes">
+                            <div class="member-name">
+                              <a href="https://www.linkedin.com/in/vitor-fernandes-572626153/?originalSubdomain=pt">Vítor Fernandes</a>
+                              <a href="https://dblp.org/pid/45/2119.html">[dblp]</a>
+                            </div>
+                            <div class="member-interests">
+                               Quantum • Programming languages 
+                            </div>
+                          </div>
+
+                          <div class="member-card">
+                            <img src="pics/manisha.jpg" alt="Manisha Jain">
+                            <div class="member-name">
+                              <a href="https://www.linkedin.com/in/manisha-j2504/?originalSubdomain=pt">Manisha Jain</a>
+                              <a href="https://dblp.org/pid/251/6057.html">[dblp]</a>
+                            </div>
+                            <div class="member-interests">
+                               Quantum • Programming languages 
+                            </div>
+                          </div>
+
+                          <div class="member-card">
+                            <img src="pics/ju_souza.jpg" alt="Juliana Souza">
+                            <div class="member-name">
+                              <a href="https://www.inesctec.pt/pt/pessoas/juliana-patricio-souza">Juliana Souza</a>
+                              <a href="https://dblp.org/pid/234/1209.html">[dblp]</a>
+                            </div>
+                            <div class="member-interests">
+                               Cyber-physical systems
+                            </div>
+                          </div>
+
+                          <div class="member-card">
+                            <img src="pics/nico.jpg" alt="Nico Wittrock">
+                            <div class="member-name">
+                              <a href="https://www.inesctec.pt/pt/pessoas/nico-maximilian-wittrock">Nico Wittrock</a>
+                              <a href="https://dblp.org/pid/418/1287.html">[dblp]</a>
+                            </div>
+                            <div class="member-interests">
+                              Category theory • Probability theory • Quantum 
+                            </div>
+                          </div>
+
+                          <div class="member-card">
+                            <img src="pics/jaime.jpg" alt="Jaime Santos">
+                            <div class="member-name">
+                              <a href="https://www.inesctec.pt/en/people/jaime-pereira-santos">Jaime Santos</a>
+                              <a href="https://dblp.org/pid/132/1999.html">[dblp]</a>
+                            </div>
+                            <div class="member-interests">
+                              Quantum
+                            </div>
+                          </div>
+
+                          <div class="member-card">
+                            <img src="pics/cunha.jpg" alt="Juliana Cunha">
+                            <div class="member-name">
+                              <a href="https://www.linkedin.com/in/juliana-andreia-cunha/?originalSubdomain=pt">Juliana Cunha</a>
+                              <a href="https://dblp.org/pid/350/4753.html">[dblp]</a>
+                            </div>
+                            <div class="member-interests">
+                              Transition systems • Logic • Paraconsistency
+                            </div>
+                          </div>
+
+                          <div class="member-card">
+                            <img src="pics/jardim.jpg" alt="Bruno Jardim">
+                            <div class="member-name">
+                              <a href="https://www.linkedin.com/in/brunojardim13/?originalSubdomain=pt">Bruno Jardim</a>
+                              <a href="https://dblp.org/pid/152/4243.html">[dblp]</a>
+                            </div>
+                            <div class="member-interests">
+                                    Quantum
+                            </div>
+                          </div>
+
+                          <div class="member-card">
+                            <img src="pics/to.jpg" alt="Ezequiel Moreira">
+                            <div class="member-name">
+                              <a href="https://www.inesctec.pt/pt/pessoas/ezequiel-jose-moreira">Ezequiel Moreira</a>
+                              <a href="https://www.inesctec.pt/pt/pessoas/ezequiel-jose-moreira ">[dblp]</a>
+                            </div>
+                            <div class="member-interests">
+                                    Explainability
+                            </div>
+                          </div>
+
+                        </div>
+                        <hr class="new1">
+                        <h2 id="teaching">Teaching</h2>
+
+                         <table style="width:100%">
+                         <tr>
+                            <td>
+                            <a href="https://web.di.uminho.pt/sitedi/ucs/">Cyber-Physical Computation</a>
+                            </td>
+                            <td>
+                            M.Sc.
+                            </td>
+                         </tr>                               
+                         <tr>
+                            <td>
+                            <a href="https://web.di.uminho.pt/sitedi/ucs/">Quantum Computation</a>
+                            </td>
+                            <td>
+                            M.Sc.
+                            </td>
+                         </tr> 
+                         <tr>
+                            <td>
+                            <a href="https://web.di.uminho.pt/sitedi/ucs/">Quantum Logic</a>
+                            </td>
+                            <td>
+                            M.Sc.
+                            </td>
+                         </tr> 
+                         <tr>
+                            <td>
+                            <a href="https://web.di.uminho.pt/sitedi/ucs/">Foundations of Quantum Computation</a>
+                            </td>
+                            <td>
+                            B.Sc.
+                            </td>
+                         </tr> 
+
+                         <tr>
+                            <td>
+                            <a href="https://haslab.github.io/MFP/">Formal Methods of Programming</a>
+                            </td>
+                            <td>
+                            M.Sc. (spec. profile)
+                            </td>
+                         </tr> 
+                         <tr>
+                            <td>
+                            <a href="https://web.di.uminho.pt/sitedi/ucs/">Algorithms and Complexity</a>
+                            </td>
+                            <td>
+                            B.Sc. 
+                            </td>
+                         </tr> 
+                         <tr>
+                            <td>
+                            <a href="https://web.di.uminho.pt/sitedi/ucs/">Program Calculus</a>
+                            </td>
+                            <td>
+                            B.Sc. 
+                            </td>
+                         </tr> 
+                        </table>
+                </div>
+
+                        <hr class="new1">
+                        <h2 id="research"> Research </h2>
+                        <p>
+                        Check our publications list in the respective dblp links
+                        </p>
+                        <h3> Seminars </h3>
+                        <table style="width:100%">
+                         <tr>
+                            <td>
+                            <a href="https://www.linkedin.com/in/daniel-figueiredo-339390144/?originalSubdomain=pt">Daniel Figueiredo</a>
+                            </td>
+                            <td>
+                            TBA
+                            </td>
+                            <td> 
+                            Dec 2025 
+                            </td>
+                         </tr>                               
+
+                         <tr>
+                            <td>
+                            <a href="https://www.di.uminho.pt/~lsb/">Luís Soares Barbosa</a>
+                            </td>
+                            <td>
+                            Banksy presentation 
+                            (<a href="lsb25.pdf">slides</a>)
+                            </td>
+                            <td> 
+                            Oct. 2025
+                            </td>
+                         </tr>                               
+                         <tr>
+                            <td>
+                            <a href="https://www.di.uminho.pt/~jno/">José Nuno Oliveira</a>
+                            </td>
+                            <td>
+                            Reducing logic to arithmetics -- why not? 
+                            (<a href="jno25.pdf">slides</a>)
+                            </td>
+                            <td>
+                            May 2025 
+                            </td>
+                         </tr>                               
+                        </table>
+
+                        <h3>Recent projects</h3>
+                        <table style="width:100%">
+                         <tr>
+                            <td>
+                            <a href="http://lmf.di.uminho.pt/Bansky/">Banksy</a> 
+                            </td>
+                            <td>
+                            Paraconsistent inference for research in age-related macular degeneration
+                            </td>
+                            <td>
+                            2025-28
+                            </td>
+                         </tr>                               
+                         <tr>
+                            <td>
+                            <a href="http://lmf.di.uminho.pt/Ibex/">Ibex</a> 
+                            </td>
+                            <td>
+                            Quantitative methods for cyber-physical programming 
+                            </td>
+                            <td>
+                            2022-25
+                            </td>
+                         </tr> 
+                         <tr>
+                            <td>
+                            <a href="http://davinci.di.uminho.pt/">DaVinci</a> 
+                            </td>
+                            <td>
+                            Variability and Interaction for Cyber-Physical Systems 
+                            </td>
+                            <td>
+                            2018-22
+                            </td>
+                         </tr> 
+                         <tr>
+                            <td>
+                            <a href="http://klee.di.uminho.pt/">Klee</a> 
+                            </td>
+                            <td>
+                            Coalgebraic modelling and analysis for computational synthetic biology 
+                            </td>
+                            <td>
+                            2018-22
+                            </td>
+                         </tr> 
+                        </table>
+
+                <hr class="new1">
+                <h2 id="archive"> Archive </h2>
+                <h3>Links to old websites</h3>
+
+                <div id="lastupdate">
+                        <small> <small> Last update: December 2025. 
+                     Please contact <a
+                        href="mailto:nevrenato@di.uminho.pt", style="text-decoration: none">Renato Neves</a>
+                        for further information 
+                        </small> </small> 
+                </div>
+        </div>
+</body>
+</html>

@@ -30,59 +30,46 @@
     margin: 0 auto;
     padding: 0;
         }
- #topbar {
+#topbar {
+  position: fixed;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100%;
+  max-width: 800px;
+  box-sizing: border-box;
+  text-align: center;
+  background-color: #ffffff;
+  padding: 5px 0;
+  z-index: 1000;
+  border-bottom: dashed 1px #ccc;
+}
+
+/*@media (max-width: 700px) {
+  #topbar a {
+    padding: 4px 6px;
+    font-size: 11px;
+    white-space: nowrap;
+    width: 100vw;
+  }
+} */
+/* #topbar {
     position: fixed;
     top: 0;
-    left: 50%;
-    transform: translateX(-50%);
-    width: 100%;
+    left: 0;
+    right: 0;
+    width: 100%;           /* same idea as #wrap */ /*
     max-width: 800px;
+    margin: 0 auto;
     box-sizing: border-box;
     text-align: center;
     background-color: #ffffff;
     padding: 5px 0px;
+
     z-index: 1000;
+
     border-bottom: dashed 1px #ccc;
- }
-
-  /* Hamburger button — hidden on desktop */
-  #menu-toggle {
-    display: none;
-    background: none;
-    border: none;
-    font-size: 22px;
-    cursor: pointer;
-    padding: 6px 16px;
-    color: #d14d41;
-  }
-
-  /* Mobile styles */
-  @media (max-width: 500px) {
-    #menu-toggle {
-      display: block;
-    }
-    #topbar {
-      text-align: left;
-      padding: 0;
-    }
-    #nav-links {
-      display: none;
-      flex-direction: column;
-      background: #ffffff;
-      border-top: dashed 1px #ccc;
-    }
-    #nav-links.open {
-      display: flex;
-    }
-    #nav-links a {
-      padding: 10px 20px !important;
-      border-bottom: 1px solid #f0f0f0;
-    }
-    body {
-      padding-top: 40px;
-    }
-  }
-
+ } */
   #topleft {
       color: navy;
       height:250px;
@@ -243,24 +230,13 @@
 </head>
 
 <body style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;">
-        <div id="topbar">
-                        <button id="menu-toggle" onclick="document.getElementById('nav-links').classList.toggle('open')">☰</button>
-                        <div id="nav-links">
-                                <a href="#about">About</a>
-                                <a href="#members">Members</a>
-                                <a href="#teaching">Teaching</a>
-                                <a href="#research">Research</a>
-                                <a href="#archive">Archive</a>
-                        </div>
-        </div>
-        <script>
-          // Close menu when a link is tapped
-          document.querySelectorAll('#nav-links a').forEach(function(link) {
-            link.addEventListener('click', function() {
-              document.getElementById('nav-links').classList.remove('open');
-            });
-          });
-        </script>
+        <div id=topbar>
+                        <a href="#about">About</a>
+                        <a href="#members">Members</a>
+                        <a href="#teaching">Teaching</a>
+                        <a href="#research">Research</a>
+                        <a href="#archive">Archive</a>
+        </div> 
         <div id="wrap">
                 <div id="headerwrap">
                 <div id="topleft">

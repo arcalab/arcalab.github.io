@@ -30,12 +30,33 @@
     margin: 0 auto;
     padding: 0;
         }
- #topbar {
+#topbar {
+  position: fixed;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100%;
+  max-width: 800px;
+  box-sizing: border-box;
+  text-align: center;
+  background-color: #ffffff;
+  padding: 5px 0;
+  z-index: 1000;
+  border-bottom: dashed 1px #ccc;
+}
+
+@media (max-width: 700px) {
+  #topbar a {
+    padding: 8px 10px;
+    font-size: 13px;
+  }
+}
+/* #topbar {
     position: fixed;
     top: 0;
     left: 0;
     right: 0;
-    width: 100%;           /* same idea as #wrap */
+    width: 100%;           /* same idea as #wrap */ /*
     max-width: 800px;
     margin: 0 auto;
     box-sizing: border-box;
@@ -46,7 +67,7 @@
     z-index: 1000;
 
     border-bottom: dashed 1px #ccc;
- }
+ } */
   #topleft {
       color: navy;
       height:250px;
